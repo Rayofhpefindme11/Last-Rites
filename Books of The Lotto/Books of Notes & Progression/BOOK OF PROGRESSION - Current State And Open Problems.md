@@ -19700,3 +19700,151 @@ broad band
 
 The next refinement is to improve broad-band selection before moving to the 35-class motion gauge.
 ```
+
+## World Band Preference Audit
+
+Date:
+
+```text
+2026-06-22
+```
+
+Added:
+
+```text
+World_Band_Preference_Audit.py
+world_band_preference_audit_min2_2015-10-07.json
+```
+
+Purpose:
+
+```text
+Use history as behavior evidence for each world.
+
+This is not copying old draws.
+It asks:
+
+when this world has this predicted branch,
+this predicted sign,
+and this current pressure condition,
+what broad motion band did history usually allow?
+```
+
+Method:
+
+```text
+Current rows query memory with predicted branch/sign.
+Prior rows store actual branch/sign/band because historical outcomes are known after they happen.
+
+That means the current draw still has to earn the room through live-safe conditions.
+```
+
+First audit result:
+
+```text
+SMALL_BAND   9
+OBSERVE_BAND 5
+WEAK_BAND    4
+```
+
+Read:
+
+```text
+World-specific band preference exists.
+The current problem is coverage.
+
+Many of the strongest preference rooms are accurate when they call,
+but they only call on a small slice of each world.
+```
+
+Selected world preference reads:
+
+```text
+Medusa
+AUTHORITY_ORIGIN / BORROWED / BRANCH_SIGN / h3
+5 calls
+80.00% band
+
+Rama
+COLLISION_PRESSURE / BORROWED / BRANCH_SIGN / h3
+5 calls
+80.00% band
+
+Suzuka
+AUTHORITY_ORIGIN / BORROWED / FAMILY_SIGN / h8
+5 calls
+80.00% band
+
+Nyx
+AUTHORITY_ORIGIN / BORROWED / FAMILY_SIGN / h13
+7 calls
+71.43% band
+
+Scathach
+AUTHORITY_ORIGIN / BORROWED / SIGN_ONLY / h21
+5 calls
+60.00% band
+
+Alcides
+AUTHORITY_ORIGIN / BORROWED / BRANCH_SIGN / h5
+5 calls
+60.00% band
+
+Karna
+AUTHORITY_ORIGIN / BORROWED / FAMILY_SIGN / h21
+5 calls
+60.00% band
+
+Altera
+AUTHORITY_ORIGIN / BORROWED / FAMILY_SIGN / h5
+5 calls
+60.00% band
+
+Irisviel
+AUTH_BURDEN / BORROWED / FAMILY_SIGN / h8
+9 calls
+55.56% band
+```
+
+Weak or under-covered worlds:
+
+```text
+Lumina
+2 calls only, despite 100% band on those calls
+
+Artoria
+7 calls, 42.86% band
+
+Citrine
+0 calls under selected preference room
+
+Nova
+0 calls under selected preference room
+```
+
+Important interpretation:
+
+```text
+This audit improved the explanation layer more than the production selector layer.
+
+It shows which historical situations each world likes,
+but it also proves we need broader coverage before this can replace the current broad-band selector.
+```
+
+Next build target:
+
+```text
+Blend the broad-band board with the world-preference audit.
+
+Use:
+
+current broad-band selector for coverage
+world band preference for high-confidence overrides
+
+Then retest:
+
+coverage
+band accuracy
+which worlds should use preference override
+which worlds should stay on the older band selector
+```
