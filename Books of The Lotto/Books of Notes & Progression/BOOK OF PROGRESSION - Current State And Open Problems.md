@@ -20005,3 +20005,159 @@ which current live-safe condition selects the winning band?
 
 Only after broad band improves should the system move down to the 35-class motion gauge.
 ```
+
+## World Band Trait Signal Audit
+
+Date:
+
+```text
+2026-06-22
+```
+
+Added:
+
+```text
+World_Band_Trait_Signal_Audit.py
+world_band_trait_signal_audit_min2_2015-10-07.json
+```
+
+Purpose:
+
+```text
+Find the small signal that tells a split world which broad motion band it wants.
+
+This audit tests:
+
+current room traits
+reference-world last motion traits
+current trait + reference trait combinations
+```
+
+Reason:
+
+```text
+The split worlds are not simply missing coverage.
+
+They often know the motion neighborhood,
+but they do not yet know whether the current draw wants:
+
+CREST_ECHO_MOTION
+TRANSITIONAL_MOTION
+FATIGUED_MOTION
+DIRECTED_MOTION
+```
+
+Trait-signal result:
+
+```text
+TRAIT_DEVELOPING            1
+TRAIT_SHARP_LOW_COVERAGE    1
+TRAIT_SMALL                 5
+TRAIT_OBSERVE               2
+TRAIT_WEAK                  1
+```
+
+Selected trait signals:
+
+```text
+Nirvana
+Suzuka last band + current pressure
+10 calls / 60.00% band
+
+Circe
+Rama last band + current face
+12 calls / 75.00% band
+
+Citrine
+Nova last band + Nova last branch/lane + current authority
+6 calls / 66.67% band
+
+Nova
+Medusa last band + current incoming motion
+6 calls / 66.67% band
+
+Altera
+Anastasia last band + current incoming motion
+5 calls / 60.00% band
+
+Artoria
+Citrine last band + current incoming motion
+5 calls / 60.00% band
+
+Lumina
+Sasaki last band + current incoming motion
+10 calls / 60.00% band
+
+Alcides
+current pressure body
+4 calls / 75.00% band
+
+Suzuka
+Nirvana last band + current incoming motion
+6 calls / 50.00% band
+
+Medusa
+Lumina last band + Lumina last branch/lane + current burden
+9 calls / 44.44% band
+```
+
+Important finding:
+
+```text
+The user's world-trait idea is supported by the audit.
+
+Several split worlds improved when another world's last-known motion trait was included.
+
+This means the band split is not random.
+It is responding to small world-to-world signals.
+```
+
+Current limitation:
+
+```text
+Most trait signals are still low-coverage.
+
+They are useful as sharp tells,
+not yet as full production selectors.
+```
+
+Medusa note:
+
+```text
+Medusa remains the hardest split world.
+
+The best first trait read is:
+
+Lumina previous motion trait
++ Medusa current burden
+
+but the score is still only:
+
+9 calls / 44.44% band
+
+That means Medusa likely needs either:
+
+a deeper reference chain
+or a more specific motion-lane trait
+before its band selector becomes trustworthy.
+```
+
+Next build target:
+
+```text
+Turn trait signals into layered band rules:
+
+1. use strong sharp trait when present
+2. fall back to current sharp selector
+3. fall back to coverage ladder only when quality is usable
+4. keep weak ladder as observation only
+
+Then build a second trait audit that tests deeper reference chains:
+
+reference world last band
+reference world last lane
+reference world last branch
+current incoming lane
+current burden lane
+current pressure topology
+```
