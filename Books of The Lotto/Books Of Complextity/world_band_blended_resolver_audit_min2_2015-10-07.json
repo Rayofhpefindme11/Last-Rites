@@ -8084,23 +8084,28 @@
           "test_count": 81,
           "call_count": 81,
           "call_rate": 100.0,
-          "band_matches": 25,
-          "band_match_rate": 30.86,
+          "band_matches": 21,
+          "band_match_rate": 25.93,
           "predicted_band_rank": [
             {
               "value": "CREST_ECHO_MOTION",
-              "count": 58,
-              "rate": 71.6
+              "count": 62,
+              "rate": 76.54
             },
             {
               "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
+              "count": 15,
+              "rate": 18.52
             },
             {
               "value": "TRANSITIONAL_MOTION",
-              "count": 5,
-              "rate": 6.17
+              "count": 3,
+              "rate": 3.7
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 1.23
             }
           ],
           "source_rank": [
@@ -8113,13 +8118,13 @@
           "ladder_level_rank": [
             {
               "value": "WORLD_BASELINE",
-              "count": 69,
-              "rate": 85.19
+              "count": 74,
+              "rate": 91.36
             },
             {
-              "value": "WORLD_BRANCH_SIGN_FULL",
-              "count": 7,
-              "rate": 8.64
+              "value": "WORLD_FAMILY_SIGN_FULL",
+              "count": 3,
+              "rate": 3.7
             },
             {
               "value": "GLOBAL_BASELINE",
@@ -8127,76 +8132,71 @@
               "rate": 2.47
             },
             {
-              "value": "WORLD_SIGN_FULL",
+              "value": "WORLD_BRANCH_SIGN_FULL",
               "count": 2,
               "rate": 2.47
-            },
-            {
-              "value": "BORROWED_SIGN_FULL",
-              "count": 1,
-              "rate": 1.23
             }
           ],
           "miss_rank": [
             {
               "value": "CREST_ECHO_MOTION->FATIGUED_MOTION",
-              "count": 12,
-              "rate": 21.43
+              "count": 14,
+              "rate": 23.33
             },
             {
               "value": "CREST_ECHO_MOTION->TRANSITIONAL_MOTION",
-              "count": 12,
-              "rate": 21.43
+              "count": 13,
+              "rate": 21.67
             },
             {
               "value": "FATIGUED_MOTION->CREST_ECHO_MOTION",
               "count": 7,
-              "rate": 12.5
+              "rate": 11.67
+            },
+            {
+              "value": "CREST_ECHO_MOTION->CALM_MOTION",
+              "count": 6,
+              "rate": 10.0
             },
             {
               "value": "CREST_ECHO_MOTION->DIRECTED_MOTION",
               "count": 5,
-              "rate": 8.93
+              "rate": 8.33
             },
             {
               "value": "CREST_ECHO_MOTION->CHAOTIC_MOTION",
               "count": 5,
-              "rate": 8.93
-            },
-            {
-              "value": "CREST_ECHO_MOTION->CALM_MOTION",
-              "count": 4,
-              "rate": 7.14
+              "rate": 8.33
             },
             {
               "value": "FATIGUED_MOTION->TRANSITIONAL_MOTION",
               "count": 2,
-              "rate": 3.57
+              "rate": 3.33
             },
             {
               "value": "TRANSITIONAL_MOTION->FATIGUED_MOTION",
               "count": 2,
-              "rate": 3.57
+              "rate": 3.33
             },
             {
               "value": "FATIGUED_MOTION->DIRECTED_MOTION",
               "count": 2,
-              "rate": 3.57
+              "rate": 3.33
             },
             {
               "value": "FATIGUED_MOTION->CHAOTIC_MOTION",
               "count": 2,
-              "rate": 3.57
+              "rate": 3.33
             },
             {
               "value": "TRANSITIONAL_MOTION->CREST_ECHO_MOTION",
               "count": 1,
-              "rate": 1.79
+              "rate": 1.67
             },
             {
-              "value": "TRANSITIONAL_MOTION->CALM_MOTION",
+              "value": "CALM_MOTION->CREST_ECHO_MOTION",
               "count": 1,
-              "rate": 1.79
+              "rate": 1.67
             }
           ],
           "quality": "WEAK_BLEND"
@@ -8206,31 +8206,31 @@
           "test_count": 81,
           "call_count": 81,
           "call_rate": 100.0,
-          "band_matches": 25,
-          "band_match_rate": 30.86,
+          "band_matches": 21,
+          "band_match_rate": 25.93,
           "predicted_band_rank": [
             {
               "value": "CREST_ECHO_MOTION",
-              "count": 52,
-              "rate": 64.2
+              "count": 56,
+              "rate": 69.14
             },
             {
               "value": "FATIGUED_MOTION",
-              "count": 22,
-              "rate": 27.16
+              "count": 19,
+              "rate": 23.46
             },
             {
               "value": "TRANSITIONAL_MOTION",
-              "count": 5,
-              "rate": 6.17
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 1.23
+              "count": 3,
+              "rate": 3.7
             },
             {
               "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 2.47
+            },
+            {
+              "value": "CHAOTIC_MOTION",
               "count": 1,
               "rate": 1.23
             }
@@ -8250,13 +8250,13 @@
           "ladder_level_rank": [
             {
               "value": "WORLD_BASELINE",
-              "count": 61,
-              "rate": 83.56
+              "count": 66,
+              "rate": 90.41
             },
             {
-              "value": "WORLD_BRANCH_SIGN_FULL",
-              "count": 7,
-              "rate": 9.59
+              "value": "WORLD_FAMILY_SIGN_FULL",
+              "count": 3,
+              "rate": 4.11
             },
             {
               "value": "GLOBAL_BASELINE",
@@ -8264,76 +8264,71 @@
               "rate": 2.74
             },
             {
-              "value": "WORLD_SIGN_FULL",
+              "value": "WORLD_BRANCH_SIGN_FULL",
               "count": 2,
               "rate": 2.74
-            },
-            {
-              "value": "BORROWED_SIGN_FULL",
-              "count": 1,
-              "rate": 1.37
             }
           ],
           "miss_rank": [
             {
               "value": "CREST_ECHO_MOTION->TRANSITIONAL_MOTION",
-              "count": 12,
-              "rate": 21.43
+              "count": 13,
+              "rate": 21.67
             },
             {
               "value": "CREST_ECHO_MOTION->FATIGUED_MOTION",
-              "count": 9,
-              "rate": 16.07
+              "count": 11,
+              "rate": 18.33
             },
             {
               "value": "FATIGUED_MOTION->CREST_ECHO_MOTION",
               "count": 8,
-              "rate": 14.29
+              "rate": 13.33
+            },
+            {
+              "value": "CREST_ECHO_MOTION->CALM_MOTION",
+              "count": 6,
+              "rate": 10.0
             },
             {
               "value": "CREST_ECHO_MOTION->DIRECTED_MOTION",
               "count": 5,
-              "rate": 8.93
+              "rate": 8.33
             },
             {
               "value": "CREST_ECHO_MOTION->CHAOTIC_MOTION",
               "count": 5,
-              "rate": 8.93
-            },
-            {
-              "value": "CREST_ECHO_MOTION->CALM_MOTION",
-              "count": 4,
-              "rate": 7.14
+              "rate": 8.33
             },
             {
               "value": "FATIGUED_MOTION->TRANSITIONAL_MOTION",
               "count": 2,
-              "rate": 3.57
+              "rate": 3.33
             },
             {
               "value": "TRANSITIONAL_MOTION->FATIGUED_MOTION",
               "count": 2,
-              "rate": 3.57
+              "rate": 3.33
             },
             {
               "value": "FATIGUED_MOTION->DIRECTED_MOTION",
               "count": 2,
-              "rate": 3.57
+              "rate": 3.33
+            },
+            {
+              "value": "CALM_MOTION->CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 3.33
             },
             {
               "value": "FATIGUED_MOTION->CHAOTIC_MOTION",
               "count": 2,
-              "rate": 3.57
+              "rate": 3.33
             },
             {
               "value": "TRANSITIONAL_MOTION->CREST_ECHO_MOTION",
               "count": 1,
-              "rate": 1.79
-            },
-            {
-              "value": "TRANSITIONAL_MOTION->CALM_MOTION",
-              "count": 1,
-              "rate": 1.79
+              "rate": 1.67
             }
           ],
           "quality": "WEAK_BLEND"

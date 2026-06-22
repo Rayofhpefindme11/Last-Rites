@@ -4378,17 +4378,81 @@ def conditional_motion_memory_case(payload: dict[str, Any]) -> dict[str, Any] | 
     pressure_authority = payload["pressure_authority"]
     collision = payload["collision_point"]
     selector = payload["branch_selector"]
+    transition = payload["draw_order_transition"]
+    face = payload["draw_order_face_identity"]
+    pressure_map = payload["pressure_map"]
+    draw_taxonomy_lanes = payload["draw_order_taxonomy"]["lanes"]
+    incoming_lanes = payload["incoming_motion"]["lanes"]
+    incoming_by_lane = {row["lane"]: row for row in incoming_lanes}
+    authority_lane = pressure_authority["authority_winner_draw_lane"]
+    authority_incoming = incoming_by_lane.get(authority_lane, {})
+    incoming_gauge_pattern = "-".join(
+        str(row["gauge"] or "NO_GAUGE") for row in incoming_lanes
+    )
+    incoming_gauge_range_pattern = "-".join(
+        str(row["gauge_range"] or "NO_RANGE") for row in incoming_lanes
+    )
+    incoming_class_pattern = "-".join(
+        address_token(str(row["broad_class"] or "NO_CLASS")) for row in incoming_lanes
+    )
+    incoming_lane_seat_path = "-".join(
+        f"{row['lane']}:{row['sorted_seat']}:{row['seat_zone']}"
+        for row in incoming_lanes
+    )
+    draw_lane_band_path = "-".join(
+        f"{row['draw_lane']}:{row['draw_order_band']}:{row['mapped_sorted_seat']}"
+        for row in draw_taxonomy_lanes
+    )
     scenario = dict(case)
     scenario.update(
         {
             "edge_pressure": pressure["edge_pressure"],
             "pressure_fusion": pressure["pressure_fusion"],
             "pressure_fusion_profile": pressure["pressure_fusion_profile"],
+            "pressure_flow": pressure["pressure_flow"],
+            "sorted_pressure": pressure["sorted_pressure"],
+            "draw_pressure": pressure["draw_pressure"],
             "technical_signature": pressure["technical_signature"],
+            "draw_order_band_pattern": face["draw_order_band_pattern"],
+            "draw_order_pattern": face["order_pattern"],
+            "draw_transfer_pattern": face["transfer_pattern"],
+            "draw_direction_pattern": face["direction_pattern"],
+            "draw_style": face["draw_style"],
+            "draw_turn_count": face["turn_count"],
+            "draw_max_abs_lane": face["max_abs_lane"]["lane"],
+            "draw_max_abs_role": face["max_abs_lane"]["role"],
+            "draw_max_abs_distance": face["max_abs_lane"]["abs_distance"],
+            "draw_lane_band_path": draw_lane_band_path,
+            "incoming_energy": transition["incoming_energy"],
+            "incoming_motion_gauge_pattern": incoming_gauge_pattern,
+            "incoming_motion_gauge_range_pattern": incoming_gauge_range_pattern,
+            "incoming_motion_class_pattern": incoming_class_pattern,
+            "incoming_lane_seat_path": incoming_lane_seat_path,
+            "authority_incoming_gauge": authority_incoming.get("gauge"),
+            "authority_incoming_gauge_range": authority_incoming.get("gauge_range"),
+            "authority_incoming_class": authority_incoming.get("broad_class"),
+            "authority_incoming_sign": authority_incoming.get("sign"),
+            "pressure_gauge_shape": pressure_map["pressure_gauge_shape"],
+            "burden_gauge_shape": pressure_map["burden_gauge_shape"],
+            "dominant_pressure_gauge": pressure_map["dominant_burden_gauge"],
+            "dominant_pressure_gauge_range": pressure_map[
+                "dominant_burden_gauge_range"
+            ],
+            "smallest_pressure_gauge": pressure_map["smallest_burden_gauge"],
+            "smallest_pressure_gauge_range": pressure_map[
+                "smallest_burden_gauge_range"
+            ],
+            "structural_pressure_total": pressure_map["structural_pressure_total"],
+            "dynamic_pressure_total": pressure_map["dynamic_pressure_total"],
             "highest_burden_seat": burden["highest_burden_seat"],
             "highest_burden_level": burden["highest_burden_level"],
             "highest_burden_state": burden["highest_burden_state"],
             "highest_burden_gauge": burden["highest_burden_gauge"],
+            "highest_burden_gauge_range": burden["highest_burden_gauge_range"],
+            "smallest_burden_seat": burden["smallest_burden_seat"],
+            "smallest_burden_state": burden["smallest_burden_state"],
+            "smallest_burden_gauge": burden["smallest_burden_gauge"],
+            "smallest_burden_gauge_range": burden["smallest_burden_gauge_range"],
             "dominant_origin_seat": pressure_origin["dominant_origin_seat"],
             "dominant_origin_score": pressure_origin["dominant_origin_score"],
             "authority_score": pressure_authority["authority_winner_score"],

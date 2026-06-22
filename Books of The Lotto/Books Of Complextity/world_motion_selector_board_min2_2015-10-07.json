@@ -33339,6 +33339,375 @@
         {
           "selector_type": "SIGN",
           "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 2,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 100.0,
+          "sign_match_rate": 100.0,
+          "band_match_rate": 20.0,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "LIGHT_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 3,
+              "rate": 60.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 3,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 100.0,
+          "sign_match_rate": 100.0,
+          "band_match_rate": 20.0,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "LIGHT_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 3,
+              "rate": 60.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 5,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 100.0,
+          "sign_match_rate": 100.0,
+          "band_match_rate": 20.0,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "LIGHT_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 3,
+              "rate": 60.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 8,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 100.0,
+          "sign_match_rate": 100.0,
+          "band_match_rate": 20.0,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "LIGHT_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 3,
+              "rate": 60.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 13,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 100.0,
+          "sign_match_rate": 100.0,
+          "band_match_rate": 20.0,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "LIGHT_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 3,
+              "rate": 60.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 21,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 100.0,
+          "sign_match_rate": 100.0,
+          "band_match_rate": 20.0,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "LIGHT_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 3,
+              "rate": 60.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 34,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 100.0,
+          "sign_match_rate": 100.0,
+          "band_match_rate": 20.0,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "LIGHT_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 3,
+              "rate": 60.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
           "recipe": "GLOBAL_AUTHORITY_ORIGIN",
           "source": "BORROWED",
           "horizon": 34,
@@ -33758,306 +34127,6 @@
               "value": "DIRECTED_MOTION",
               "count": 1,
               "rate": 20.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 3,
-              "rate": 60.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 20.0
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_COLLISION_BURDEN",
-          "source": "BORROWED",
-          "horizon": 13,
-          "features": [
-            "collision_seat",
-            "collision_type",
-            "highest_burden_seat",
-            "highest_burden_state"
-          ],
-          "call_count": 5,
-          "call_rate": 100.0,
-          "sign_match_rate": 100.0,
-          "band_match_rate": 20.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 100.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 3,
-              "rate": 60.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 20.0
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_COLLISION_BURDEN",
-          "source": "BORROWED",
-          "horizon": 21,
-          "features": [
-            "collision_seat",
-            "collision_type",
-            "highest_burden_seat",
-            "highest_burden_state"
-          ],
-          "call_count": 5,
-          "call_rate": 100.0,
-          "sign_match_rate": 100.0,
-          "band_match_rate": 20.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 100.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 3,
-              "rate": 60.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 20.0
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_COLLISION_BURDEN",
-          "source": "BORROWED",
-          "horizon": 34,
-          "features": [
-            "collision_seat",
-            "collision_type",
-            "highest_burden_seat",
-            "highest_burden_state"
-          ],
-          "call_count": 5,
-          "call_rate": 100.0,
-          "sign_match_rate": 100.0,
-          "band_match_rate": 20.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 100.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 3,
-              "rate": 60.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 20.0
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_COLLISION_BURDEN_ORIGIN",
-          "source": "BORROWED",
-          "horizon": 5,
-          "features": [
-            "collision_seat",
-            "collision_type",
-            "highest_burden_seat",
-            "highest_burden_state",
-            "dominant_origin_seat",
-            "authority_origin"
-          ],
-          "call_count": 5,
-          "call_rate": 100.0,
-          "sign_match_rate": 100.0,
-          "band_match_rate": 20.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 3,
-              "rate": 60.0
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 2,
-              "rate": 40.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 3,
-              "rate": 60.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 20.0
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_COLLISION_BURDEN_ORIGIN",
-          "source": "BORROWED",
-          "horizon": 8,
-          "features": [
-            "collision_seat",
-            "collision_type",
-            "highest_burden_seat",
-            "highest_burden_state",
-            "dominant_origin_seat",
-            "authority_origin"
-          ],
-          "call_count": 5,
-          "call_rate": 100.0,
-          "sign_match_rate": 100.0,
-          "band_match_rate": 20.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 100.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 3,
-              "rate": 60.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 20.0
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_COLLISION_BURDEN_ORIGIN",
-          "source": "BORROWED",
-          "horizon": 13,
-          "features": [
-            "collision_seat",
-            "collision_type",
-            "highest_burden_seat",
-            "highest_burden_state",
-            "dominant_origin_seat",
-            "authority_origin"
-          ],
-          "call_count": 5,
-          "call_rate": 100.0,
-          "sign_match_rate": 100.0,
-          "band_match_rate": 20.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 100.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 3,
-              "rate": 60.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 20.0
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 20.0
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_COLLISION_BURDEN_ORIGIN",
-          "source": "BORROWED",
-          "horizon": 21,
-          "features": [
-            "collision_seat",
-            "collision_type",
-            "highest_burden_seat",
-            "highest_burden_state",
-            "dominant_origin_seat",
-            "authority_origin"
-          ],
-          "call_count": 5,
-          "call_rate": 100.0,
-          "sign_match_rate": 100.0,
-          "band_match_rate": 20.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 100.0
             }
           ],
           "actual_band_rank": [
@@ -43766,6 +43835,3015 @@
       ]
     },
     {
+      "topology_name": "Artoria",
+      "branch_selector": {
+        "selector_type": "BRANCH",
+        "quality": "USABLE_EXACT",
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "FACE_INCOMING",
+        "source": "BORROWED",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "face_family",
+          "turn_lanes",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 12,
+        "branch_match_rate": 58.33,
+        "family_match_rate": 83.33,
+        "sign_match_rate": 66.67
+      },
+      "sign_selector": {
+        "selector_type": "SIGN",
+        "quality": "SMALL_SIGN",
+        "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+        "source": "WORLD",
+        "horizon": 3,
+        "features": [
+          "authority_seat",
+          "authority_origin",
+          "authority_draw_lane",
+          "authority_incoming_gauge",
+          "authority_incoming_class"
+        ],
+        "call_count": 5,
+        "call_rate": 6.17,
+        "sign_match_rate": 80.0,
+        "band_match_rate": 0.0,
+        "predicted_band_rank": [
+          {
+            "value": "CALM_MOTION",
+            "count": 2,
+            "rate": 40.0
+          },
+          {
+            "value": "TRANSITIONAL_MOTION",
+            "count": 1,
+            "rate": 20.0
+          },
+          {
+            "value": "FATIGUED_MOTION",
+            "count": 1,
+            "rate": 20.0
+          },
+          {
+            "value": "DIRECTED_MOTION",
+            "count": 1,
+            "rate": 20.0
+          }
+        ],
+        "actual_band_rank": [
+          {
+            "value": "CREST_ECHO_MOTION",
+            "count": 28,
+            "rate": 34.57
+          },
+          {
+            "value": "FATIGUED_MOTION",
+            "count": 18,
+            "rate": 22.22
+          },
+          {
+            "value": "TRANSITIONAL_MOTION",
+            "count": 15,
+            "rate": 18.52
+          },
+          {
+            "value": "DIRECTED_MOTION",
+            "count": 7,
+            "rate": 8.64
+          },
+          {
+            "value": "CHAOTIC_MOTION",
+            "count": 7,
+            "rate": 8.64
+          },
+          {
+            "value": "CALM_MOTION",
+            "count": 6,
+            "rate": 7.41
+          }
+        ]
+      },
+      "band_selector": {
+        "selector_type": "BROAD_BAND",
+        "quality": "SMALL_BAND",
+        "recipe": "GLOBAL_PRESSURE_BODY",
+        "source": "BORROWED",
+        "horizon": 2,
+        "features": [
+          "pressure_shape",
+          "set_relation",
+          "middle_pressure",
+          "edge_pressure"
+        ],
+        "call_count": 8,
+        "call_rate": 9.88,
+        "sign_match_rate": 62.5,
+        "band_match_rate": 50.0,
+        "predicted_band_rank": [
+          {
+            "value": "FATIGUED_MOTION",
+            "count": 4,
+            "rate": 50.0
+          },
+          {
+            "value": "CREST_ECHO_MOTION",
+            "count": 2,
+            "rate": 25.0
+          },
+          {
+            "value": "CHAOTIC_MOTION",
+            "count": 1,
+            "rate": 12.5
+          },
+          {
+            "value": "CALM_MOTION",
+            "count": 1,
+            "rate": 12.5
+          }
+        ],
+        "actual_band_rank": [
+          {
+            "value": "CREST_ECHO_MOTION",
+            "count": 28,
+            "rate": 34.57
+          },
+          {
+            "value": "FATIGUED_MOTION",
+            "count": 18,
+            "rate": 22.22
+          },
+          {
+            "value": "TRANSITIONAL_MOTION",
+            "count": 15,
+            "rate": 18.52
+          },
+          {
+            "value": "DIRECTED_MOTION",
+            "count": 7,
+            "rate": 8.64
+          },
+          {
+            "value": "CHAOTIC_MOTION",
+            "count": 7,
+            "rate": 8.64
+          },
+          {
+            "value": "CALM_MOTION",
+            "count": 6,
+            "rate": 7.41
+          }
+        ]
+      },
+      "top_sign_candidates": [
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 3,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 5,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 8,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 13,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 21,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 34,
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 3,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 5,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 8,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 13,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 21,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "BORROWED",
+          "horizon": 34,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 3,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 5,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 8,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 13,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 21,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "WORLD_AUTHORITY_INCOMING_35",
+          "source": "WORLD",
+          "horizon": 34,
+          "features": [
+            "topology_name",
+            "authority_seat",
+            "authority_origin",
+            "authority_draw_lane",
+            "authority_incoming_gauge",
+            "authority_incoming_class"
+          ],
+          "call_count": 5,
+          "call_rate": 6.17,
+          "sign_match_rate": 80.0,
+          "band_match_rate": 0.0,
+          "predicted_band_rank": [
+            {
+              "value": "CALM_MOTION",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_PRESSURE_FUSION_INCOMING",
+          "source": "BORROWED",
+          "horizon": 3,
+          "features": [
+            "pressure_fusion",
+            "pressure_fusion_profile",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "call_count": 10,
+          "call_rate": 12.35,
+          "sign_match_rate": 70.0,
+          "band_match_rate": 30.0,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 5,
+              "rate": 50.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 2,
+              "rate": 20.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 10.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "SIGN",
+          "quality": "SMALL_SIGN",
+          "recipe": "GLOBAL_PRESSURE_FUSION_INCOMING",
+          "source": "BORROWED",
+          "horizon": 5,
+          "features": [
+            "pressure_fusion",
+            "pressure_fusion_profile",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "call_count": 10,
+          "call_rate": 12.35,
+          "sign_match_rate": 70.0,
+          "band_match_rate": 30.0,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 5,
+              "rate": 50.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 2,
+              "rate": 20.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 10.0
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        }
+      ],
+      "top_band_candidates": [
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_PRESSURE_BODY",
+          "source": "BORROWED",
+          "horizon": 2,
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "call_count": 8,
+          "call_rate": 9.88,
+          "sign_match_rate": 62.5,
+          "band_match_rate": 50.0,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 4,
+              "rate": 50.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 25.0
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 12.5
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_PRESSURE_BODY",
+          "source": "BORROWED",
+          "horizon": 3,
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "call_count": 8,
+          "call_rate": 9.88,
+          "sign_match_rate": 62.5,
+          "band_match_rate": 50.0,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 4,
+              "rate": 50.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 25.0
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 12.5
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_PRESSURE_BODY",
+          "source": "BORROWED",
+          "horizon": 5,
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "call_count": 8,
+          "call_rate": 9.88,
+          "sign_match_rate": 62.5,
+          "band_match_rate": 50.0,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 4,
+              "rate": 50.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 25.0
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 12.5
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_PRESSURE_BODY",
+          "source": "BORROWED",
+          "horizon": 8,
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "call_count": 8,
+          "call_rate": 9.88,
+          "sign_match_rate": 62.5,
+          "band_match_rate": 50.0,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 4,
+              "rate": 50.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 25.0
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 12.5
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_PRESSURE_BODY",
+          "source": "BORROWED",
+          "horizon": 13,
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "call_count": 8,
+          "call_rate": 9.88,
+          "sign_match_rate": 62.5,
+          "band_match_rate": 50.0,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 4,
+              "rate": 50.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 25.0
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 12.5
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_PRESSURE_BODY",
+          "source": "BORROWED",
+          "horizon": 21,
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "call_count": 8,
+          "call_rate": 9.88,
+          "sign_match_rate": 62.5,
+          "band_match_rate": 50.0,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 4,
+              "rate": 50.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 25.0
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 12.5
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_PRESSURE_BODY",
+          "source": "BORROWED",
+          "horizon": 34,
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "call_count": 8,
+          "call_rate": 9.88,
+          "sign_match_rate": 62.5,
+          "band_match_rate": 50.0,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 4,
+              "rate": 50.0
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 2,
+              "rate": 25.0
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 12.5
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH_INCOMING",
+          "source": "BORROWED",
+          "horizon": 5,
+          "features": [
+            "world_previous_branch",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "call_count": 16,
+          "call_rate": 19.75,
+          "sign_match_rate": 56.25,
+          "band_match_rate": 37.5,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 6,
+              "rate": 37.5
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 5,
+              "rate": 31.25
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 5,
+              "rate": 31.25
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH_INCOMING",
+          "source": "BORROWED",
+          "horizon": 8,
+          "features": [
+            "world_previous_branch",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "call_count": 16,
+          "call_rate": 19.75,
+          "sign_match_rate": 56.25,
+          "band_match_rate": 37.5,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 6,
+              "rate": 37.5
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 5,
+              "rate": 31.25
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 5,
+              "rate": 31.25
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH_INCOMING",
+          "source": "BORROWED",
+          "horizon": 13,
+          "features": [
+            "world_previous_branch",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "call_count": 16,
+          "call_rate": 19.75,
+          "sign_match_rate": 56.25,
+          "band_match_rate": 37.5,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 6,
+              "rate": 37.5
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 5,
+              "rate": 31.25
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 5,
+              "rate": 31.25
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH_INCOMING",
+          "source": "BORROWED",
+          "horizon": 21,
+          "features": [
+            "world_previous_branch",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "call_count": 16,
+          "call_rate": 19.75,
+          "sign_match_rate": 56.25,
+          "band_match_rate": 37.5,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 6,
+              "rate": 37.5
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 5,
+              "rate": 31.25
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 5,
+              "rate": 31.25
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH_INCOMING",
+          "source": "BORROWED",
+          "horizon": 34,
+          "features": [
+            "world_previous_branch",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "call_count": 16,
+          "call_rate": 19.75,
+          "sign_match_rate": 56.25,
+          "band_match_rate": 37.5,
+          "predicted_band_rank": [
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 6,
+              "rate": 37.5
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 5,
+              "rate": 31.25
+            },
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 5,
+              "rate": 31.25
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH",
+          "source": "BORROWED",
+          "horizon": 34,
+          "features": [
+            "world_previous_branch"
+          ],
+          "call_count": 80,
+          "call_rate": 98.77,
+          "sign_match_rate": 53.75,
+          "band_match_rate": 37.5,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 41,
+              "rate": 51.25
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 22,
+              "rate": 27.5
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 17,
+              "rate": 21.25
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "SMALL_BAND",
+          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH",
+          "source": "BORROWED",
+          "horizon": 21,
+          "features": [
+            "world_previous_branch"
+          ],
+          "call_count": 80,
+          "call_rate": 98.77,
+          "sign_match_rate": 51.25,
+          "band_match_rate": 36.25,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 37,
+              "rate": 46.25
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 26,
+              "rate": 32.5
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.75
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 2,
+              "rate": 2.5
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "OBSERVE_BAND",
+          "recipe": "GLOBAL_WORLD_BRANCH_STATE_PRESSURE",
+          "source": "BORROWED",
+          "horizon": 34,
+          "features": [
+            "world_previous_branch",
+            "world_freshest_branch",
+            "world_stalest_branch",
+            "map_pressure_type",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "call_count": 68,
+          "call_rate": 83.95,
+          "sign_match_rate": 47.06,
+          "band_match_rate": 33.82,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 39,
+              "rate": 57.35
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 14,
+              "rate": 20.59
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 6,
+              "rate": 8.82
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 4,
+              "rate": 5.88
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 4,
+              "rate": 5.88
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 1,
+              "rate": 1.47
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "OBSERVE_BAND",
+          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH",
+          "source": "BORROWED",
+          "horizon": 8,
+          "features": [
+            "world_previous_branch"
+          ],
+          "call_count": 80,
+          "call_rate": 98.77,
+          "sign_match_rate": 51.25,
+          "band_match_rate": 33.75,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 27,
+              "rate": 33.75
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 24,
+              "rate": 30.0
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 20,
+              "rate": 25.0
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 6,
+              "rate": 7.5
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 3,
+              "rate": 3.75
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "OBSERVE_BAND",
+          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH",
+          "source": "BORROWED",
+          "horizon": 13,
+          "features": [
+            "world_previous_branch"
+          ],
+          "call_count": 80,
+          "call_rate": 98.77,
+          "sign_match_rate": 43.75,
+          "band_match_rate": 33.75,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 33,
+              "rate": 41.25
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 26,
+              "rate": 32.5
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 18,
+              "rate": 22.5
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 2,
+              "rate": 2.5
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 1,
+              "rate": 1.25
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "OBSERVE_BAND",
+          "recipe": "GLOBAL_PRESSURE_FUSION_BODY",
+          "source": "BORROWED",
+          "horizon": 2,
+          "features": [
+            "pressure_fusion",
+            "pressure_shape",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "call_count": 3,
+          "call_rate": 3.7,
+          "sign_match_rate": 66.67,
+          "band_match_rate": 33.33,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 1,
+              "rate": 33.33
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 33.33
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 33.33
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "OBSERVE_BAND",
+          "recipe": "GLOBAL_PRESSURE_FUSION_BODY",
+          "source": "BORROWED",
+          "horizon": 3,
+          "features": [
+            "pressure_fusion",
+            "pressure_shape",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "call_count": 3,
+          "call_rate": 3.7,
+          "sign_match_rate": 66.67,
+          "band_match_rate": 33.33,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 1,
+              "rate": 33.33
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 33.33
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 33.33
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        },
+        {
+          "selector_type": "BROAD_BAND",
+          "quality": "OBSERVE_BAND",
+          "recipe": "GLOBAL_PRESSURE_FUSION_BODY",
+          "source": "BORROWED",
+          "horizon": 5,
+          "features": [
+            "pressure_fusion",
+            "pressure_shape",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "call_count": 3,
+          "call_rate": 3.7,
+          "sign_match_rate": 66.67,
+          "band_match_rate": 33.33,
+          "predicted_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 1,
+              "rate": 33.33
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 1,
+              "rate": 33.33
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 1,
+              "rate": 33.33
+            }
+          ],
+          "actual_band_rank": [
+            {
+              "value": "CREST_ECHO_MOTION",
+              "count": 28,
+              "rate": 34.57
+            },
+            {
+              "value": "FATIGUED_MOTION",
+              "count": 18,
+              "rate": 22.22
+            },
+            {
+              "value": "TRANSITIONAL_MOTION",
+              "count": 15,
+              "rate": 18.52
+            },
+            {
+              "value": "DIRECTED_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CHAOTIC_MOTION",
+              "count": 7,
+              "rate": 8.64
+            },
+            {
+              "value": "CALM_MOTION",
+              "count": 6,
+              "rate": 7.41
+            }
+          ]
+        }
+      ]
+    },
+    {
       "topology_name": "Suzuka",
       "branch_selector": {
         "selector_type": "BRANCH",
@@ -46941,3036 +50019,6 @@
               "value": "CALM_MOTION",
               "count": 4,
               "rate": 6.78
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "topology_name": "Artoria",
-      "branch_selector": {
-        "selector_type": "BRANCH",
-        "quality": "USABLE_EXACT",
-        "layer": "RANGE_CONFIRMATION",
-        "signal": "FACE_INCOMING",
-        "source": "BORROWED",
-        "horizon": 3,
-        "final_mode": "SIGN",
-        "features": [
-          "face_family",
-          "turn_lanes",
-          "incoming_draw_sign",
-          "dominant_incoming_draw_lane"
-        ],
-        "call_count": 12,
-        "branch_match_rate": 58.33,
-        "family_match_rate": 83.33,
-        "sign_match_rate": 66.67
-      },
-      "sign_selector": {
-        "selector_type": "SIGN",
-        "quality": "SMALL_SIGN",
-        "recipe": "GLOBAL_PRESSURE_FUSION_INCOMING",
-        "source": "BORROWED",
-        "horizon": 3,
-        "features": [
-          "pressure_fusion",
-          "pressure_fusion_profile",
-          "incoming_draw_sign",
-          "dominant_incoming_draw_lane"
-        ],
-        "call_count": 10,
-        "call_rate": 12.35,
-        "sign_match_rate": 70.0,
-        "band_match_rate": 30.0,
-        "predicted_band_rank": [
-          {
-            "value": "CREST_ECHO_MOTION",
-            "count": 5,
-            "rate": 50.0
-          },
-          {
-            "value": "DIRECTED_MOTION",
-            "count": 2,
-            "rate": 20.0
-          },
-          {
-            "value": "TRANSITIONAL_MOTION",
-            "count": 1,
-            "rate": 10.0
-          },
-          {
-            "value": "FATIGUED_MOTION",
-            "count": 1,
-            "rate": 10.0
-          },
-          {
-            "value": "CHAOTIC_MOTION",
-            "count": 1,
-            "rate": 10.0
-          }
-        ],
-        "actual_band_rank": [
-          {
-            "value": "CREST_ECHO_MOTION",
-            "count": 28,
-            "rate": 34.57
-          },
-          {
-            "value": "FATIGUED_MOTION",
-            "count": 18,
-            "rate": 22.22
-          },
-          {
-            "value": "TRANSITIONAL_MOTION",
-            "count": 15,
-            "rate": 18.52
-          },
-          {
-            "value": "DIRECTED_MOTION",
-            "count": 7,
-            "rate": 8.64
-          },
-          {
-            "value": "CHAOTIC_MOTION",
-            "count": 7,
-            "rate": 8.64
-          },
-          {
-            "value": "CALM_MOTION",
-            "count": 6,
-            "rate": 7.41
-          }
-        ]
-      },
-      "band_selector": {
-        "selector_type": "BROAD_BAND",
-        "quality": "SMALL_BAND",
-        "recipe": "GLOBAL_PRESSURE_BODY",
-        "source": "BORROWED",
-        "horizon": 2,
-        "features": [
-          "pressure_shape",
-          "set_relation",
-          "middle_pressure",
-          "edge_pressure"
-        ],
-        "call_count": 8,
-        "call_rate": 9.88,
-        "sign_match_rate": 62.5,
-        "band_match_rate": 50.0,
-        "predicted_band_rank": [
-          {
-            "value": "FATIGUED_MOTION",
-            "count": 4,
-            "rate": 50.0
-          },
-          {
-            "value": "CREST_ECHO_MOTION",
-            "count": 2,
-            "rate": 25.0
-          },
-          {
-            "value": "CHAOTIC_MOTION",
-            "count": 1,
-            "rate": 12.5
-          },
-          {
-            "value": "CALM_MOTION",
-            "count": 1,
-            "rate": 12.5
-          }
-        ],
-        "actual_band_rank": [
-          {
-            "value": "CREST_ECHO_MOTION",
-            "count": 28,
-            "rate": 34.57
-          },
-          {
-            "value": "FATIGUED_MOTION",
-            "count": 18,
-            "rate": 22.22
-          },
-          {
-            "value": "TRANSITIONAL_MOTION",
-            "count": 15,
-            "rate": 18.52
-          },
-          {
-            "value": "DIRECTED_MOTION",
-            "count": 7,
-            "rate": 8.64
-          },
-          {
-            "value": "CHAOTIC_MOTION",
-            "count": 7,
-            "rate": 8.64
-          },
-          {
-            "value": "CALM_MOTION",
-            "count": 6,
-            "rate": 7.41
-          }
-        ]
-      },
-      "top_sign_candidates": [
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_INCOMING",
-          "source": "BORROWED",
-          "horizon": 3,
-          "features": [
-            "pressure_fusion",
-            "pressure_fusion_profile",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 10,
-          "call_rate": 12.35,
-          "sign_match_rate": 70.0,
-          "band_match_rate": 30.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 50.0
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 2,
-              "rate": 20.0
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 10.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_INCOMING",
-          "source": "BORROWED",
-          "horizon": 5,
-          "features": [
-            "pressure_fusion",
-            "pressure_fusion_profile",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 10,
-          "call_rate": 12.35,
-          "sign_match_rate": 70.0,
-          "band_match_rate": 30.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 50.0
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 2,
-              "rate": 20.0
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 10.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_INCOMING",
-          "source": "BORROWED",
-          "horizon": 8,
-          "features": [
-            "pressure_fusion",
-            "pressure_fusion_profile",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 10,
-          "call_rate": 12.35,
-          "sign_match_rate": 70.0,
-          "band_match_rate": 30.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 50.0
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 2,
-              "rate": 20.0
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 10.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_INCOMING",
-          "source": "BORROWED",
-          "horizon": 13,
-          "features": [
-            "pressure_fusion",
-            "pressure_fusion_profile",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 10,
-          "call_rate": 12.35,
-          "sign_match_rate": 70.0,
-          "band_match_rate": 30.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 50.0
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 2,
-              "rate": 20.0
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 10.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_INCOMING",
-          "source": "BORROWED",
-          "horizon": 21,
-          "features": [
-            "pressure_fusion",
-            "pressure_fusion_profile",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 10,
-          "call_rate": 12.35,
-          "sign_match_rate": 70.0,
-          "band_match_rate": 30.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 50.0
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 2,
-              "rate": 20.0
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 10.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_INCOMING",
-          "source": "BORROWED",
-          "horizon": 34,
-          "features": [
-            "pressure_fusion",
-            "pressure_fusion_profile",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 10,
-          "call_rate": 12.35,
-          "sign_match_rate": 70.0,
-          "band_match_rate": 30.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 50.0
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 2,
-              "rate": 20.0
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 10.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 10.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "SMALL_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_INCOMING",
-          "source": "BORROWED",
-          "horizon": 2,
-          "features": [
-            "pressure_fusion",
-            "pressure_fusion_profile",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 10,
-          "call_rate": 12.35,
-          "sign_match_rate": 70.0,
-          "band_match_rate": 20.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 50.0
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 2,
-              "rate": 20.0
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 2,
-              "rate": 20.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 10.0
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_FACE_INCOMING",
-          "source": "BORROWED",
-          "horizon": 3,
-          "features": [
-            "face_family",
-            "turn_lanes",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 68.75,
-          "band_match_rate": 25.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 7,
-              "rate": 43.75
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 2,
-              "rate": 12.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 6.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_FACE_INCOMING",
-          "source": "BORROWED",
-          "horizon": 5,
-          "features": [
-            "face_family",
-            "turn_lanes",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 68.75,
-          "band_match_rate": 25.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 7,
-              "rate": 43.75
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 2,
-              "rate": 12.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 6.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_FACE_INCOMING",
-          "source": "BORROWED",
-          "horizon": 8,
-          "features": [
-            "face_family",
-            "turn_lanes",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 68.75,
-          "band_match_rate": 25.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 7,
-              "rate": 43.75
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 2,
-              "rate": 12.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 6.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_FACE_INCOMING",
-          "source": "BORROWED",
-          "horizon": 13,
-          "features": [
-            "face_family",
-            "turn_lanes",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 68.75,
-          "band_match_rate": 25.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 7,
-              "rate": 43.75
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 2,
-              "rate": 12.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 6.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_FACE_INCOMING",
-          "source": "BORROWED",
-          "horizon": 21,
-          "features": [
-            "face_family",
-            "turn_lanes",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 68.75,
-          "band_match_rate": 25.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 7,
-              "rate": 43.75
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 2,
-              "rate": 12.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 6.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_FACE_INCOMING",
-          "source": "BORROWED",
-          "horizon": 34,
-          "features": [
-            "face_family",
-            "turn_lanes",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 68.75,
-          "band_match_rate": 25.0,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 7,
-              "rate": 43.75
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 3,
-              "rate": 18.75
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 2,
-              "rate": 12.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 1,
-              "rate": 6.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_BURDEN_FACE",
-          "source": "WORLD",
-          "horizon": 2,
-          "features": [
-            "highest_burden_seat",
-            "highest_burden_state",
-            "face_family",
-            "turn_lanes"
-          ],
-          "call_count": 32,
-          "call_rate": 39.51,
-          "sign_match_rate": 68.75,
-          "band_match_rate": 21.88,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 12,
-              "rate": 37.5
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 7,
-              "rate": 21.88
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 5,
-              "rate": 15.62
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 5,
-              "rate": 15.62
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 3,
-              "rate": 9.38
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "WORLD_BURDEN_FACE",
-          "source": "BORROWED",
-          "horizon": 2,
-          "features": [
-            "topology_name",
-            "highest_burden_seat",
-            "highest_burden_state",
-            "face_family",
-            "turn_lanes"
-          ],
-          "call_count": 32,
-          "call_rate": 39.51,
-          "sign_match_rate": 68.75,
-          "band_match_rate": 21.88,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 12,
-              "rate": 37.5
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 7,
-              "rate": 21.88
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 5,
-              "rate": 15.62
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 5,
-              "rate": 15.62
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 3,
-              "rate": 9.38
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "WORLD_BURDEN_FACE",
-          "source": "WORLD",
-          "horizon": 2,
-          "features": [
-            "topology_name",
-            "highest_burden_seat",
-            "highest_burden_state",
-            "face_family",
-            "turn_lanes"
-          ],
-          "call_count": 32,
-          "call_rate": 39.51,
-          "sign_match_rate": 68.75,
-          "band_match_rate": 21.88,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 12,
-              "rate": 37.5
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 7,
-              "rate": 21.88
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 5,
-              "rate": 15.62
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 5,
-              "rate": 15.62
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 3,
-              "rate": 9.38
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_BODY",
-          "source": "BORROWED",
-          "horizon": 2,
-          "features": [
-            "pressure_fusion",
-            "pressure_shape",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 3,
-          "call_rate": 3.7,
-          "sign_match_rate": 66.67,
-          "band_match_rate": 33.33,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 33.33
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_BODY",
-          "source": "BORROWED",
-          "horizon": 3,
-          "features": [
-            "pressure_fusion",
-            "pressure_shape",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 3,
-          "call_rate": 3.7,
-          "sign_match_rate": 66.67,
-          "band_match_rate": 33.33,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 33.33
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_BODY",
-          "source": "BORROWED",
-          "horizon": 5,
-          "features": [
-            "pressure_fusion",
-            "pressure_shape",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 3,
-          "call_rate": 3.7,
-          "sign_match_rate": 66.67,
-          "band_match_rate": 33.33,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 33.33
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "SIGN",
-          "quality": "OBSERVE_SIGN",
-          "recipe": "GLOBAL_PRESSURE_FUSION_BODY",
-          "source": "BORROWED",
-          "horizon": 8,
-          "features": [
-            "pressure_fusion",
-            "pressure_shape",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 3,
-          "call_rate": 3.7,
-          "sign_match_rate": 66.67,
-          "band_match_rate": 33.33,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 33.33
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        }
-      ],
-      "top_band_candidates": [
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_PRESSURE_BODY",
-          "source": "BORROWED",
-          "horizon": 2,
-          "features": [
-            "pressure_shape",
-            "set_relation",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 8,
-          "call_rate": 9.88,
-          "sign_match_rate": 62.5,
-          "band_match_rate": 50.0,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 4,
-              "rate": 50.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 2,
-              "rate": 25.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 12.5
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 12.5
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_PRESSURE_BODY",
-          "source": "BORROWED",
-          "horizon": 3,
-          "features": [
-            "pressure_shape",
-            "set_relation",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 8,
-          "call_rate": 9.88,
-          "sign_match_rate": 62.5,
-          "band_match_rate": 50.0,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 4,
-              "rate": 50.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 2,
-              "rate": 25.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 12.5
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 12.5
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_PRESSURE_BODY",
-          "source": "BORROWED",
-          "horizon": 5,
-          "features": [
-            "pressure_shape",
-            "set_relation",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 8,
-          "call_rate": 9.88,
-          "sign_match_rate": 62.5,
-          "band_match_rate": 50.0,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 4,
-              "rate": 50.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 2,
-              "rate": 25.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 12.5
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 12.5
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_PRESSURE_BODY",
-          "source": "BORROWED",
-          "horizon": 8,
-          "features": [
-            "pressure_shape",
-            "set_relation",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 8,
-          "call_rate": 9.88,
-          "sign_match_rate": 62.5,
-          "band_match_rate": 50.0,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 4,
-              "rate": 50.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 2,
-              "rate": 25.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 12.5
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 12.5
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_PRESSURE_BODY",
-          "source": "BORROWED",
-          "horizon": 13,
-          "features": [
-            "pressure_shape",
-            "set_relation",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 8,
-          "call_rate": 9.88,
-          "sign_match_rate": 62.5,
-          "band_match_rate": 50.0,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 4,
-              "rate": 50.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 2,
-              "rate": 25.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 12.5
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 12.5
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_PRESSURE_BODY",
-          "source": "BORROWED",
-          "horizon": 21,
-          "features": [
-            "pressure_shape",
-            "set_relation",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 8,
-          "call_rate": 9.88,
-          "sign_match_rate": 62.5,
-          "band_match_rate": 50.0,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 4,
-              "rate": 50.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 2,
-              "rate": 25.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 12.5
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 12.5
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_PRESSURE_BODY",
-          "source": "BORROWED",
-          "horizon": 34,
-          "features": [
-            "pressure_shape",
-            "set_relation",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 8,
-          "call_rate": 9.88,
-          "sign_match_rate": 62.5,
-          "band_match_rate": 50.0,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 4,
-              "rate": 50.0
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 2,
-              "rate": 25.0
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 12.5
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 12.5
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH_INCOMING",
-          "source": "BORROWED",
-          "horizon": 5,
-          "features": [
-            "world_previous_branch",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 56.25,
-          "band_match_rate": 37.5,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 6,
-              "rate": 37.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 5,
-              "rate": 31.25
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 31.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH_INCOMING",
-          "source": "BORROWED",
-          "horizon": 8,
-          "features": [
-            "world_previous_branch",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 56.25,
-          "band_match_rate": 37.5,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 6,
-              "rate": 37.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 5,
-              "rate": 31.25
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 31.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH_INCOMING",
-          "source": "BORROWED",
-          "horizon": 13,
-          "features": [
-            "world_previous_branch",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 56.25,
-          "band_match_rate": 37.5,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 6,
-              "rate": 37.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 5,
-              "rate": 31.25
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 31.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH_INCOMING",
-          "source": "BORROWED",
-          "horizon": 21,
-          "features": [
-            "world_previous_branch",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 56.25,
-          "band_match_rate": 37.5,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 6,
-              "rate": 37.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 5,
-              "rate": 31.25
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 31.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH_INCOMING",
-          "source": "BORROWED",
-          "horizon": 34,
-          "features": [
-            "world_previous_branch",
-            "incoming_draw_sign",
-            "dominant_incoming_draw_lane"
-          ],
-          "call_count": 16,
-          "call_rate": 19.75,
-          "sign_match_rate": 56.25,
-          "band_match_rate": 37.5,
-          "predicted_band_rank": [
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 6,
-              "rate": 37.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 5,
-              "rate": 31.25
-            },
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 5,
-              "rate": 31.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH",
-          "source": "BORROWED",
-          "horizon": 34,
-          "features": [
-            "world_previous_branch"
-          ],
-          "call_count": 80,
-          "call_rate": 98.77,
-          "sign_match_rate": 53.75,
-          "band_match_rate": 37.5,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 41,
-              "rate": 51.25
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 22,
-              "rate": 27.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 17,
-              "rate": 21.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "SMALL_BAND",
-          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH",
-          "source": "BORROWED",
-          "horizon": 21,
-          "features": [
-            "world_previous_branch"
-          ],
-          "call_count": 80,
-          "call_rate": 98.77,
-          "sign_match_rate": 51.25,
-          "band_match_rate": 36.25,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 37,
-              "rate": 46.25
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 26,
-              "rate": 32.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.75
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 2,
-              "rate": 2.5
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "OBSERVE_BAND",
-          "recipe": "GLOBAL_WORLD_BRANCH_STATE_PRESSURE",
-          "source": "BORROWED",
-          "horizon": 34,
-          "features": [
-            "world_previous_branch",
-            "world_freshest_branch",
-            "world_stalest_branch",
-            "map_pressure_type",
-            "pressure_balance",
-            "pressure_distribution"
-          ],
-          "call_count": 68,
-          "call_rate": 83.95,
-          "sign_match_rate": 47.06,
-          "band_match_rate": 33.82,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 39,
-              "rate": 57.35
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 14,
-              "rate": 20.59
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 6,
-              "rate": 8.82
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 4,
-              "rate": 5.88
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 4,
-              "rate": 5.88
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 1,
-              "rate": 1.47
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "OBSERVE_BAND",
-          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH",
-          "source": "BORROWED",
-          "horizon": 8,
-          "features": [
-            "world_previous_branch"
-          ],
-          "call_count": 80,
-          "call_rate": 98.77,
-          "sign_match_rate": 51.25,
-          "band_match_rate": 33.75,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 27,
-              "rate": 33.75
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 24,
-              "rate": 30.0
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 20,
-              "rate": 25.0
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 6,
-              "rate": 7.5
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 3,
-              "rate": 3.75
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "OBSERVE_BAND",
-          "recipe": "GLOBAL_WORLD_PREVIOUS_BRANCH",
-          "source": "BORROWED",
-          "horizon": 13,
-          "features": [
-            "world_previous_branch"
-          ],
-          "call_count": 80,
-          "call_rate": 98.77,
-          "sign_match_rate": 43.75,
-          "band_match_rate": 33.75,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 33,
-              "rate": 41.25
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 26,
-              "rate": 32.5
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 18,
-              "rate": 22.5
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 2,
-              "rate": 2.5
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 1,
-              "rate": 1.25
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "OBSERVE_BAND",
-          "recipe": "GLOBAL_PRESSURE_FUSION_BODY",
-          "source": "BORROWED",
-          "horizon": 2,
-          "features": [
-            "pressure_fusion",
-            "pressure_shape",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 3,
-          "call_rate": 3.7,
-          "sign_match_rate": 66.67,
-          "band_match_rate": 33.33,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 33.33
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "OBSERVE_BAND",
-          "recipe": "GLOBAL_PRESSURE_FUSION_BODY",
-          "source": "BORROWED",
-          "horizon": 3,
-          "features": [
-            "pressure_fusion",
-            "pressure_shape",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 3,
-          "call_rate": 3.7,
-          "sign_match_rate": 66.67,
-          "band_match_rate": 33.33,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 33.33
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
-            }
-          ]
-        },
-        {
-          "selector_type": "BROAD_BAND",
-          "quality": "OBSERVE_BAND",
-          "recipe": "GLOBAL_PRESSURE_FUSION_BODY",
-          "source": "BORROWED",
-          "horizon": 5,
-          "features": [
-            "pressure_fusion",
-            "pressure_shape",
-            "middle_pressure",
-            "edge_pressure"
-          ],
-          "call_count": 3,
-          "call_rate": 3.7,
-          "sign_match_rate": 66.67,
-          "band_match_rate": 33.33,
-          "predicted_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 1,
-              "rate": 33.33
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 1,
-              "rate": 33.33
-            }
-          ],
-          "actual_band_rank": [
-            {
-              "value": "CREST_ECHO_MOTION",
-              "count": 28,
-              "rate": 34.57
-            },
-            {
-              "value": "FATIGUED_MOTION",
-              "count": 18,
-              "rate": 22.22
-            },
-            {
-              "value": "TRANSITIONAL_MOTION",
-              "count": 15,
-              "rate": 18.52
-            },
-            {
-              "value": "DIRECTED_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CHAOTIC_MOTION",
-              "count": 7,
-              "rate": 8.64
-            },
-            {
-              "value": "CALM_MOTION",
-              "count": 6,
-              "rate": 7.41
             }
           ]
         }

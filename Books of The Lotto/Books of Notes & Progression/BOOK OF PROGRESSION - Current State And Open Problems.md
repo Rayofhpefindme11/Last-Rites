@@ -20161,3 +20161,167 @@ current incoming lane
 current burden lane
 current pressure topology
 ```
+
+## Broad Band 35-Class Draw/Motion Exposure
+
+Date:
+
+```text
+2026-06-22
+```
+
+Added live-safe case fields:
+
+```text
+incoming_motion_gauge_pattern
+incoming_motion_gauge_range_pattern
+incoming_motion_class_pattern
+incoming_lane_seat_path
+authority_incoming_gauge
+authority_incoming_gauge_range
+authority_incoming_class
+authority_incoming_sign
+draw_order_band_pattern
+draw_order_pattern
+draw_transfer_pattern
+draw_direction_pattern
+draw_style
+draw_turn_count
+draw_max_abs_lane
+draw_max_abs_role
+draw_max_abs_distance
+draw_lane_band_path
+pressure_gauge_shape
+burden_gauge_shape
+dominant_pressure_gauge
+smallest_pressure_gauge
+highest_burden_gauge_range
+smallest_burden_gauge
+smallest_burden_gauge_range
+structural_pressure_total
+dynamic_pressure_total
+sorted_pressure
+draw_pressure
+pressure_flow
+```
+
+Purpose:
+
+```text
+Expose more draw-form and motion-form 35-class material before the broad band selector.
+
+The target is not to use current outgoing motion.
+The target is to let the current incoming draw shape and 35-class pressure/burden gauges explain which broad outgoing band the room wants.
+```
+
+Recipe additions:
+
+```text
+DRAW_FACE_35
+DRAW_ROUTE_35
+INCOMING_MOTION_35
+AUTHORITY_INCOMING_35
+PRESSURE_GAUGE_35
+BURDEN_GAUGE_35
+DRAW_PRESSURE_35
+DRAW_INCOMING_PRESSURE_35
+
+and matching trait-signal recipes:
+
+CURRENT_INCOMING_35
+CURRENT_AUTHORITY_INCOMING_35
+CURRENT_DRAW_FACE_35
+CURRENT_DRAW_ROUTE_35
+CURRENT_PRESSURE_GAUGE_35
+CURRENT_BURDEN_GAUGE_35
+CURRENT_DRAW_PRESSURE_35
+REF_BAND_CURRENT_INCOMING_35
+REF_BAND_CURRENT_AUTHORITY_INCOMING_35
+REF_BAND_CURRENT_DRAW_FACE_35
+REF_BAND_CURRENT_DRAW_ROUTE_35
+REF_BAND_CURRENT_PRESSURE_GAUGE_35
+REF_BAND_CURRENT_BURDEN_GAUGE_35
+REF_TRAIT_CURRENT_INCOMING_35
+REF_TRAIT_CURRENT_DRAW_FACE_35
+REF_TRAIT_CURRENT_BURDEN_GAUGE_35
+```
+
+Broad board result:
+
+```text
+The full world motion selector board did not materially change its broad-band counts.
+
+broad_band:
+SMALL_BAND   11
+USABLE_BAND   7
+
+The main board still prefers older broad recipes for most worlds.
+```
+
+Trait-signal result after 35-class exposure:
+
+```text
+TRAIT_DEVELOPING            1
+TRAIT_SHARP_LOW_COVERAGE    1
+TRAIT_SMALL                 7
+TRAIT_OBSERVE               1
+```
+
+Main upgrades:
+
+```text
+Medusa
+before:
+TRAIT_WEAK
+Lumina last band + Lumina last branch/lane + current burden
+9 calls / 44.44% band
+
+after:
+TRAIT_SMALL
+Scathach last band + Scathach last branch/lane + current burden gauge 35
+5 calls / 60.00% band
+
+Alcides
+before:
+TRAIT_OBSERVE
+current pressure body
+4 calls / 75.00% band
+
+after:
+TRAIT_SMALL
+Consort Yu last band + Consort Yu last branch/lane + current burden gauge 35
+5 calls / 60.00% band
+
+Suzuka
+before:
+6 calls / 50.00% band
+
+after:
+Rama last band + Rama last branch/lane + current burden gauge 35
+3 calls / 66.67% band
+```
+
+Read:
+
+```text
+The 35-class draw/motion metrics are not yet a full-coverage solution.
+
+They are sharp tell material.
+
+They improve the trait layer more than the baseline coverage layer.
+That means they should be used as first-pass high-specificity triggers,
+not as broad fallback replacement.
+```
+
+Next build target:
+
+```text
+Build layered broad-band resolver order:
+
+1. 35-class trait signal when present
+2. older sharp world band selector
+3. usable coverage ladder
+4. weak ladder as observation only
+
+Then retest whether Medusa, Alcides, Suzuka, Lumina, Nova, Artoria, Citrine, Altera, Nirvana, and Circe gain useful exact broad-band coverage.
+```
