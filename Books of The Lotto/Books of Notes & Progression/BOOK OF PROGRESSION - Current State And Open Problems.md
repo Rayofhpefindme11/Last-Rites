@@ -19554,9 +19554,9 @@ Board quality:
 
 ```text
 Branch:
-STRONG_EXACT 3
-USABLE_EXACT 5
-SMALL_EXACT 10
+STRONG_EXACT 4
+USABLE_EXACT 13
+SMALL_EXACT 1
 
 Sign:
 USABLE_SIGN 10
@@ -19571,9 +19571,25 @@ SMALL_BAND 11
 Read:
 
 ```text
-The branch layer is usable but still has small-sample worlds.
+The branch layer is now broadly usable.
+The only remaining SMALL_EXACT branch world is Scathach.
 The sign layer is healthier than expected.
 The broad-band layer is the current bottleneck.
+```
+
+Branch upgrade note:
+
+```text
+The branch board now treats 5-call exact rooms as usable when the exact/family rates are strong enough.
+This matches the current project threshold where low sample is under 3, not under 10.
+
+Small exact dropped:
+
+before: 10
+after:  1
+
+Range-confirmation candidates can now participate at 3+ calls, but evidence tier wins before raw percentage.
+This prevents 3-call 100% rooms from replacing steadier 5+ call usable selectors.
 ```
 
 Current per-world board:
@@ -19585,27 +19601,27 @@ sign GLOBAL_WORLD_BRANCH_STATE_COLLISION | WORLD | h3 | 10 calls | 80.00%
 band GLOBAL_AUTHORITY_INCOMING_FAMILY | BORROWED | h3 | 5 calls | 60.00%
 
 Alcides
-branch WORLD_PREVIOUS_BRANCH_INCOMING | SMALL_EXACT | 80.00 exact / 80.00 family
+branch WORLD_PREVIOUS_BRANCH_INCOMING | STRONG_EXACT | 80.00 exact / 80.00 family
 sign GLOBAL_WORLD_PREVIOUS_FAMILY_INCOMING | BORROWED | h5 | 14 calls | 92.86%
 band GLOBAL_WORLD_BRANCH_STATE_PRESSURE | WORLD | h2 | 18 calls | 38.89%
 
 Tomoe Gozen
-branch WORLD_BRANCH_STATE_COLLISION | SMALL_EXACT | 80.00 exact / 80.00 family
+branch WORLD_BRANCH_STATE_COLLISION | STRONG_EXACT | 80.00 exact / 80.00 family
 sign GLOBAL_PRESSURE_FUSION | BORROWED | h13 | 5 calls | 100.00%
 band GLOBAL_WORLD_PREVIOUS_BRANCH | BORROWED | h5 | 6 calls | 66.67%
 
 Rama
-branch WORLD_PREVIOUS_FAMILY | SMALL_EXACT | 77.78 exact / 77.78 family
+branch WORLD_PREVIOUS_FAMILY | USABLE_EXACT | 77.78 exact / 77.78 family
 sign GLOBAL_WORLD_BRANCH_STATE_PRESSURE | BORROWED | h8 | 6 calls | 83.33%
 band GLOBAL_AUTH_COLLISION_PRESSURE | WORLD | h3 | 11 calls | 54.55%
 
 Nyx
-branch WORLD_BRANCH_STATE_COLLISION | SMALL_EXACT | 75.00 exact / 75.00 family
+branch WORLD_BRANCH_STATE_COLLISION | USABLE_EXACT | 75.00 exact / 75.00 family
 sign GLOBAL_PRESSURE_FUSION | BORROWED | h3 | 8 calls | 87.50%
 band GLOBAL_WORLD_PREVIOUS_FAMILY_BURDEN | BORROWED | h5 | 8 calls | 75.00%
 
 Nirvana
-branch COLLISION_AUTHORITY | SMALL_EXACT | 71.43 exact / 100.00 family
+branch COLLISION_AUTHORITY | USABLE_EXACT | 71.43 exact / 100.00 family
 sign GLOBAL_ORIGIN_PRESSURE_TOPOLOGY | BORROWED | h3 | 11 calls | 81.82%
 band GLOBAL_FACE_TURNS | BORROWED | h5 | 30 calls | 46.67%
 
@@ -19625,7 +19641,7 @@ sign GLOBAL_AUTHORITY_INCOMING | WORLD | h2 | 4 calls | 75.00%
 band GLOBAL_DOMINANT_ORIGIN_INCOMING | BORROWED | h3 | 17 calls | 47.06%
 
 Altera
-branch FACE_INCOMING | SMALL_EXACT | 66.67 exact / 83.33 family
+branch FACE_INCOMING | USABLE_EXACT | 66.67 exact / 83.33 family
 sign GLOBAL_WORLD_FRESHEST_BRANCH_BURDEN | WORLD | h8 | 22 calls | 77.27%
 band GLOBAL_FACE_INCOMING | BORROWED | h3 | 6 calls | 50.00%
 
@@ -19635,7 +19651,7 @@ sign GLOBAL_WORLD_PREVIOUS_FAMILY_INCOMING | WORLD | h2 | 11 calls | 90.91%
 band GLOBAL_PRESSURE_FUSION_BODY | BORROWED | h3 | 10 calls | 40.00%
 
 Nero
-branch WORLD_STALEST_BRANCH_BURDEN | SMALL_EXACT | 60.00 exact / 80.00 family
+branch WORLD_STALEST_BRANCH_BURDEN | USABLE_EXACT | 60.00 exact / 80.00 family
 sign GLOBAL_BURDEN | BORROWED | h5 | 5 calls | 100.00%
 band GLOBAL_AUTHORITY | BORROWED | h21 | 6 calls | 83.33%
 
@@ -19645,17 +19661,17 @@ sign GLOBAL_AUTH_FACE | BORROWED | h3 | 5 calls | 100.00%
 band GLOBAL_AUTH_FACE | BORROWED | h3 | 5 calls | 60.00%
 
 Lumina
-branch BODY_INCOMING | STRONG_EXACT | 60.00 exact / 86.67 family
+branch BODY_INCOMING | USABLE_EXACT | 60.00 exact / 86.67 family
 sign GLOBAL_AUTH_BURDEN_INCOMING | BORROWED | h2 | 12 calls | 91.67%
 band GLOBAL_AUTH_PRESSURE_BODY | WORLD | h2 | 10 calls | 50.00%
 
 Karna
-branch COLLISION_PRESSURE_TOPOLOGY | SMALL_EXACT | 60.00 exact / 80.00 family
+branch COLLISION_PRESSURE_TOPOLOGY | USABLE_EXACT | 60.00 exact / 80.00 family
 sign GLOBAL_BURDEN_ORIGIN | BORROWED | h34 | 21 calls | 85.71%
 band GLOBAL_COLLISION_BURDEN | BORROWED | h8 | 20 calls | 60.00%
 
 Citrine
-branch PRESSURE_BODY | SMALL_EXACT | 60.00 exact / 80.00 family
+branch PRESSURE_BODY | USABLE_EXACT | 60.00 exact / 80.00 family
 sign GLOBAL_PRESSURE_INCOMING | BORROWED | h2 | 6 calls | 83.33%
 band GLOBAL_AUTHORITY_INCOMING_FAMILY | BORROWED | h2 | 6 calls | 50.00%
 

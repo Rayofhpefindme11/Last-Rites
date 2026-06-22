@@ -32,6 +32,17 @@ DEFAULT_OUTPUT_PATH = (
     / "selector_priority_board_exact_family_range_min2_2015-10-07.json"
 )
 
+QUALITY_RANK = {
+    "COMPLETE_EXACT": 6,
+    "STRONG_EXACT": 5,
+    "USABLE_EXACT": 4,
+    "SMALL_PROMISING_EXACT": 3,
+    "SMALL_EXACT": 2,
+    "FAMILY_STRONG": 2,
+    "FAMILY_USABLE": 1,
+    "OBSERVE": 0,
+}
+
 
 def read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -55,10 +66,16 @@ def branch_quality(row: dict[str, Any]) -> str:
     family = rate(row, "family_match_rate")
     if calls >= 25 and exact >= 70 and family >= 90:
         return "COMPLETE_EXACT"
-    if calls >= 10 and exact >= 60 and family >= 80:
+    if calls >= 5 and exact >= 80 and family >= 80:
         return "STRONG_EXACT"
+    if calls >= 10 and exact >= 70 and family >= 80:
+        return "STRONG_EXACT"
+    if calls >= 5 and exact >= 60 and family >= 65:
+        return "USABLE_EXACT"
     if calls >= 10 and exact >= 55 and family >= 65:
         return "USABLE_EXACT"
+    if calls >= 3 and exact >= 60 and family >= 80:
+        return "SMALL_PROMISING_EXACT"
     if exact >= 60:
         return "SMALL_EXACT"
     if family >= 80:
@@ -136,14 +153,18 @@ def choose_candidate(
         if candidate is not None and count(candidate) >= min_range_calls
     )
     best = base
+    best_quality = branch_quality(base)
     best_key = (
+        QUALITY_RANK[best_quality],
         rate(base, "branch_match_rate"),
         rate(base, "family_match_rate"),
         rate(base, "sign_match_rate"),
         count(base),
     )
     for candidate in viable[1:]:
+        quality = branch_quality(candidate)
         candidate_key = (
+            QUALITY_RANK[quality],
             rate(candidate, "branch_match_rate"),
             rate(candidate, "family_match_rate"),
             rate(candidate, "sign_match_rate"),
@@ -168,7 +189,10 @@ def build_board(
         if row.get("selected_upgrade_recipe")
     }
     range_by_world = {
-        str(row["topology_name"]): row.get("selected_useful_range_candidate")
+        str(row["topology_name"]): (
+            row.get("selected_useful_range_candidate")
+            or row.get("selected_range_candidate")
+        )
         for row in range_payload.get("world_reports", [])
     }
     edge_by_world = {}
@@ -253,7 +277,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--range-audit", type=Path, default=DEFAULT_RANGE_AUDIT)
     parser.add_argument("--edge-audit", type=Path, default=DEFAULT_EDGE_AUDIT)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH)
-    parser.add_argument("--min-range-calls", type=int, default=10)
+    parser.add_argument("--min-range-calls", type=int, default=3)
     parser.add_argument("--print-summary", action="store_true")
     return parser
 

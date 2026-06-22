@@ -14,9 +14,9 @@
   "world_count": 18,
   "quality_counts": {
     "branch": {
-      "STRONG_EXACT": 3,
-      "SMALL_EXACT": 10,
-      "USABLE_EXACT": 5
+      "STRONG_EXACT": 4,
+      "USABLE_EXACT": 13,
+      "SMALL_EXACT": 1
     },
     "sign": {
       "USABLE_SIGN": 10,
@@ -3358,12 +3358,12 @@
       "topology_name": "Tomoe Gozen",
       "branch_selector": {
         "selector_type": "BRANCH",
-        "quality": "SMALL_EXACT",
-        "layer": "BRANCH_SELECTOR",
+        "quality": "STRONG_EXACT",
+        "layer": "RANGE_CONFIRMATION",
         "signal": "WORLD_BRANCH_STATE_COLLISION",
-        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
-        "horizon": 3,
-        "final_mode": null,
+        "source": "BORROWED",
+        "horizon": 2,
+        "final_mode": "SIGN",
         "features": [
           "world_previous_branch",
           "world_freshest_branch",
@@ -3374,7 +3374,7 @@
         "call_count": 5,
         "branch_match_rate": 80.0,
         "family_match_rate": 80.0,
-        "sign_match_rate": null
+        "sign_match_rate": 80.0
       },
       "sign_selector": {
         "selector_type": "SIGN",
@@ -5433,7 +5433,7 @@
       "topology_name": "Alcides",
       "branch_selector": {
         "selector_type": "BRANCH",
-        "quality": "SMALL_EXACT",
+        "quality": "STRONG_EXACT",
         "layer": "BRANCH_SELECTOR",
         "signal": "WORLD_PREVIOUS_BRANCH_INCOMING",
         "source": "BORROWED_ANALOG_FEATURE_RECIPE",
@@ -8388,7 +8388,7 @@
       "topology_name": "Rama",
       "branch_selector": {
         "selector_type": "BRANCH",
-        "quality": "SMALL_EXACT",
+        "quality": "USABLE_EXACT",
         "layer": "BRANCH_SELECTOR",
         "signal": "WORLD_PREVIOUS_FAMILY",
         "source": "WEAK_WORLD_FEATURE_RECIPE",
@@ -10803,7 +10803,7 @@
       "topology_name": "Nyx",
       "branch_selector": {
         "selector_type": "BRANCH",
-        "quality": "SMALL_EXACT",
+        "quality": "USABLE_EXACT",
         "layer": "BRANCH_SELECTOR",
         "signal": "WORLD_BRANCH_STATE_COLLISION",
         "source": "BORROWED_ANALOG_FEATURE_RECIPE",
@@ -13495,7 +13495,7 @@
       "topology_name": "Nirvana",
       "branch_selector": {
         "selector_type": "BRANCH",
-        "quality": "SMALL_EXACT",
+        "quality": "USABLE_EXACT",
         "layer": "BRANCH_SELECTOR",
         "signal": "COLLISION_AUTHORITY",
         "source": "WEAK_WORLD_FEATURE_RECIPE",
@@ -25095,7 +25095,7 @@
       "topology_name": "Altera",
       "branch_selector": {
         "selector_type": "BRANCH",
-        "quality": "SMALL_EXACT",
+        "quality": "USABLE_EXACT",
         "layer": "BRANCH_SELECTOR",
         "signal": "FACE_INCOMING",
         "source": "BORROWED_ANALOG_FEATURE_RECIPE",
@@ -31203,7 +31203,7 @@
       "topology_name": "Nero",
       "branch_selector": {
         "selector_type": "BRANCH",
-        "quality": "SMALL_EXACT",
+        "quality": "USABLE_EXACT",
         "layer": "BRANCH_SELECTOR",
         "signal": "WORLD_STALEST_BRANCH_BURDEN",
         "source": "BORROWED_ANALOG_FEATURE_RECIPE",
@@ -35337,7 +35337,7 @@
       "topology_name": "Lumina",
       "branch_selector": {
         "selector_type": "BRANCH",
-        "quality": "STRONG_EXACT",
+        "quality": "USABLE_EXACT",
         "layer": "RANGE_CONFIRMATION",
         "signal": "BODY_INCOMING",
         "source": "WORLD",
@@ -38601,7 +38601,7 @@
       "topology_name": "Karna",
       "branch_selector": {
         "selector_type": "BRANCH",
-        "quality": "SMALL_EXACT",
+        "quality": "USABLE_EXACT",
         "layer": "BRANCH_SELECTOR",
         "signal": "COLLISION_PRESSURE_TOPOLOGY",
         "source": "BORROWED_ANALOG_FEATURE_RECIPE",
@@ -41195,7 +41195,7 @@
       "topology_name": "Citrine",
       "branch_selector": {
         "selector_type": "BRANCH",
-        "quality": "SMALL_EXACT",
+        "quality": "USABLE_EXACT",
         "layer": "BRANCH_SELECTOR",
         "signal": "PRESSURE_BODY",
         "source": "BORROWED_ANALOG_FEATURE_RECIPE",
