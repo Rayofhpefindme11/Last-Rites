@@ -1,0 +1,6923 @@
+{
+  "audit_name": "WEAK_WORLD_SELECTOR_UPGRADE_AUDIT",
+  "case_count": 1076,
+  "world_count": 10,
+  "worlds": [
+    "Kurohime",
+    "Scathach",
+    "Altera",
+    "Lumina",
+    "Nirvana",
+    "Citrine",
+    "Circe",
+    "Irisviel",
+    "Medusa",
+    "Suzuka"
+  ],
+  "horizons": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    13,
+    21,
+    34
+  ],
+  "min_prior": 1,
+  "upgrade_status_counts": {
+    "EXACT_SELECTOR": 5,
+    "DIRECTIONAL_SELECTOR": 2,
+    "FAMILY_SELECTOR": 3
+  },
+  "world_reports": [
+    {
+      "topology_name": "Kurohime",
+      "case_count": 16,
+      "actual_branch_rank": [
+        {
+          "value": "S5",
+          "count": 6,
+          "rate": 37.5
+        },
+        {
+          "value": "S1",
+          "count": 5,
+          "rate": 31.25
+        },
+        {
+          "value": "S4",
+          "count": 3,
+          "rate": 18.75
+        },
+        {
+          "value": "S2",
+          "count": 1,
+          "rate": 6.25
+        },
+        {
+          "value": "S3",
+          "count": 1,
+          "rate": 6.25
+        }
+      ],
+      "actual_family_rank": [
+        {
+          "value": "EDGE_FAMILY",
+          "count": 11,
+          "rate": 68.75
+        },
+        {
+          "value": "HINGE_FAMILY",
+          "count": 4,
+          "rate": 25.0
+        },
+        {
+          "value": "CENTER_FAMILY",
+          "count": 1,
+          "rate": 6.25
+        }
+      ],
+      "selected_upgrade_recipe": {
+        "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+        "signal": "COLLISION",
+        "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+        "horizon": 1,
+        "topology_name": "Kurohime",
+        "features": [
+          "collision_seat",
+          "collision_type"
+        ],
+        "test_count": 16,
+        "call_count": 6,
+        "call_rate": 37.5,
+        "branch_matches": 5,
+        "branch_match_rate": 83.33,
+        "family_matches": 5,
+        "family_match_rate": 83.33,
+        "avg_prior_count": 1.0,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "top_upgrade_candidates": [
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Kurohime",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 16,
+          "call_count": 6,
+          "call_rate": 37.5,
+          "branch_matches": 5,
+          "branch_match_rate": 83.33,
+          "family_matches": 5,
+          "family_match_rate": 83.33,
+          "avg_prior_count": 1.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Kurohime",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 16,
+          "call_count": 6,
+          "call_rate": 37.5,
+          "branch_matches": 5,
+          "branch_match_rate": 83.33,
+          "family_matches": 5,
+          "family_match_rate": 83.33,
+          "avg_prior_count": 1.33,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 3,
+          "topology_name": "Kurohime",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 16,
+          "call_count": 6,
+          "call_rate": 37.5,
+          "branch_matches": 5,
+          "branch_match_rate": 83.33,
+          "family_matches": 5,
+          "family_match_rate": 83.33,
+          "avg_prior_count": 1.5,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Kurohime",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 16,
+          "call_count": 6,
+          "call_rate": 37.5,
+          "branch_matches": 5,
+          "branch_match_rate": 83.33,
+          "family_matches": 5,
+          "family_match_rate": 83.33,
+          "avg_prior_count": 1.5,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Kurohime",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 16,
+          "call_count": 6,
+          "call_rate": 37.5,
+          "branch_matches": 5,
+          "branch_match_rate": 83.33,
+          "family_matches": 5,
+          "family_match_rate": 83.33,
+          "avg_prior_count": 1.5,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Kurohime",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 16,
+          "call_count": 6,
+          "call_rate": 37.5,
+          "branch_matches": 5,
+          "branch_match_rate": 83.33,
+          "family_matches": 5,
+          "family_match_rate": 83.33,
+          "avg_prior_count": 1.5,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Kurohime",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 16,
+          "call_count": 6,
+          "call_rate": 37.5,
+          "branch_matches": 5,
+          "branch_match_rate": 83.33,
+          "family_matches": 5,
+          "family_match_rate": 83.33,
+          "avg_prior_count": 1.5,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Kurohime",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 16,
+          "call_count": 6,
+          "call_rate": 37.5,
+          "branch_matches": 5,
+          "branch_match_rate": 83.33,
+          "family_matches": 5,
+          "family_match_rate": 83.33,
+          "avg_prior_count": 1.5,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "BURDEN_PRESSURE_TOPOLOGY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Kurohime",
+          "features": [
+            "highest_burden_seat",
+            "highest_burden_state",
+            "map_pressure_type",
+            "pressure_center",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 16,
+          "call_count": 7,
+          "call_rate": 43.75,
+          "branch_matches": 5,
+          "branch_match_rate": 71.43,
+          "family_matches": 6,
+          "family_match_rate": 85.71,
+          "avg_prior_count": 1.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "BURDEN_PRESSURE_TOPOLOGY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Kurohime",
+          "features": [
+            "highest_burden_seat",
+            "highest_burden_state",
+            "map_pressure_type",
+            "pressure_center",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 16,
+          "call_count": 7,
+          "call_rate": 43.75,
+          "branch_matches": 5,
+          "branch_match_rate": 71.43,
+          "family_matches": 6,
+          "family_match_rate": 85.71,
+          "avg_prior_count": 1.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Kurohime",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 16,
+          "call_count": 14,
+          "call_rate": 87.5,
+          "branch_matches": 9,
+          "branch_match_rate": 64.29,
+          "family_matches": 10,
+          "family_match_rate": 71.43,
+          "avg_prior_count": 1.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Kurohime",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 16,
+          "call_count": 16,
+          "call_rate": 100.0,
+          "branch_matches": 10,
+          "branch_match_rate": 62.5,
+          "family_matches": 14,
+          "family_match_rate": 87.5,
+          "avg_prior_count": 1.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        }
+      ],
+      "range_profiles": [
+        {
+          "count": 6,
+          "signed_motion_min": -62,
+          "signed_motion_max": -33,
+          "signed_motion_median": -46.0,
+          "abs_motion_min": 33,
+          "abs_motion_max": 62,
+          "abs_motion_median": 46.0,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 6,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D5",
+              "count": 3,
+              "rate": 50.0
+            },
+            {
+              "value": "D1",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "D3",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "D2",
+              "count": 1,
+              "rate": 16.67
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-51",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-62",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-40",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-44",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-48",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-33",
+              "count": 1,
+              "rate": 16.67
+            }
+          ],
+          "branch": "S5"
+        },
+        {
+          "count": 5,
+          "signed_motion_min": -25,
+          "signed_motion_max": 52,
+          "signed_motion_median": 35,
+          "abs_motion_min": 25,
+          "abs_motion_max": 52,
+          "abs_motion_median": 35,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 4,
+              "rate": 80.0
+            },
+            {
+              "value": "-",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D4",
+              "count": 3,
+              "rate": 60.0
+            },
+            {
+              "value": "D5",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "D1",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "52",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "-25",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "33",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "35",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "49",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "branch": "S1"
+        }
+      ]
+    },
+    {
+      "topology_name": "Medusa",
+      "case_count": 219,
+      "actual_branch_rank": [
+        {
+          "value": "S1",
+          "count": 67,
+          "rate": 30.59
+        },
+        {
+          "value": "S5",
+          "count": 52,
+          "rate": 23.74
+        },
+        {
+          "value": "S4",
+          "count": 39,
+          "rate": 17.81
+        },
+        {
+          "value": "S2",
+          "count": 37,
+          "rate": 16.89
+        },
+        {
+          "value": "S3",
+          "count": 24,
+          "rate": 10.96
+        }
+      ],
+      "actual_family_rank": [
+        {
+          "value": "EDGE_FAMILY",
+          "count": 119,
+          "rate": 54.34
+        },
+        {
+          "value": "HINGE_FAMILY",
+          "count": 76,
+          "rate": 34.7
+        },
+        {
+          "value": "CENTER_FAMILY",
+          "count": 24,
+          "rate": 10.96
+        }
+      ],
+      "selected_upgrade_recipe": {
+        "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "signal": "COLLISION_PRESSURE_BODY",
+        "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+        "horizon": 1,
+        "topology_name": "Medusa",
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "pressure_shape",
+          "set_relation",
+          "middle_pressure",
+          "edge_pressure"
+        ],
+        "test_count": 219,
+        "call_count": 11,
+        "call_rate": 5.02,
+        "branch_matches": 7,
+        "branch_match_rate": 63.64,
+        "family_matches": 8,
+        "family_match_rate": 72.73,
+        "avg_prior_count": 1.0,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "MODERATE_SAMPLE"
+      },
+      "top_upgrade_candidates": [
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_PRESSURE_BODY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 219,
+          "call_count": 11,
+          "call_rate": 5.02,
+          "branch_matches": 7,
+          "branch_match_rate": 63.64,
+          "family_matches": 8,
+          "family_match_rate": 72.73,
+          "avg_prior_count": 1.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 219,
+          "call_count": 197,
+          "call_rate": 89.95,
+          "branch_matches": 82,
+          "branch_match_rate": 41.62,
+          "family_matches": 134,
+          "family_match_rate": 68.02,
+          "avg_prior_count": 8.52,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 219,
+          "call_count": 170,
+          "call_rate": 77.63,
+          "branch_matches": 70,
+          "branch_match_rate": 41.18,
+          "family_matches": 114,
+          "family_match_rate": 67.06,
+          "avg_prior_count": 3.55,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 219,
+          "call_count": 197,
+          "call_rate": 89.95,
+          "branch_matches": 78,
+          "branch_match_rate": 39.59,
+          "family_matches": 133,
+          "family_match_rate": 67.51,
+          "avg_prior_count": 13.16,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 219,
+          "call_count": 170,
+          "call_rate": 77.63,
+          "branch_matches": 67,
+          "branch_match_rate": 39.41,
+          "family_matches": 113,
+          "family_match_rate": 66.47,
+          "avg_prior_count": 5.52,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 219,
+          "call_count": 170,
+          "call_rate": 77.63,
+          "branch_matches": 67,
+          "branch_match_rate": 39.41,
+          "family_matches": 113,
+          "family_match_rate": 66.47,
+          "avg_prior_count": 5.95,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 219,
+          "call_count": 170,
+          "call_rate": 77.63,
+          "branch_matches": 67,
+          "branch_match_rate": 39.41,
+          "family_matches": 113,
+          "family_match_rate": 66.47,
+          "avg_prior_count": 5.99,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 219,
+          "call_count": 197,
+          "call_rate": 89.95,
+          "branch_matches": 77,
+          "branch_match_rate": 39.09,
+          "family_matches": 134,
+          "family_match_rate": 68.02,
+          "avg_prior_count": 11.09,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_BURDEN_ORIGIN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "dominant_origin_seat",
+            "authority_origin"
+          ],
+          "test_count": 219,
+          "call_count": 170,
+          "call_rate": 77.63,
+          "branch_matches": 66,
+          "branch_match_rate": 38.82,
+          "family_matches": 115,
+          "family_match_rate": 67.65,
+          "avg_prior_count": 5.49,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 219,
+          "call_count": 204,
+          "call_rate": 93.15,
+          "branch_matches": 79,
+          "branch_match_rate": 38.73,
+          "family_matches": 137,
+          "family_match_rate": 67.16,
+          "avg_prior_count": 4.37,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 219,
+          "call_count": 218,
+          "call_rate": 99.54,
+          "branch_matches": 84,
+          "branch_match_rate": 38.53,
+          "family_matches": 152,
+          "family_match_rate": 69.72,
+          "avg_prior_count": 26.27,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 3,
+          "topology_name": "Medusa",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 219,
+          "call_count": 170,
+          "call_rate": 77.63,
+          "branch_matches": 65,
+          "branch_match_rate": 38.24,
+          "family_matches": 116,
+          "family_match_rate": 68.24,
+          "avg_prior_count": 2.49,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        }
+      ],
+      "range_profiles": [
+        {
+          "count": 67,
+          "signed_motion_min": -20,
+          "signed_motion_max": 68,
+          "signed_motion_median": 46,
+          "abs_motion_min": 16,
+          "abs_motion_max": 68,
+          "abs_motion_median": 46,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 65,
+              "rate": 97.01
+            },
+            {
+              "value": "-",
+              "count": 2,
+              "rate": 2.99
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D2",
+              "count": 19,
+              "rate": 28.36
+            },
+            {
+              "value": "D3",
+              "count": 14,
+              "rate": 20.9
+            },
+            {
+              "value": "D1",
+              "count": 13,
+              "rate": 19.4
+            },
+            {
+              "value": "D5",
+              "count": 12,
+              "rate": 17.91
+            },
+            {
+              "value": "D4",
+              "count": 9,
+              "rate": 13.43
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "47",
+              "count": 4,
+              "rate": 5.97
+            },
+            {
+              "value": "56",
+              "count": 4,
+              "rate": 5.97
+            },
+            {
+              "value": "51",
+              "count": 4,
+              "rate": 5.97
+            },
+            {
+              "value": "38",
+              "count": 4,
+              "rate": 5.97
+            },
+            {
+              "value": "53",
+              "count": 4,
+              "rate": 5.97
+            },
+            {
+              "value": "45",
+              "count": 3,
+              "rate": 4.48
+            },
+            {
+              "value": "46",
+              "count": 3,
+              "rate": 4.48
+            },
+            {
+              "value": "39",
+              "count": 3,
+              "rate": 4.48
+            },
+            {
+              "value": "58",
+              "count": 3,
+              "rate": 4.48
+            },
+            {
+              "value": "30",
+              "count": 2,
+              "rate": 2.99
+            }
+          ],
+          "branch": "S1"
+        },
+        {
+          "count": 52,
+          "signed_motion_min": -66,
+          "signed_motion_max": 27,
+          "signed_motion_median": -43.0,
+          "abs_motion_min": 16,
+          "abs_motion_max": 66,
+          "abs_motion_median": 43.0,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 49,
+              "rate": 94.23
+            },
+            {
+              "value": "+",
+              "count": 3,
+              "rate": 5.77
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D3",
+              "count": 13,
+              "rate": 25.0
+            },
+            {
+              "value": "D5",
+              "count": 11,
+              "rate": 21.15
+            },
+            {
+              "value": "D2",
+              "count": 11,
+              "rate": 21.15
+            },
+            {
+              "value": "D4",
+              "count": 9,
+              "rate": 17.31
+            },
+            {
+              "value": "D1",
+              "count": 8,
+              "rate": 15.38
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-43",
+              "count": 4,
+              "rate": 7.69
+            },
+            {
+              "value": "-39",
+              "count": 3,
+              "rate": 5.77
+            },
+            {
+              "value": "-58",
+              "count": 3,
+              "rate": 5.77
+            },
+            {
+              "value": "-60",
+              "count": 3,
+              "rate": 5.77
+            },
+            {
+              "value": "-66",
+              "count": 3,
+              "rate": 5.77
+            },
+            {
+              "value": "-53",
+              "count": 2,
+              "rate": 3.85
+            },
+            {
+              "value": "-61",
+              "count": 2,
+              "rate": 3.85
+            },
+            {
+              "value": "-42",
+              "count": 2,
+              "rate": 3.85
+            },
+            {
+              "value": "-30",
+              "count": 2,
+              "rate": 3.85
+            },
+            {
+              "value": "-56",
+              "count": 2,
+              "rate": 3.85
+            }
+          ],
+          "branch": "S5"
+        },
+        {
+          "count": 39,
+          "signed_motion_min": -65,
+          "signed_motion_max": 42,
+          "signed_motion_median": -37,
+          "abs_motion_min": 13,
+          "abs_motion_max": 65,
+          "abs_motion_median": 39,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 35,
+              "rate": 89.74
+            },
+            {
+              "value": "+",
+              "count": 4,
+              "rate": 10.26
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D4",
+              "count": 14,
+              "rate": 35.9
+            },
+            {
+              "value": "D1",
+              "count": 10,
+              "rate": 25.64
+            },
+            {
+              "value": "D3",
+              "count": 6,
+              "rate": 15.38
+            },
+            {
+              "value": "D2",
+              "count": 5,
+              "rate": 12.82
+            },
+            {
+              "value": "D5",
+              "count": 4,
+              "rate": 10.26
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-34",
+              "count": 3,
+              "rate": 7.69
+            },
+            {
+              "value": "-44",
+              "count": 3,
+              "rate": 7.69
+            },
+            {
+              "value": "-49",
+              "count": 2,
+              "rate": 5.13
+            },
+            {
+              "value": "-37",
+              "count": 2,
+              "rate": 5.13
+            },
+            {
+              "value": "-58",
+              "count": 2,
+              "rate": 5.13
+            },
+            {
+              "value": "-32",
+              "count": 2,
+              "rate": 5.13
+            },
+            {
+              "value": "-36",
+              "count": 1,
+              "rate": 2.56
+            },
+            {
+              "value": "-53",
+              "count": 1,
+              "rate": 2.56
+            },
+            {
+              "value": "-40",
+              "count": 1,
+              "rate": 2.56
+            },
+            {
+              "value": "42",
+              "count": 1,
+              "rate": 2.56
+            }
+          ],
+          "branch": "S4"
+        },
+        {
+          "count": 37,
+          "signed_motion_min": -52,
+          "signed_motion_max": 62,
+          "signed_motion_median": 37,
+          "abs_motion_min": 18,
+          "abs_motion_max": 62,
+          "abs_motion_median": 37,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 30,
+              "rate": 81.08
+            },
+            {
+              "value": "-",
+              "count": 7,
+              "rate": 18.92
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D2",
+              "count": 11,
+              "rate": 29.73
+            },
+            {
+              "value": "D4",
+              "count": 8,
+              "rate": 21.62
+            },
+            {
+              "value": "D3",
+              "count": 7,
+              "rate": 18.92
+            },
+            {
+              "value": "D5",
+              "count": 6,
+              "rate": 16.22
+            },
+            {
+              "value": "D1",
+              "count": 5,
+              "rate": 13.51
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "37",
+              "count": 3,
+              "rate": 8.11
+            },
+            {
+              "value": "50",
+              "count": 3,
+              "rate": 8.11
+            },
+            {
+              "value": "44",
+              "count": 2,
+              "rate": 5.41
+            },
+            {
+              "value": "62",
+              "count": 2,
+              "rate": 5.41
+            },
+            {
+              "value": "32",
+              "count": 2,
+              "rate": 5.41
+            },
+            {
+              "value": "36",
+              "count": 2,
+              "rate": 5.41
+            },
+            {
+              "value": "-20",
+              "count": 2,
+              "rate": 5.41
+            },
+            {
+              "value": "-23",
+              "count": 1,
+              "rate": 2.7
+            },
+            {
+              "value": "49",
+              "count": 1,
+              "rate": 2.7
+            },
+            {
+              "value": "57",
+              "count": 1,
+              "rate": 2.7
+            }
+          ],
+          "branch": "S2"
+        },
+        {
+          "count": 24,
+          "signed_motion_min": -55,
+          "signed_motion_max": 59,
+          "signed_motion_median": -21.0,
+          "abs_motion_min": 10,
+          "abs_motion_max": 59,
+          "abs_motion_median": 39.5,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 13,
+              "rate": 54.17
+            },
+            {
+              "value": "+",
+              "count": 11,
+              "rate": 45.83
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D4",
+              "count": 6,
+              "rate": 25.0
+            },
+            {
+              "value": "D3",
+              "count": 6,
+              "rate": 25.0
+            },
+            {
+              "value": "D1",
+              "count": 5,
+              "rate": 20.83
+            },
+            {
+              "value": "D2",
+              "count": 4,
+              "rate": 16.67
+            },
+            {
+              "value": "D5",
+              "count": 3,
+              "rate": 12.5
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "41",
+              "count": 2,
+              "rate": 8.33
+            },
+            {
+              "value": "-55",
+              "count": 2,
+              "rate": 8.33
+            },
+            {
+              "value": "34",
+              "count": 2,
+              "rate": 8.33
+            },
+            {
+              "value": "-35",
+              "count": 2,
+              "rate": 8.33
+            },
+            {
+              "value": "55",
+              "count": 1,
+              "rate": 4.17
+            },
+            {
+              "value": "-50",
+              "count": 1,
+              "rate": 4.17
+            },
+            {
+              "value": "31",
+              "count": 1,
+              "rate": 4.17
+            },
+            {
+              "value": "40",
+              "count": 1,
+              "rate": 4.17
+            },
+            {
+              "value": "-29",
+              "count": 1,
+              "rate": 4.17
+            },
+            {
+              "value": "59",
+              "count": 1,
+              "rate": 4.17
+            }
+          ],
+          "branch": "S3"
+        }
+      ]
+    },
+    {
+      "topology_name": "Altera",
+      "case_count": 41,
+      "actual_branch_rank": [
+        {
+          "value": "S5",
+          "count": 15,
+          "rate": 36.59
+        },
+        {
+          "value": "S1",
+          "count": 10,
+          "rate": 24.39
+        },
+        {
+          "value": "S4",
+          "count": 10,
+          "rate": 24.39
+        },
+        {
+          "value": "S3",
+          "count": 4,
+          "rate": 9.76
+        },
+        {
+          "value": "S2",
+          "count": 2,
+          "rate": 4.88
+        }
+      ],
+      "actual_family_rank": [
+        {
+          "value": "EDGE_FAMILY",
+          "count": 25,
+          "rate": 60.98
+        },
+        {
+          "value": "HINGE_FAMILY",
+          "count": 12,
+          "rate": 29.27
+        },
+        {
+          "value": "CENTER_FAMILY",
+          "count": 4,
+          "rate": 9.76
+        }
+      ],
+      "selected_upgrade_recipe": {
+        "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "signal": "PRESSURE_FUSION_BODY",
+        "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+        "horizon": 1,
+        "topology_name": "Altera",
+        "features": [
+          "pressure_fusion",
+          "pressure_shape",
+          "middle_pressure",
+          "edge_pressure"
+        ],
+        "test_count": 41,
+        "call_count": 8,
+        "call_rate": 19.51,
+        "branch_matches": 5,
+        "branch_match_rate": 62.5,
+        "family_matches": 6,
+        "family_match_rate": 75.0,
+        "avg_prior_count": 1.0,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "top_upgrade_candidates": [
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "PRESSURE_FUSION_BODY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Altera",
+          "features": [
+            "pressure_fusion",
+            "pressure_shape",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 41,
+          "call_count": 8,
+          "call_rate": 19.51,
+          "branch_matches": 5,
+          "branch_match_rate": 62.5,
+          "family_matches": 6,
+          "family_match_rate": 75.0,
+          "avg_prior_count": 1.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Altera",
+          "features": [
+            "face_family",
+            "turn_lanes",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 41,
+          "call_count": 18,
+          "call_rate": 43.9,
+          "branch_matches": 9,
+          "branch_match_rate": 50.0,
+          "family_matches": 12,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.33,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_BURDEN_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Altera",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 41,
+          "call_count": 6,
+          "call_rate": 14.63,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.33,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_BURDEN_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 3,
+          "topology_name": "Altera",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 41,
+          "call_count": 6,
+          "call_rate": 14.63,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.33,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_BURDEN_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Altera",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 41,
+          "call_count": 6,
+          "call_rate": 14.63,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.33,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_BURDEN_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Altera",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 41,
+          "call_count": 6,
+          "call_rate": 14.63,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.33,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_BURDEN_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Altera",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 41,
+          "call_count": 6,
+          "call_rate": 14.63,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.33,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_BURDEN_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Altera",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 41,
+          "call_count": 6,
+          "call_rate": 14.63,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.33,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_BURDEN_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Altera",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 41,
+          "call_count": 6,
+          "call_rate": 14.63,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.33,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_PRESSURE_BODY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Altera",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 41,
+          "call_count": 11,
+          "call_rate": 26.83,
+          "branch_matches": 5,
+          "branch_match_rate": 45.45,
+          "family_matches": 8,
+          "family_match_rate": 72.73,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_BURDEN_ORIGIN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Altera",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "dominant_origin_seat",
+            "authority_origin"
+          ],
+          "test_count": 41,
+          "call_count": 39,
+          "call_rate": 95.12,
+          "branch_matches": 17,
+          "branch_match_rate": 43.59,
+          "family_matches": 28,
+          "family_match_rate": 71.79,
+          "avg_prior_count": 4.77,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_PRESSURE_BODY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Altera",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 41,
+          "call_count": 7,
+          "call_rate": 17.07,
+          "branch_matches": 3,
+          "branch_match_rate": 42.86,
+          "family_matches": 5,
+          "family_match_rate": 71.43,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        }
+      ],
+      "range_profiles": [
+        {
+          "count": 15,
+          "signed_motion_min": -62,
+          "signed_motion_max": -18,
+          "signed_motion_median": -46,
+          "abs_motion_min": 18,
+          "abs_motion_max": 62,
+          "abs_motion_median": 46,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 15,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D5",
+              "count": 4,
+              "rate": 26.67
+            },
+            {
+              "value": "D3",
+              "count": 4,
+              "rate": 26.67
+            },
+            {
+              "value": "D2",
+              "count": 4,
+              "rate": 26.67
+            },
+            {
+              "value": "D4",
+              "count": 3,
+              "rate": 20.0
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-62",
+              "count": 2,
+              "rate": 13.33
+            },
+            {
+              "value": "-53",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "-35",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "-39",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "-50",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "-46",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "-22",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "-49",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "-55",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "-42",
+              "count": 1,
+              "rate": 6.67
+            }
+          ],
+          "branch": "S5"
+        },
+        {
+          "count": 10,
+          "signed_motion_min": 32,
+          "signed_motion_max": 64,
+          "signed_motion_median": 52.5,
+          "abs_motion_min": 32,
+          "abs_motion_max": 64,
+          "abs_motion_median": 52.5,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 10,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D3",
+              "count": 4,
+              "rate": 40.0
+            },
+            {
+              "value": "D4",
+              "count": 3,
+              "rate": 30.0
+            },
+            {
+              "value": "D5",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "D1",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "D2",
+              "count": 1,
+              "rate": 10.0
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "43",
+              "count": 2,
+              "rate": 20.0
+            },
+            {
+              "value": "57",
+              "count": 2,
+              "rate": 20.0
+            },
+            {
+              "value": "64",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "32",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "38",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "54",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "51",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "62",
+              "count": 1,
+              "rate": 10.0
+            }
+          ],
+          "branch": "S1"
+        },
+        {
+          "count": 10,
+          "signed_motion_min": -55,
+          "signed_motion_max": 32,
+          "signed_motion_median": -32.0,
+          "abs_motion_min": 24,
+          "abs_motion_max": 55,
+          "abs_motion_median": 32.5,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 9,
+              "rate": 90.0
+            },
+            {
+              "value": "+",
+              "count": 1,
+              "rate": 10.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D3",
+              "count": 3,
+              "rate": 30.0
+            },
+            {
+              "value": "D4",
+              "count": 3,
+              "rate": 30.0
+            },
+            {
+              "value": "D5",
+              "count": 2,
+              "rate": 20.0
+            },
+            {
+              "value": "D2",
+              "count": 2,
+              "rate": 20.0
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-25",
+              "count": 2,
+              "rate": 20.0
+            },
+            {
+              "value": "-48",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "32",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-31",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-55",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-42",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-24",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-33",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-36",
+              "count": 1,
+              "rate": 10.0
+            }
+          ],
+          "branch": "S4"
+        }
+      ]
+    },
+    {
+      "topology_name": "Scathach",
+      "case_count": 5,
+      "actual_branch_rank": [
+        {
+          "value": "S3",
+          "count": 2,
+          "rate": 40.0
+        },
+        {
+          "value": "S4",
+          "count": 1,
+          "rate": 20.0
+        },
+        {
+          "value": "S5",
+          "count": 1,
+          "rate": 20.0
+        },
+        {
+          "value": "S2",
+          "count": 1,
+          "rate": 20.0
+        }
+      ],
+      "actual_family_rank": [
+        {
+          "value": "CENTER_FAMILY",
+          "count": 2,
+          "rate": 40.0
+        },
+        {
+          "value": "HINGE_FAMILY",
+          "count": 2,
+          "rate": 40.0
+        },
+        {
+          "value": "EDGE_FAMILY",
+          "count": 1,
+          "rate": 20.0
+        }
+      ],
+      "selected_upgrade_recipe": {
+        "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "signal": "COLLISION_AUTHORITY",
+        "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+        "horizon": 13,
+        "topology_name": "Scathach",
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "authority_seat",
+          "authority_origin"
+        ],
+        "test_count": 5,
+        "call_count": 5,
+        "call_rate": 100.0,
+        "branch_matches": 3,
+        "branch_match_rate": 60.0,
+        "family_matches": 3,
+        "family_match_rate": 60.0,
+        "avg_prior_count": 13.0,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "top_upgrade_candidates": [
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Scathach",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 3,
+          "branch_match_rate": 60.0,
+          "family_matches": 3,
+          "family_match_rate": 60.0,
+          "avg_prior_count": 13.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_TURNS",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Scathach",
+          "features": [
+            "face_family",
+            "turn_lanes"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 3,
+          "branch_match_rate": 60.0,
+          "family_matches": 3,
+          "family_match_rate": 60.0,
+          "avg_prior_count": 19.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "PRESSURE_FUSION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Scathach",
+          "features": [
+            "pressure_fusion",
+            "pressure_fusion_profile"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 3,
+          "branch_match_rate": 60.0,
+          "family_matches": 3,
+          "family_match_rate": 60.0,
+          "avg_prior_count": 1.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "WORLD_PREVIOUS_BRANCH",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Scathach",
+          "features": [
+            "world_previous_branch"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 3,
+          "branch_match_rate": 60.0,
+          "family_matches": 3,
+          "family_match_rate": 60.0,
+          "avg_prior_count": 5.0,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTHORITY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Scathach",
+          "features": [
+            "authority_seat"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 2,
+          "branch_match_rate": 40.0,
+          "family_matches": 2,
+          "family_match_rate": 40.0,
+          "avg_prior_count": 13.0,
+          "promotion": "OBSERVATION_ONLY",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTHORITY_ORIGIN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Scathach",
+          "features": [
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 2,
+          "branch_match_rate": 40.0,
+          "family_matches": 2,
+          "family_match_rate": 40.0,
+          "avg_prior_count": 13.0,
+          "promotion": "OBSERVATION_ONLY",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "BURDEN_ORIGIN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Scathach",
+          "features": [
+            "highest_burden_seat",
+            "highest_burden_state",
+            "dominant_origin_seat",
+            "authority_origin"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 2,
+          "branch_match_rate": 40.0,
+          "family_matches": 2,
+          "family_match_rate": 40.0,
+          "avg_prior_count": 8.0,
+          "promotion": "OBSERVATION_ONLY",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Scathach",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 2,
+          "branch_match_rate": 40.0,
+          "family_matches": 2,
+          "family_match_rate": 40.0,
+          "avg_prior_count": 13.0,
+          "promotion": "OBSERVATION_ONLY",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Scathach",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 2,
+          "branch_match_rate": 40.0,
+          "family_matches": 2,
+          "family_match_rate": 40.0,
+          "avg_prior_count": 21.0,
+          "promotion": "OBSERVATION_ONLY",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_AUTHORITY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Scathach",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "authority_seat",
+            "authority_origin"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 2,
+          "branch_match_rate": 40.0,
+          "family_matches": 2,
+          "family_match_rate": 40.0,
+          "avg_prior_count": 8.0,
+          "promotion": "OBSERVATION_ONLY",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_TURNS",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Scathach",
+          "features": [
+            "face_family",
+            "turn_lanes"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 2,
+          "branch_match_rate": 40.0,
+          "family_matches": 2,
+          "family_match_rate": 40.0,
+          "avg_prior_count": 1.0,
+          "promotion": "OBSERVATION_ONLY",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_TURNS",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Scathach",
+          "features": [
+            "face_family",
+            "turn_lanes"
+          ],
+          "test_count": 5,
+          "call_count": 5,
+          "call_rate": 100.0,
+          "branch_matches": 2,
+          "branch_match_rate": 40.0,
+          "family_matches": 2,
+          "family_match_rate": 40.0,
+          "avg_prior_count": 8.0,
+          "promotion": "OBSERVATION_ONLY",
+          "sample_warning": "SMALL_SAMPLE"
+        }
+      ],
+      "range_profiles": []
+    },
+    {
+      "topology_name": "Nirvana",
+      "case_count": 30,
+      "actual_branch_rank": [
+        {
+          "value": "S4",
+          "count": 8,
+          "rate": 26.67
+        },
+        {
+          "value": "S2",
+          "count": 8,
+          "rate": 26.67
+        },
+        {
+          "value": "S1",
+          "count": 6,
+          "rate": 20.0
+        },
+        {
+          "value": "S5",
+          "count": 6,
+          "rate": 20.0
+        },
+        {
+          "value": "S3",
+          "count": 2,
+          "rate": 6.67
+        }
+      ],
+      "actual_family_rank": [
+        {
+          "value": "HINGE_FAMILY",
+          "count": 16,
+          "rate": 53.33
+        },
+        {
+          "value": "EDGE_FAMILY",
+          "count": 12,
+          "rate": 40.0
+        },
+        {
+          "value": "CENTER_FAMILY",
+          "count": 2,
+          "rate": 6.67
+        }
+      ],
+      "selected_upgrade_recipe": {
+        "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "signal": "COLLISION_FACE",
+        "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+        "horizon": 2,
+        "topology_name": "Nirvana",
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "face_family",
+          "turn_lanes"
+        ],
+        "test_count": 30,
+        "call_count": 25,
+        "call_rate": 83.33,
+        "branch_matches": 14,
+        "branch_match_rate": 56.0,
+        "family_matches": 16,
+        "family_match_rate": 64.0,
+        "avg_prior_count": 1.92,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "STABLE_SAMPLE"
+      },
+      "top_upgrade_candidates": [
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_FACE",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "face_family",
+            "turn_lanes"
+          ],
+          "test_count": 30,
+          "call_count": 25,
+          "call_rate": 83.33,
+          "branch_matches": 14,
+          "branch_match_rate": 56.0,
+          "family_matches": 16,
+          "family_match_rate": 64.0,
+          "avg_prior_count": 1.92,
+          "promotion": "EXACT_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_BURDEN_ORIGIN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "dominant_origin_seat",
+            "authority_origin"
+          ],
+          "test_count": 30,
+          "call_count": 25,
+          "call_rate": 83.33,
+          "branch_matches": 13,
+          "branch_match_rate": 52.0,
+          "family_matches": 21,
+          "family_match_rate": 84.0,
+          "avg_prior_count": 6.4,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION_BURDEN_ORIGIN",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "dominant_origin_seat",
+            "authority_origin"
+          ],
+          "test_count": 30,
+          "call_count": 8,
+          "call_rate": 26.67,
+          "branch_matches": 4,
+          "branch_match_rate": 50.0,
+          "family_matches": 7,
+          "family_match_rate": 87.5,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_BURDEN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 3,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "highest_burden_seat",
+            "highest_burden_state"
+          ],
+          "test_count": 30,
+          "call_count": 28,
+          "call_rate": 93.33,
+          "branch_matches": 14,
+          "branch_match_rate": 50.0,
+          "family_matches": 23,
+          "family_match_rate": 82.14,
+          "avg_prior_count": 2.75,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_BURDEN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "highest_burden_seat",
+            "highest_burden_state"
+          ],
+          "test_count": 30,
+          "call_count": 28,
+          "call_rate": 93.33,
+          "branch_matches": 14,
+          "branch_match_rate": 50.0,
+          "family_matches": 23,
+          "family_match_rate": 82.14,
+          "avg_prior_count": 4.29,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_BURDEN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "highest_burden_seat",
+            "highest_burden_state"
+          ],
+          "test_count": 30,
+          "call_count": 28,
+          "call_rate": 93.33,
+          "branch_matches": 14,
+          "branch_match_rate": 50.0,
+          "family_matches": 23,
+          "family_match_rate": 82.14,
+          "avg_prior_count": 7.68,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_BURDEN_ORIGIN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "dominant_origin_seat",
+            "authority_origin"
+          ],
+          "test_count": 30,
+          "call_count": 25,
+          "call_rate": 83.33,
+          "branch_matches": 12,
+          "branch_match_rate": 48.0,
+          "family_matches": 21,
+          "family_match_rate": 84.0,
+          "avg_prior_count": 4.04,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_BURDEN_ORIGIN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "highest_burden_seat",
+            "highest_burden_state",
+            "dominant_origin_seat",
+            "authority_origin"
+          ],
+          "test_count": 30,
+          "call_count": 25,
+          "call_rate": 83.33,
+          "branch_matches": 12,
+          "branch_match_rate": 48.0,
+          "family_matches": 21,
+          "family_match_rate": 84.0,
+          "avg_prior_count": 8.76,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_FACE",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "face_family",
+            "turn_lanes"
+          ],
+          "test_count": 30,
+          "call_count": 25,
+          "call_rate": 83.33,
+          "branch_matches": 12,
+          "branch_match_rate": 48.0,
+          "family_matches": 18,
+          "family_match_rate": 72.0,
+          "avg_prior_count": 6.4,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_FACE",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "face_family",
+            "turn_lanes"
+          ],
+          "test_count": 30,
+          "call_count": 25,
+          "call_rate": 83.33,
+          "branch_matches": 12,
+          "branch_match_rate": 48.0,
+          "family_matches": 18,
+          "family_match_rate": 72.0,
+          "avg_prior_count": 6.76,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION_BURDEN",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Nirvana",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "highest_burden_seat",
+            "highest_burden_state"
+          ],
+          "test_count": 30,
+          "call_count": 11,
+          "call_rate": 36.67,
+          "branch_matches": 5,
+          "branch_match_rate": 45.45,
+          "family_matches": 10,
+          "family_match_rate": 90.91,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "AUTH_COLLISION_PRESSURE",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Nirvana",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "collision_seat",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 30,
+          "call_count": 11,
+          "call_rate": 36.67,
+          "branch_matches": 5,
+          "branch_match_rate": 45.45,
+          "family_matches": 9,
+          "family_match_rate": 81.82,
+          "avg_prior_count": 1.36,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        }
+      ],
+      "range_profiles": [
+        {
+          "count": 8,
+          "signed_motion_min": 40,
+          "signed_motion_max": 61,
+          "signed_motion_median": 46.0,
+          "abs_motion_min": 40,
+          "abs_motion_max": 61,
+          "abs_motion_median": 46.0,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 8,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D5",
+              "count": 5,
+              "rate": 62.5
+            },
+            {
+              "value": "D1",
+              "count": 2,
+              "rate": 25.0
+            },
+            {
+              "value": "D2",
+              "count": 1,
+              "rate": 12.5
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "40",
+              "count": 2,
+              "rate": 25.0
+            },
+            {
+              "value": "48",
+              "count": 2,
+              "rate": 25.0
+            },
+            {
+              "value": "50",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "44",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "61",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "43",
+              "count": 1,
+              "rate": 12.5
+            }
+          ],
+          "branch": "S2"
+        },
+        {
+          "count": 8,
+          "signed_motion_min": -53,
+          "signed_motion_max": -15,
+          "signed_motion_median": -38.5,
+          "abs_motion_min": 15,
+          "abs_motion_max": 53,
+          "abs_motion_median": 38.5,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 8,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D2",
+              "count": 3,
+              "rate": 37.5
+            },
+            {
+              "value": "D4",
+              "count": 3,
+              "rate": 37.5
+            },
+            {
+              "value": "D3",
+              "count": 2,
+              "rate": 25.0
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-53",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "-41",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "-36",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "-27",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "-15",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "-34",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "-52",
+              "count": 1,
+              "rate": 12.5
+            },
+            {
+              "value": "-42",
+              "count": 1,
+              "rate": 12.5
+            }
+          ],
+          "branch": "S4"
+        },
+        {
+          "count": 6,
+          "signed_motion_min": 32,
+          "signed_motion_max": 54,
+          "signed_motion_median": 42.0,
+          "abs_motion_min": 32,
+          "abs_motion_max": 54,
+          "abs_motion_median": 42.0,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 6,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D4",
+              "count": 3,
+              "rate": 50.0
+            },
+            {
+              "value": "D3",
+              "count": 2,
+              "rate": 33.33
+            },
+            {
+              "value": "D5",
+              "count": 1,
+              "rate": 16.67
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "38",
+              "count": 2,
+              "rate": 33.33
+            },
+            {
+              "value": "54",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "52",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "46",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "32",
+              "count": 1,
+              "rate": 16.67
+            }
+          ],
+          "branch": "S1"
+        },
+        {
+          "count": 6,
+          "signed_motion_min": -53,
+          "signed_motion_max": -36,
+          "signed_motion_median": -46.0,
+          "abs_motion_min": 36,
+          "abs_motion_max": 53,
+          "abs_motion_median": 46.0,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 6,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D2",
+              "count": 2,
+              "rate": 33.33
+            },
+            {
+              "value": "D1",
+              "count": 2,
+              "rate": 33.33
+            },
+            {
+              "value": "D3",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "D4",
+              "count": 1,
+              "rate": 16.67
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-36",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-50",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-53",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-42",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-39",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-52",
+              "count": 1,
+              "rate": 16.67
+            }
+          ],
+          "branch": "S5"
+        }
+      ]
+    },
+    {
+      "topology_name": "Irisviel",
+      "case_count": 13,
+      "actual_branch_rank": [
+        {
+          "value": "S5",
+          "count": 6,
+          "rate": 46.15
+        },
+        {
+          "value": "S3",
+          "count": 3,
+          "rate": 23.08
+        },
+        {
+          "value": "S4",
+          "count": 2,
+          "rate": 15.38
+        },
+        {
+          "value": "S1",
+          "count": 1,
+          "rate": 7.69
+        },
+        {
+          "value": "S2",
+          "count": 1,
+          "rate": 7.69
+        }
+      ],
+      "actual_family_rank": [
+        {
+          "value": "EDGE_FAMILY",
+          "count": 7,
+          "rate": 53.85
+        },
+        {
+          "value": "HINGE_FAMILY",
+          "count": 3,
+          "rate": 23.08
+        },
+        {
+          "value": "CENTER_FAMILY",
+          "count": 3,
+          "rate": 23.08
+        }
+      ],
+      "selected_upgrade_recipe": {
+        "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "signal": "PRESSURE_FUSION",
+        "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+        "horizon": 2,
+        "topology_name": "Irisviel",
+        "features": [
+          "pressure_fusion",
+          "pressure_fusion_profile"
+        ],
+        "test_count": 13,
+        "call_count": 12,
+        "call_rate": 92.31,
+        "branch_matches": 6,
+        "branch_match_rate": 50.0,
+        "family_matches": 8,
+        "family_match_rate": 66.67,
+        "avg_prior_count": 2.0,
+        "promotion": "FAMILY_SELECTOR",
+        "sample_warning": "MODERATE_SAMPLE"
+      },
+      "top_upgrade_candidates": [
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "PRESSURE_FUSION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Irisviel",
+          "features": [
+            "pressure_fusion",
+            "pressure_fusion_profile"
+          ],
+          "test_count": 13,
+          "call_count": 12,
+          "call_rate": 92.31,
+          "branch_matches": 6,
+          "branch_match_rate": 50.0,
+          "family_matches": 8,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 2.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "WORLD_PREVIOUS_BRANCH_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Irisviel",
+          "features": [
+            "world_previous_branch",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 13,
+          "call_count": 6,
+          "call_rate": 46.15,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.17,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_TURNS",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 3,
+          "topology_name": "Irisviel",
+          "features": [
+            "face_family",
+            "turn_lanes"
+          ],
+          "test_count": 13,
+          "call_count": 12,
+          "call_rate": 92.31,
+          "branch_matches": 5,
+          "branch_match_rate": 41.67,
+          "family_matches": 8,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 3.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_TURNS",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Irisviel",
+          "features": [
+            "face_family",
+            "turn_lanes"
+          ],
+          "test_count": 13,
+          "call_count": 12,
+          "call_rate": 92.31,
+          "branch_matches": 5,
+          "branch_match_rate": 41.67,
+          "family_matches": 8,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 32.33,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Irisviel",
+          "features": [
+            "face_family",
+            "turn_lanes",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 13,
+          "call_count": 9,
+          "call_rate": 69.23,
+          "branch_matches": 3,
+          "branch_match_rate": 33.33,
+          "family_matches": 6,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.22,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 3,
+          "topology_name": "Irisviel",
+          "features": [
+            "face_family",
+            "turn_lanes",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 13,
+          "call_count": 9,
+          "call_rate": 69.23,
+          "branch_matches": 3,
+          "branch_match_rate": 33.33,
+          "family_matches": 6,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.22,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Irisviel",
+          "features": [
+            "face_family",
+            "turn_lanes",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 13,
+          "call_count": 9,
+          "call_rate": 69.23,
+          "branch_matches": 3,
+          "branch_match_rate": 33.33,
+          "family_matches": 6,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.22,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Irisviel",
+          "features": [
+            "face_family",
+            "turn_lanes",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 13,
+          "call_count": 9,
+          "call_rate": 69.23,
+          "branch_matches": 3,
+          "branch_match_rate": 33.33,
+          "family_matches": 6,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.22,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Irisviel",
+          "features": [
+            "face_family",
+            "turn_lanes",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 13,
+          "call_count": 9,
+          "call_rate": 69.23,
+          "branch_matches": 3,
+          "branch_match_rate": 33.33,
+          "family_matches": 6,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.22,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Irisviel",
+          "features": [
+            "face_family",
+            "turn_lanes",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 13,
+          "call_count": 9,
+          "call_rate": 69.23,
+          "branch_matches": 3,
+          "branch_match_rate": 33.33,
+          "family_matches": 6,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.22,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_INCOMING",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Irisviel",
+          "features": [
+            "face_family",
+            "turn_lanes",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane"
+          ],
+          "test_count": 13,
+          "call_count": 9,
+          "call_rate": 69.23,
+          "branch_matches": 3,
+          "branch_match_rate": 33.33,
+          "family_matches": 6,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.22,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "BURDEN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Irisviel",
+          "features": [
+            "highest_burden_seat",
+            "highest_burden_level",
+            "highest_burden_state"
+          ],
+          "test_count": 13,
+          "call_count": 12,
+          "call_rate": 92.31,
+          "branch_matches": 6,
+          "branch_match_rate": 50.0,
+          "family_matches": 7,
+          "family_match_rate": 58.33,
+          "avg_prior_count": 26.08,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        }
+      ],
+      "range_profiles": [
+        {
+          "count": 6,
+          "signed_motion_min": -60,
+          "signed_motion_max": -24,
+          "signed_motion_median": -45.0,
+          "abs_motion_min": 24,
+          "abs_motion_max": 60,
+          "abs_motion_median": 45.0,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 6,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D3",
+              "count": 2,
+              "rate": 33.33
+            },
+            {
+              "value": "D4",
+              "count": 2,
+              "rate": 33.33
+            },
+            {
+              "value": "D2",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "D1",
+              "count": 1,
+              "rate": 16.67
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-45",
+              "count": 2,
+              "rate": 33.33
+            },
+            {
+              "value": "-53",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-60",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-24",
+              "count": 1,
+              "rate": 16.67
+            },
+            {
+              "value": "-39",
+              "count": 1,
+              "rate": 16.67
+            }
+          ],
+          "branch": "S5"
+        }
+      ]
+    },
+    {
+      "topology_name": "Citrine",
+      "case_count": 104,
+      "actual_branch_rank": [
+        {
+          "value": "S5",
+          "count": 31,
+          "rate": 29.81
+        },
+        {
+          "value": "S1",
+          "count": 24,
+          "rate": 23.08
+        },
+        {
+          "value": "S2",
+          "count": 20,
+          "rate": 19.23
+        },
+        {
+          "value": "S4",
+          "count": 18,
+          "rate": 17.31
+        },
+        {
+          "value": "S3",
+          "count": 11,
+          "rate": 10.58
+        }
+      ],
+      "actual_family_rank": [
+        {
+          "value": "EDGE_FAMILY",
+          "count": 55,
+          "rate": 52.88
+        },
+        {
+          "value": "HINGE_FAMILY",
+          "count": 38,
+          "rate": 36.54
+        },
+        {
+          "value": "CENTER_FAMILY",
+          "count": 11,
+          "rate": 10.58
+        }
+      ],
+      "selected_upgrade_recipe": {
+        "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+        "signal": "PRESSURE_BODY",
+        "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+        "horizon": 1,
+        "topology_name": "Citrine",
+        "features": [
+          "pressure_shape",
+          "set_relation",
+          "middle_pressure",
+          "edge_pressure"
+        ],
+        "test_count": 104,
+        "call_count": 6,
+        "call_rate": 5.77,
+        "branch_matches": 3,
+        "branch_match_rate": 50.0,
+        "family_matches": 4,
+        "family_match_rate": 66.67,
+        "avg_prior_count": 1.0,
+        "promotion": "FAMILY_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "top_upgrade_candidates": [
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "PRESSURE_BODY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Citrine",
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 6,
+          "call_rate": 5.77,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "PRESSURE_BODY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Citrine",
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 6,
+          "call_rate": 5.77,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "PRESSURE_BODY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 3,
+          "topology_name": "Citrine",
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 6,
+          "call_rate": 5.77,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "PRESSURE_BODY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Citrine",
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 6,
+          "call_rate": 5.77,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "PRESSURE_BODY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Citrine",
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 6,
+          "call_rate": 5.77,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "PRESSURE_BODY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Citrine",
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 6,
+          "call_rate": 5.77,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "PRESSURE_BODY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Citrine",
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 6,
+          "call_rate": 5.77,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "PRESSURE_BODY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Citrine",
+          "features": [
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 6,
+          "call_rate": 5.77,
+          "branch_matches": 3,
+          "branch_match_rate": 50.0,
+          "family_matches": 4,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.0,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_PRESSURE_BODY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 3,
+          "topology_name": "Citrine",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 15,
+          "call_rate": 14.42,
+          "branch_matches": 7,
+          "branch_match_rate": 46.67,
+          "family_matches": 10,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.27,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_PRESSURE_BODY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Citrine",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 15,
+          "call_rate": 14.42,
+          "branch_matches": 7,
+          "branch_match_rate": 46.67,
+          "family_matches": 10,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.27,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_PRESSURE_BODY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Citrine",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 15,
+          "call_rate": 14.42,
+          "branch_matches": 7,
+          "branch_match_rate": 46.67,
+          "family_matches": 10,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.27,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_PRESSURE_BODY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Citrine",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 104,
+          "call_count": 15,
+          "call_rate": 14.42,
+          "branch_matches": 7,
+          "branch_match_rate": 46.67,
+          "family_matches": 10,
+          "family_match_rate": 66.67,
+          "avg_prior_count": 1.27,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        }
+      ],
+      "range_profiles": [
+        {
+          "count": 31,
+          "signed_motion_min": -67,
+          "signed_motion_max": -32,
+          "signed_motion_median": -52,
+          "abs_motion_min": 32,
+          "abs_motion_max": 67,
+          "abs_motion_median": 52,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 31,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D2",
+              "count": 9,
+              "rate": 29.03
+            },
+            {
+              "value": "D1",
+              "count": 8,
+              "rate": 25.81
+            },
+            {
+              "value": "D4",
+              "count": 5,
+              "rate": 16.13
+            },
+            {
+              "value": "D5",
+              "count": 5,
+              "rate": 16.13
+            },
+            {
+              "value": "D3",
+              "count": 4,
+              "rate": 12.9
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-47",
+              "count": 4,
+              "rate": 12.9
+            },
+            {
+              "value": "-52",
+              "count": 2,
+              "rate": 6.45
+            },
+            {
+              "value": "-60",
+              "count": 2,
+              "rate": 6.45
+            },
+            {
+              "value": "-66",
+              "count": 2,
+              "rate": 6.45
+            },
+            {
+              "value": "-57",
+              "count": 2,
+              "rate": 6.45
+            },
+            {
+              "value": "-58",
+              "count": 2,
+              "rate": 6.45
+            },
+            {
+              "value": "-61",
+              "count": 1,
+              "rate": 3.23
+            },
+            {
+              "value": "-37",
+              "count": 1,
+              "rate": 3.23
+            },
+            {
+              "value": "-55",
+              "count": 1,
+              "rate": 3.23
+            },
+            {
+              "value": "-38",
+              "count": 1,
+              "rate": 3.23
+            }
+          ],
+          "branch": "S5"
+        },
+        {
+          "count": 24,
+          "signed_motion_min": -22,
+          "signed_motion_max": 62,
+          "signed_motion_median": 48.0,
+          "abs_motion_min": 16,
+          "abs_motion_max": 62,
+          "abs_motion_median": 48.0,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 23,
+              "rate": 95.83
+            },
+            {
+              "value": "-",
+              "count": 1,
+              "rate": 4.17
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D3",
+              "count": 5,
+              "rate": 20.83
+            },
+            {
+              "value": "D4",
+              "count": 5,
+              "rate": 20.83
+            },
+            {
+              "value": "D2",
+              "count": 5,
+              "rate": 20.83
+            },
+            {
+              "value": "D5",
+              "count": 5,
+              "rate": 20.83
+            },
+            {
+              "value": "D1",
+              "count": 4,
+              "rate": 16.67
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "48",
+              "count": 3,
+              "rate": 12.5
+            },
+            {
+              "value": "53",
+              "count": 3,
+              "rate": 12.5
+            },
+            {
+              "value": "50",
+              "count": 2,
+              "rate": 8.33
+            },
+            {
+              "value": "46",
+              "count": 2,
+              "rate": 8.33
+            },
+            {
+              "value": "55",
+              "count": 2,
+              "rate": 8.33
+            },
+            {
+              "value": "58",
+              "count": 2,
+              "rate": 8.33
+            },
+            {
+              "value": "18",
+              "count": 1,
+              "rate": 4.17
+            },
+            {
+              "value": "62",
+              "count": 1,
+              "rate": 4.17
+            },
+            {
+              "value": "43",
+              "count": 1,
+              "rate": 4.17
+            },
+            {
+              "value": "44",
+              "count": 1,
+              "rate": 4.17
+            }
+          ],
+          "branch": "S1"
+        },
+        {
+          "count": 20,
+          "signed_motion_min": -32,
+          "signed_motion_max": 63,
+          "signed_motion_median": 39.0,
+          "abs_motion_min": 24,
+          "abs_motion_max": 63,
+          "abs_motion_median": 39.0,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 19,
+              "rate": 95.0
+            },
+            {
+              "value": "-",
+              "count": 1,
+              "rate": 5.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D4",
+              "count": 6,
+              "rate": 30.0
+            },
+            {
+              "value": "D5",
+              "count": 5,
+              "rate": 25.0
+            },
+            {
+              "value": "D1",
+              "count": 5,
+              "rate": 25.0
+            },
+            {
+              "value": "D2",
+              "count": 2,
+              "rate": 10.0
+            },
+            {
+              "value": "D3",
+              "count": 2,
+              "rate": 10.0
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "41",
+              "count": 2,
+              "rate": 10.0
+            },
+            {
+              "value": "28",
+              "count": 2,
+              "rate": 10.0
+            },
+            {
+              "value": "34",
+              "count": 1,
+              "rate": 5.0
+            },
+            {
+              "value": "32",
+              "count": 1,
+              "rate": 5.0
+            },
+            {
+              "value": "56",
+              "count": 1,
+              "rate": 5.0
+            },
+            {
+              "value": "47",
+              "count": 1,
+              "rate": 5.0
+            },
+            {
+              "value": "43",
+              "count": 1,
+              "rate": 5.0
+            },
+            {
+              "value": "44",
+              "count": 1,
+              "rate": 5.0
+            },
+            {
+              "value": "38",
+              "count": 1,
+              "rate": 5.0
+            },
+            {
+              "value": "24",
+              "count": 1,
+              "rate": 5.0
+            }
+          ],
+          "branch": "S2"
+        },
+        {
+          "count": 18,
+          "signed_motion_min": -60,
+          "signed_motion_max": 26,
+          "signed_motion_median": -43.0,
+          "abs_motion_min": 26,
+          "abs_motion_max": 60,
+          "abs_motion_median": 43.0,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 17,
+              "rate": 94.44
+            },
+            {
+              "value": "+",
+              "count": 1,
+              "rate": 5.56
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D2",
+              "count": 6,
+              "rate": 33.33
+            },
+            {
+              "value": "D4",
+              "count": 5,
+              "rate": 27.78
+            },
+            {
+              "value": "D5",
+              "count": 3,
+              "rate": 16.67
+            },
+            {
+              "value": "D3",
+              "count": 2,
+              "rate": 11.11
+            },
+            {
+              "value": "D1",
+              "count": 2,
+              "rate": 11.11
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-36",
+              "count": 2,
+              "rate": 11.11
+            },
+            {
+              "value": "-56",
+              "count": 1,
+              "rate": 5.56
+            },
+            {
+              "value": "-44",
+              "count": 1,
+              "rate": 5.56
+            },
+            {
+              "value": "-60",
+              "count": 1,
+              "rate": 5.56
+            },
+            {
+              "value": "-49",
+              "count": 1,
+              "rate": 5.56
+            },
+            {
+              "value": "-38",
+              "count": 1,
+              "rate": 5.56
+            },
+            {
+              "value": "-40",
+              "count": 1,
+              "rate": 5.56
+            },
+            {
+              "value": "-48",
+              "count": 1,
+              "rate": 5.56
+            },
+            {
+              "value": "-42",
+              "count": 1,
+              "rate": 5.56
+            },
+            {
+              "value": "-54",
+              "count": 1,
+              "rate": 5.56
+            }
+          ],
+          "branch": "S4"
+        },
+        {
+          "count": 11,
+          "signed_motion_min": -54,
+          "signed_motion_max": 58,
+          "signed_motion_median": -19,
+          "abs_motion_min": 19,
+          "abs_motion_max": 58,
+          "abs_motion_median": 38,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 6,
+              "rate": 54.55
+            },
+            {
+              "value": "+",
+              "count": 5,
+              "rate": 45.45
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D5",
+              "count": 4,
+              "rate": 36.36
+            },
+            {
+              "value": "D4",
+              "count": 4,
+              "rate": 36.36
+            },
+            {
+              "value": "D1",
+              "count": 2,
+              "rate": 18.18
+            },
+            {
+              "value": "D3",
+              "count": 1,
+              "rate": 9.09
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "25",
+              "count": 2,
+              "rate": 18.18
+            },
+            {
+              "value": "-54",
+              "count": 1,
+              "rate": 9.09
+            },
+            {
+              "value": "-39",
+              "count": 1,
+              "rate": 9.09
+            },
+            {
+              "value": "35",
+              "count": 1,
+              "rate": 9.09
+            },
+            {
+              "value": "-38",
+              "count": 1,
+              "rate": 9.09
+            },
+            {
+              "value": "45",
+              "count": 1,
+              "rate": 9.09
+            },
+            {
+              "value": "58",
+              "count": 1,
+              "rate": 9.09
+            },
+            {
+              "value": "-19",
+              "count": 1,
+              "rate": 9.09
+            },
+            {
+              "value": "-48",
+              "count": 1,
+              "rate": 9.09
+            },
+            {
+              "value": "-37",
+              "count": 1,
+              "rate": 9.09
+            }
+          ],
+          "branch": "S3"
+        }
+      ]
+    },
+    {
+      "topology_name": "Lumina",
+      "case_count": 535,
+      "actual_branch_rank": [
+        {
+          "value": "S1",
+          "count": 169,
+          "rate": 31.59
+        },
+        {
+          "value": "S5",
+          "count": 145,
+          "rate": 27.1
+        },
+        {
+          "value": "S2",
+          "count": 86,
+          "rate": 16.07
+        },
+        {
+          "value": "S4",
+          "count": 80,
+          "rate": 14.95
+        },
+        {
+          "value": "S3",
+          "count": 55,
+          "rate": 10.28
+        }
+      ],
+      "actual_family_rank": [
+        {
+          "value": "EDGE_FAMILY",
+          "count": 314,
+          "rate": 58.69
+        },
+        {
+          "value": "HINGE_FAMILY",
+          "count": 166,
+          "rate": 31.03
+        },
+        {
+          "value": "CENTER_FAMILY",
+          "count": 55,
+          "rate": 10.28
+        }
+      ],
+      "selected_upgrade_recipe": {
+        "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+        "signal": "COLLISION",
+        "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+        "horizon": 21,
+        "topology_name": "Lumina",
+        "features": [
+          "collision_seat",
+          "collision_type"
+        ],
+        "test_count": 535,
+        "call_count": 520,
+        "call_rate": 97.2,
+        "branch_matches": 210,
+        "branch_match_rate": 40.38,
+        "family_matches": 374,
+        "family_match_rate": 71.92,
+        "avg_prior_count": 15.76,
+        "promotion": "FAMILY_SELECTOR",
+        "sample_warning": "STABLE_SAMPLE"
+      },
+      "top_upgrade_candidates": [
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 535,
+          "call_count": 520,
+          "call_rate": 97.2,
+          "branch_matches": 210,
+          "branch_match_rate": 40.38,
+          "family_matches": 374,
+          "family_match_rate": 71.92,
+          "avg_prior_count": 15.76,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 535,
+          "call_count": 520,
+          "call_rate": 97.2,
+          "branch_matches": 201,
+          "branch_match_rate": 38.65,
+          "family_matches": 375,
+          "family_match_rate": 72.12,
+          "avg_prior_count": 20.63,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 535,
+          "call_count": 525,
+          "call_rate": 98.13,
+          "branch_matches": 201,
+          "branch_match_rate": 38.29,
+          "family_matches": 382,
+          "family_match_rate": 72.76,
+          "avg_prior_count": 18.7,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_PRESSURE_TOPOLOGY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "map_pressure_type",
+            "pressure_center",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 535,
+          "call_count": 496,
+          "call_rate": 92.71,
+          "branch_matches": 189,
+          "branch_match_rate": 38.1,
+          "family_matches": 337,
+          "family_match_rate": 67.94,
+          "avg_prior_count": 4.34,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION_PRESSURE_TOPOLOGY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "map_pressure_type",
+            "pressure_center",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 535,
+          "call_count": 496,
+          "call_rate": 92.71,
+          "branch_matches": 189,
+          "branch_match_rate": 38.1,
+          "family_matches": 337,
+          "family_match_rate": 67.94,
+          "avg_prior_count": 4.34,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 535,
+          "call_count": 520,
+          "call_rate": 97.2,
+          "branch_matches": 197,
+          "branch_match_rate": 37.88,
+          "family_matches": 362,
+          "family_match_rate": 69.62,
+          "avg_prior_count": 4.73,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_PRESSURE_TOPOLOGY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "map_pressure_type",
+            "pressure_center",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 535,
+          "call_count": 496,
+          "call_rate": 92.71,
+          "branch_matches": 185,
+          "branch_match_rate": 37.3,
+          "family_matches": 344,
+          "family_match_rate": 69.35,
+          "avg_prior_count": 6.25,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION_PRESSURE_TOPOLOGY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "map_pressure_type",
+            "pressure_center",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 535,
+          "call_count": 496,
+          "call_rate": 92.71,
+          "branch_matches": 185,
+          "branch_match_rate": 37.3,
+          "family_matches": 344,
+          "family_match_rate": 69.35,
+          "avg_prior_count": 6.25,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 535,
+          "call_count": 525,
+          "call_rate": 98.13,
+          "branch_matches": 193,
+          "branch_match_rate": 36.76,
+          "family_matches": 384,
+          "family_match_rate": 73.14,
+          "avg_prior_count": 27.88,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_PRESSURE_TOPOLOGY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "map_pressure_type",
+            "pressure_center",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 535,
+          "call_count": 496,
+          "call_rate": 92.71,
+          "branch_matches": 182,
+          "branch_match_rate": 36.69,
+          "family_matches": 346,
+          "family_match_rate": 69.76,
+          "avg_prior_count": 10.77,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "COLLISION_PRESSURE_TOPOLOGY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "map_pressure_type",
+            "pressure_center",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 535,
+          "call_count": 496,
+          "call_rate": 92.71,
+          "branch_matches": 182,
+          "branch_match_rate": 36.69,
+          "family_matches": 346,
+          "family_match_rate": 69.76,
+          "avg_prior_count": 10.77,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION_PRESSURE_TOPOLOGY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Lumina",
+          "features": [
+            "collision_seat",
+            "collision_type",
+            "map_pressure_type",
+            "pressure_center",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 535,
+          "call_count": 496,
+          "call_rate": 92.71,
+          "branch_matches": 181,
+          "branch_match_rate": 36.49,
+          "family_matches": 346,
+          "family_match_rate": 69.76,
+          "avg_prior_count": 8.55,
+          "promotion": "FAMILY_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        }
+      ],
+      "range_profiles": [
+        {
+          "count": 169,
+          "signed_motion_min": 19,
+          "signed_motion_max": 68,
+          "signed_motion_median": 50,
+          "abs_motion_min": 19,
+          "abs_motion_max": 68,
+          "abs_motion_median": 50,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 169,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D1",
+              "count": 43,
+              "rate": 25.44
+            },
+            {
+              "value": "D2",
+              "count": 37,
+              "rate": 21.89
+            },
+            {
+              "value": "D5",
+              "count": 36,
+              "rate": 21.3
+            },
+            {
+              "value": "D4",
+              "count": 28,
+              "rate": 16.57
+            },
+            {
+              "value": "D3",
+              "count": 25,
+              "rate": 14.79
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "51",
+              "count": 10,
+              "rate": 5.92
+            },
+            {
+              "value": "58",
+              "count": 9,
+              "rate": 5.33
+            },
+            {
+              "value": "54",
+              "count": 7,
+              "rate": 4.14
+            },
+            {
+              "value": "47",
+              "count": 7,
+              "rate": 4.14
+            },
+            {
+              "value": "55",
+              "count": 7,
+              "rate": 4.14
+            },
+            {
+              "value": "48",
+              "count": 7,
+              "rate": 4.14
+            },
+            {
+              "value": "44",
+              "count": 7,
+              "rate": 4.14
+            },
+            {
+              "value": "56",
+              "count": 7,
+              "rate": 4.14
+            },
+            {
+              "value": "46",
+              "count": 6,
+              "rate": 3.55
+            },
+            {
+              "value": "52",
+              "count": 6,
+              "rate": 3.55
+            }
+          ],
+          "branch": "S1"
+        },
+        {
+          "count": 145,
+          "signed_motion_min": -66,
+          "signed_motion_max": 31,
+          "signed_motion_median": -48,
+          "abs_motion_min": 17,
+          "abs_motion_max": 66,
+          "abs_motion_median": 48,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 144,
+              "rate": 99.31
+            },
+            {
+              "value": "+",
+              "count": 1,
+              "rate": 0.69
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D5",
+              "count": 34,
+              "rate": 23.45
+            },
+            {
+              "value": "D1",
+              "count": 30,
+              "rate": 20.69
+            },
+            {
+              "value": "D3",
+              "count": 30,
+              "rate": 20.69
+            },
+            {
+              "value": "D2",
+              "count": 28,
+              "rate": 19.31
+            },
+            {
+              "value": "D4",
+              "count": 23,
+              "rate": 15.86
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-49",
+              "count": 7,
+              "rate": 4.83
+            },
+            {
+              "value": "-46",
+              "count": 7,
+              "rate": 4.83
+            },
+            {
+              "value": "-47",
+              "count": 7,
+              "rate": 4.83
+            },
+            {
+              "value": "-54",
+              "count": 7,
+              "rate": 4.83
+            },
+            {
+              "value": "-57",
+              "count": 6,
+              "rate": 4.14
+            },
+            {
+              "value": "-43",
+              "count": 6,
+              "rate": 4.14
+            },
+            {
+              "value": "-50",
+              "count": 6,
+              "rate": 4.14
+            },
+            {
+              "value": "-29",
+              "count": 5,
+              "rate": 3.45
+            },
+            {
+              "value": "-52",
+              "count": 5,
+              "rate": 3.45
+            },
+            {
+              "value": "-51",
+              "count": 5,
+              "rate": 3.45
+            }
+          ],
+          "branch": "S5"
+        },
+        {
+          "count": 86,
+          "signed_motion_min": -39,
+          "signed_motion_max": 67,
+          "signed_motion_median": 43.0,
+          "abs_motion_min": 11,
+          "abs_motion_max": 67,
+          "abs_motion_median": 43.0,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 79,
+              "rate": 91.86
+            },
+            {
+              "value": "-",
+              "count": 7,
+              "rate": 8.14
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D5",
+              "count": 20,
+              "rate": 23.26
+            },
+            {
+              "value": "D1",
+              "count": 18,
+              "rate": 20.93
+            },
+            {
+              "value": "D3",
+              "count": 18,
+              "rate": 20.93
+            },
+            {
+              "value": "D2",
+              "count": 15,
+              "rate": 17.44
+            },
+            {
+              "value": "D4",
+              "count": 15,
+              "rate": 17.44
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "43",
+              "count": 6,
+              "rate": 6.98
+            },
+            {
+              "value": "47",
+              "count": 6,
+              "rate": 6.98
+            },
+            {
+              "value": "40",
+              "count": 5,
+              "rate": 5.81
+            },
+            {
+              "value": "31",
+              "count": 5,
+              "rate": 5.81
+            },
+            {
+              "value": "41",
+              "count": 4,
+              "rate": 4.65
+            },
+            {
+              "value": "44",
+              "count": 4,
+              "rate": 4.65
+            },
+            {
+              "value": "39",
+              "count": 3,
+              "rate": 3.49
+            },
+            {
+              "value": "49",
+              "count": 3,
+              "rate": 3.49
+            },
+            {
+              "value": "59",
+              "count": 2,
+              "rate": 2.33
+            },
+            {
+              "value": "48",
+              "count": 2,
+              "rate": 2.33
+            }
+          ],
+          "branch": "S2"
+        },
+        {
+          "count": 80,
+          "signed_motion_min": -63,
+          "signed_motion_max": 45,
+          "signed_motion_median": -43.0,
+          "abs_motion_min": 21,
+          "abs_motion_max": 63,
+          "abs_motion_median": 43.5,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 74,
+              "rate": 92.5
+            },
+            {
+              "value": "+",
+              "count": 6,
+              "rate": 7.5
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D5",
+              "count": 19,
+              "rate": 23.75
+            },
+            {
+              "value": "D3",
+              "count": 18,
+              "rate": 22.5
+            },
+            {
+              "value": "D4",
+              "count": 17,
+              "rate": 21.25
+            },
+            {
+              "value": "D1",
+              "count": 15,
+              "rate": 18.75
+            },
+            {
+              "value": "D2",
+              "count": 11,
+              "rate": 13.75
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-57",
+              "count": 6,
+              "rate": 7.5
+            },
+            {
+              "value": "-39",
+              "count": 5,
+              "rate": 6.25
+            },
+            {
+              "value": "-45",
+              "count": 5,
+              "rate": 6.25
+            },
+            {
+              "value": "-37",
+              "count": 4,
+              "rate": 5.0
+            },
+            {
+              "value": "-46",
+              "count": 4,
+              "rate": 5.0
+            },
+            {
+              "value": "-52",
+              "count": 4,
+              "rate": 5.0
+            },
+            {
+              "value": "-49",
+              "count": 4,
+              "rate": 5.0
+            },
+            {
+              "value": "-47",
+              "count": 3,
+              "rate": 3.75
+            },
+            {
+              "value": "-50",
+              "count": 3,
+              "rate": 3.75
+            },
+            {
+              "value": "-27",
+              "count": 3,
+              "rate": 3.75
+            }
+          ],
+          "branch": "S4"
+        },
+        {
+          "count": 55,
+          "signed_motion_min": -61,
+          "signed_motion_max": 66,
+          "signed_motion_median": -22,
+          "abs_motion_min": 12,
+          "abs_motion_max": 66,
+          "abs_motion_median": 39,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 29,
+              "rate": 52.73
+            },
+            {
+              "value": "+",
+              "count": 26,
+              "rate": 47.27
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D4",
+              "count": 15,
+              "rate": 27.27
+            },
+            {
+              "value": "D2",
+              "count": 14,
+              "rate": 25.45
+            },
+            {
+              "value": "D1",
+              "count": 13,
+              "rate": 23.64
+            },
+            {
+              "value": "D5",
+              "count": 7,
+              "rate": 12.73
+            },
+            {
+              "value": "D3",
+              "count": 6,
+              "rate": 10.91
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "49",
+              "count": 3,
+              "rate": 5.45
+            },
+            {
+              "value": "43",
+              "count": 3,
+              "rate": 5.45
+            },
+            {
+              "value": "-39",
+              "count": 3,
+              "rate": 5.45
+            },
+            {
+              "value": "46",
+              "count": 2,
+              "rate": 3.64
+            },
+            {
+              "value": "-50",
+              "count": 2,
+              "rate": 3.64
+            },
+            {
+              "value": "-51",
+              "count": 2,
+              "rate": 3.64
+            },
+            {
+              "value": "-28",
+              "count": 2,
+              "rate": 3.64
+            },
+            {
+              "value": "-25",
+              "count": 2,
+              "rate": 3.64
+            },
+            {
+              "value": "52",
+              "count": 2,
+              "rate": 3.64
+            },
+            {
+              "value": "19",
+              "count": 2,
+              "rate": 3.64
+            }
+          ],
+          "branch": "S3"
+        }
+      ]
+    },
+    {
+      "topology_name": "Circe",
+      "case_count": 54,
+      "actual_branch_rank": [
+        {
+          "value": "S1",
+          "count": 15,
+          "rate": 27.78
+        },
+        {
+          "value": "S5",
+          "count": 13,
+          "rate": 24.07
+        },
+        {
+          "value": "S2",
+          "count": 12,
+          "rate": 22.22
+        },
+        {
+          "value": "S4",
+          "count": 9,
+          "rate": 16.67
+        },
+        {
+          "value": "S3",
+          "count": 5,
+          "rate": 9.26
+        }
+      ],
+      "actual_family_rank": [
+        {
+          "value": "EDGE_FAMILY",
+          "count": 28,
+          "rate": 51.85
+        },
+        {
+          "value": "HINGE_FAMILY",
+          "count": 21,
+          "rate": 38.89
+        },
+        {
+          "value": "CENTER_FAMILY",
+          "count": 5,
+          "rate": 9.26
+        }
+      ],
+      "selected_upgrade_recipe": {
+        "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "signal": "AUTHORITY_INCOMING_FAMILY",
+        "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+        "horizon": 1,
+        "topology_name": "Circe",
+        "features": [
+          "authority_seat",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane",
+          "incoming_draw_family",
+          "incoming_energy_class"
+        ],
+        "test_count": 54,
+        "call_count": 10,
+        "call_rate": 18.52,
+        "branch_matches": 4,
+        "branch_match_rate": 40.0,
+        "family_matches": 6,
+        "family_match_rate": 60.0,
+        "avg_prior_count": 1.0,
+        "promotion": "DIRECTIONAL_SELECTOR",
+        "sample_warning": "MODERATE_SAMPLE"
+      },
+      "top_upgrade_candidates": [
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTHORITY_INCOMING_FAMILY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Circe",
+          "features": [
+            "authority_seat",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane",
+            "incoming_draw_family",
+            "incoming_energy_class"
+          ],
+          "test_count": 54,
+          "call_count": 10,
+          "call_rate": 18.52,
+          "branch_matches": 4,
+          "branch_match_rate": 40.0,
+          "family_matches": 6,
+          "family_match_rate": 60.0,
+          "avg_prior_count": 1.0,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTHORITY_INCOMING_FAMILY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Circe",
+          "features": [
+            "authority_seat",
+            "incoming_draw_sign",
+            "dominant_incoming_draw_lane",
+            "incoming_draw_family",
+            "incoming_energy_class"
+          ],
+          "test_count": 54,
+          "call_count": 10,
+          "call_rate": 18.52,
+          "branch_matches": 4,
+          "branch_match_rate": 40.0,
+          "family_matches": 6,
+          "family_match_rate": 60.0,
+          "avg_prior_count": 1.5,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "WORLD_PREVIOUS_FAMILY",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Circe",
+          "features": [
+            "world_previous_family"
+          ],
+          "test_count": 54,
+          "call_count": 50,
+          "call_rate": 92.59,
+          "branch_matches": 20,
+          "branch_match_rate": 40.0,
+          "family_matches": 28,
+          "family_match_rate": 56.0,
+          "avg_prior_count": 1.0,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "WORLD_BRANCH_STATE_PRESSURE",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 3,
+          "topology_name": "Circe",
+          "features": [
+            "world_previous_branch",
+            "world_freshest_branch",
+            "world_stalest_branch",
+            "map_pressure_type",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 54,
+          "call_count": 21,
+          "call_rate": 38.89,
+          "branch_matches": 8,
+          "branch_match_rate": 38.1,
+          "family_matches": 12,
+          "family_match_rate": 57.14,
+          "avg_prior_count": 1.57,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "WORLD_BRANCH_STATE_PRESSURE",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Circe",
+          "features": [
+            "world_previous_branch",
+            "world_freshest_branch",
+            "world_stalest_branch",
+            "map_pressure_type",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 54,
+          "call_count": 21,
+          "call_rate": 38.89,
+          "branch_matches": 8,
+          "branch_match_rate": 38.1,
+          "family_matches": 12,
+          "family_match_rate": 57.14,
+          "avg_prior_count": 1.57,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "WORLD_BRANCH_STATE_PRESSURE",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Circe",
+          "features": [
+            "world_previous_branch",
+            "world_freshest_branch",
+            "world_stalest_branch",
+            "map_pressure_type",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 54,
+          "call_count": 21,
+          "call_rate": 38.89,
+          "branch_matches": 8,
+          "branch_match_rate": 38.1,
+          "family_matches": 12,
+          "family_match_rate": 57.14,
+          "avg_prior_count": 1.57,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "WORLD_BRANCH_STATE_PRESSURE",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Circe",
+          "features": [
+            "world_previous_branch",
+            "world_freshest_branch",
+            "world_stalest_branch",
+            "map_pressure_type",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 54,
+          "call_count": 21,
+          "call_rate": 38.89,
+          "branch_matches": 8,
+          "branch_match_rate": 38.1,
+          "family_matches": 12,
+          "family_match_rate": 57.14,
+          "avg_prior_count": 1.57,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "WORLD_BRANCH_STATE_PRESSURE",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Circe",
+          "features": [
+            "world_previous_branch",
+            "world_freshest_branch",
+            "world_stalest_branch",
+            "map_pressure_type",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 54,
+          "call_count": 21,
+          "call_rate": 38.89,
+          "branch_matches": 8,
+          "branch_match_rate": 38.1,
+          "family_matches": 12,
+          "family_match_rate": 57.14,
+          "avg_prior_count": 1.57,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "WORLD_BRANCH_STATE_PRESSURE",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Circe",
+          "features": [
+            "world_previous_branch",
+            "world_freshest_branch",
+            "world_stalest_branch",
+            "map_pressure_type",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 54,
+          "call_count": 21,
+          "call_rate": 38.89,
+          "branch_matches": 8,
+          "branch_match_rate": 38.1,
+          "family_matches": 12,
+          "family_match_rate": 57.14,
+          "avg_prior_count": 1.57,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTH_PRESSURE_BODY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 1,
+          "topology_name": "Circe",
+          "features": [
+            "authority_seat",
+            "authority_origin",
+            "pressure_shape",
+            "set_relation",
+            "middle_pressure",
+            "edge_pressure"
+          ],
+          "test_count": 54,
+          "call_count": 8,
+          "call_rate": 14.81,
+          "branch_matches": 3,
+          "branch_match_rate": 37.5,
+          "family_matches": 5,
+          "family_match_rate": 62.5,
+          "avg_prior_count": 1.0,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "SMALL_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "WORLD_BRANCH_STATE_PRESSURE",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Circe",
+          "features": [
+            "world_previous_branch",
+            "world_freshest_branch",
+            "world_stalest_branch",
+            "map_pressure_type",
+            "pressure_balance",
+            "pressure_distribution"
+          ],
+          "test_count": 54,
+          "call_count": 21,
+          "call_rate": 38.89,
+          "branch_matches": 7,
+          "branch_match_rate": 33.33,
+          "family_matches": 12,
+          "family_match_rate": 57.14,
+          "avg_prior_count": 1.43,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "MODERATE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "AUTHORITY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Circe",
+          "features": [
+            "authority_seat"
+          ],
+          "test_count": 54,
+          "call_count": 54,
+          "call_rate": 100.0,
+          "branch_matches": 17,
+          "branch_match_rate": 31.48,
+          "family_matches": 31,
+          "family_match_rate": 57.41,
+          "avg_prior_count": 12.5,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        }
+      ],
+      "range_profiles": [
+        {
+          "count": 15,
+          "signed_motion_min": -21,
+          "signed_motion_max": 64,
+          "signed_motion_median": 46,
+          "abs_motion_min": 18,
+          "abs_motion_max": 64,
+          "abs_motion_median": 46,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 14,
+              "rate": 93.33
+            },
+            {
+              "value": "-",
+              "count": 1,
+              "rate": 6.67
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D2",
+              "count": 5,
+              "rate": 33.33
+            },
+            {
+              "value": "D4",
+              "count": 3,
+              "rate": 20.0
+            },
+            {
+              "value": "D3",
+              "count": 3,
+              "rate": 20.0
+            },
+            {
+              "value": "D1",
+              "count": 3,
+              "rate": 20.0
+            },
+            {
+              "value": "D5",
+              "count": 1,
+              "rate": 6.67
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "53",
+              "count": 2,
+              "rate": 13.33
+            },
+            {
+              "value": "51",
+              "count": 2,
+              "rate": 13.33
+            },
+            {
+              "value": "46",
+              "count": 2,
+              "rate": 13.33
+            },
+            {
+              "value": "55",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "34",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "44",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "-21",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "29",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "64",
+              "count": 1,
+              "rate": 6.67
+            },
+            {
+              "value": "33",
+              "count": 1,
+              "rate": 6.67
+            }
+          ],
+          "branch": "S1"
+        },
+        {
+          "count": 13,
+          "signed_motion_min": -64,
+          "signed_motion_max": -30,
+          "signed_motion_median": -45,
+          "abs_motion_min": 30,
+          "abs_motion_max": 64,
+          "abs_motion_median": 45,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 13,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D1",
+              "count": 4,
+              "rate": 30.77
+            },
+            {
+              "value": "D2",
+              "count": 3,
+              "rate": 23.08
+            },
+            {
+              "value": "D4",
+              "count": 3,
+              "rate": 23.08
+            },
+            {
+              "value": "D5",
+              "count": 2,
+              "rate": 15.38
+            },
+            {
+              "value": "D3",
+              "count": 1,
+              "rate": 7.69
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-45",
+              "count": 2,
+              "rate": 15.38
+            },
+            {
+              "value": "-47",
+              "count": 2,
+              "rate": 15.38
+            },
+            {
+              "value": "-35",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "-36",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "-42",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "-30",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "-50",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "-64",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "-39",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "-61",
+              "count": 1,
+              "rate": 7.69
+            }
+          ],
+          "branch": "S5"
+        },
+        {
+          "count": 12,
+          "signed_motion_min": -52,
+          "signed_motion_max": 59,
+          "signed_motion_median": 35.5,
+          "abs_motion_min": 22,
+          "abs_motion_max": 59,
+          "abs_motion_median": 43.0,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 9,
+              "rate": 75.0
+            },
+            {
+              "value": "-",
+              "count": 3,
+              "rate": 25.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D3",
+              "count": 5,
+              "rate": 41.67
+            },
+            {
+              "value": "D1",
+              "count": 3,
+              "rate": 25.0
+            },
+            {
+              "value": "D2",
+              "count": 2,
+              "rate": 16.67
+            },
+            {
+              "value": "D5",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "D4",
+              "count": 1,
+              "rate": 8.33
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-22",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "59",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "-34",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "52",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "31",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "49",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "37",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "-52",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "54",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "28",
+              "count": 1,
+              "rate": 8.33
+            }
+          ],
+          "branch": "S2"
+        },
+        {
+          "count": 9,
+          "signed_motion_min": -46,
+          "signed_motion_max": -10,
+          "signed_motion_median": -42,
+          "abs_motion_min": 10,
+          "abs_motion_max": 46,
+          "abs_motion_median": 42,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 9,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D2",
+              "count": 4,
+              "rate": 44.44
+            },
+            {
+              "value": "D3",
+              "count": 3,
+              "rate": 33.33
+            },
+            {
+              "value": "D1",
+              "count": 2,
+              "rate": 22.22
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-46",
+              "count": 2,
+              "rate": 22.22
+            },
+            {
+              "value": "-31",
+              "count": 1,
+              "rate": 11.11
+            },
+            {
+              "value": "-45",
+              "count": 1,
+              "rate": 11.11
+            },
+            {
+              "value": "-38",
+              "count": 1,
+              "rate": 11.11
+            },
+            {
+              "value": "-43",
+              "count": 1,
+              "rate": 11.11
+            },
+            {
+              "value": "-10",
+              "count": 1,
+              "rate": 11.11
+            },
+            {
+              "value": "-27",
+              "count": 1,
+              "rate": 11.11
+            },
+            {
+              "value": "-42",
+              "count": 1,
+              "rate": 11.11
+            }
+          ],
+          "branch": "S4"
+        },
+        {
+          "count": 5,
+          "signed_motion_min": -38,
+          "signed_motion_max": 24,
+          "signed_motion_median": -28,
+          "abs_motion_min": 24,
+          "abs_motion_max": 38,
+          "abs_motion_median": 28,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 3,
+              "rate": 60.0
+            },
+            {
+              "value": "+",
+              "count": 2,
+              "rate": 40.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D3",
+              "count": 4,
+              "rate": 80.0
+            },
+            {
+              "value": "D5",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "24",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "-33",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "-38",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "-28",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "branch": "S3"
+        }
+      ]
+    },
+    {
+      "topology_name": "Suzuka",
+      "case_count": 59,
+      "actual_branch_rank": [
+        {
+          "value": "S5",
+          "count": 19,
+          "rate": 32.2
+        },
+        {
+          "value": "S1",
+          "count": 13,
+          "rate": 22.03
+        },
+        {
+          "value": "S2",
+          "count": 12,
+          "rate": 20.34
+        },
+        {
+          "value": "S4",
+          "count": 10,
+          "rate": 16.95
+        },
+        {
+          "value": "S3",
+          "count": 5,
+          "rate": 8.47
+        }
+      ],
+      "actual_family_rank": [
+        {
+          "value": "EDGE_FAMILY",
+          "count": 32,
+          "rate": 54.24
+        },
+        {
+          "value": "HINGE_FAMILY",
+          "count": 22,
+          "rate": 37.29
+        },
+        {
+          "value": "CENTER_FAMILY",
+          "count": 5,
+          "rate": 8.47
+        }
+      ],
+      "selected_upgrade_recipe": {
+        "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "signal": "WORLD_PREVIOUS_FAMILY_BURDEN",
+        "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+        "horizon": 34,
+        "topology_name": "Suzuka",
+        "features": [
+          "world_previous_family",
+          "highest_burden_seat",
+          "highest_burden_state"
+        ],
+        "test_count": 59,
+        "call_count": 57,
+        "call_rate": 96.61,
+        "branch_matches": 21,
+        "branch_match_rate": 36.84,
+        "family_matches": 33,
+        "family_match_rate": 57.89,
+        "avg_prior_count": 21.26,
+        "promotion": "DIRECTIONAL_SELECTOR",
+        "sample_warning": "STABLE_SAMPLE"
+      },
+      "top_upgrade_candidates": [
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "WORLD_PREVIOUS_FAMILY_BURDEN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Suzuka",
+          "features": [
+            "world_previous_family",
+            "highest_burden_seat",
+            "highest_burden_state"
+          ],
+          "test_count": 59,
+          "call_count": 57,
+          "call_rate": 96.61,
+          "branch_matches": 21,
+          "branch_match_rate": 36.84,
+          "family_matches": 33,
+          "family_match_rate": 57.89,
+          "avg_prior_count": 21.26,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "WEAK_WORLD_FEATURE_RECIPE",
+          "signal": "BURDEN_ORIGIN",
+          "horizon_type": "WORLD_FEATURE_OCCURRENCE",
+          "horizon": 8,
+          "topology_name": "Suzuka",
+          "features": [
+            "highest_burden_seat",
+            "highest_burden_state",
+            "dominant_origin_seat",
+            "authority_origin"
+          ],
+          "test_count": 59,
+          "call_count": 53,
+          "call_rate": 89.83,
+          "branch_matches": 19,
+          "branch_match_rate": 35.85,
+          "family_matches": 30,
+          "family_match_rate": 56.6,
+          "avg_prior_count": 7.08,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "WORLD_PREVIOUS_FAMILY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 13,
+          "topology_name": "Suzuka",
+          "features": [
+            "world_previous_family"
+          ],
+          "test_count": 59,
+          "call_count": 59,
+          "call_rate": 100.0,
+          "branch_matches": 21,
+          "branch_match_rate": 35.59,
+          "family_matches": 35,
+          "family_match_rate": 59.32,
+          "avg_prior_count": 12.71,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "WORLD_PREVIOUS_FAMILY",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 5,
+          "topology_name": "Suzuka",
+          "features": [
+            "world_previous_family"
+          ],
+          "test_count": 59,
+          "call_count": 59,
+          "call_rate": 100.0,
+          "branch_matches": 21,
+          "branch_match_rate": 35.59,
+          "family_matches": 34,
+          "family_match_rate": 57.63,
+          "avg_prior_count": 4.98,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "WORLD_PREVIOUS_FAMILY_BURDEN",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Suzuka",
+          "features": [
+            "world_previous_family",
+            "highest_burden_seat",
+            "highest_burden_state"
+          ],
+          "test_count": 59,
+          "call_count": 57,
+          "call_rate": 96.61,
+          "branch_matches": 19,
+          "branch_match_rate": 33.33,
+          "family_matches": 32,
+          "family_match_rate": 56.14,
+          "avg_prior_count": 15.88,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Suzuka",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 59,
+          "call_count": 59,
+          "call_rate": 100.0,
+          "branch_matches": 19,
+          "branch_match_rate": 32.2,
+          "family_matches": 34,
+          "family_match_rate": 57.63,
+          "avg_prior_count": 30.08,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "WORLD_PREVIOUS_BRANCH",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 34,
+          "topology_name": "Suzuka",
+          "features": [
+            "world_previous_branch"
+          ],
+          "test_count": 59,
+          "call_count": 59,
+          "call_rate": 100.0,
+          "branch_matches": 18,
+          "branch_match_rate": 30.51,
+          "family_matches": 33,
+          "family_match_rate": 55.93,
+          "avg_prior_count": 30.64,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "PRESSURE_FUSION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Suzuka",
+          "features": [
+            "pressure_fusion",
+            "pressure_fusion_profile"
+          ],
+          "test_count": 59,
+          "call_count": 57,
+          "call_rate": 96.61,
+          "branch_matches": 17,
+          "branch_match_rate": 29.82,
+          "family_matches": 33,
+          "family_match_rate": 57.89,
+          "avg_prior_count": 1.98,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "FACE_TURNS",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 2,
+          "topology_name": "Suzuka",
+          "features": [
+            "face_family",
+            "turn_lanes"
+          ],
+          "test_count": 59,
+          "call_count": 59,
+          "call_rate": 100.0,
+          "branch_matches": 17,
+          "branch_match_rate": 28.81,
+          "family_matches": 34,
+          "family_match_rate": 57.63,
+          "avg_prior_count": 1.97,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "WORLD_PREVIOUS_BRANCH",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Suzuka",
+          "features": [
+            "world_previous_branch"
+          ],
+          "test_count": 59,
+          "call_count": 59,
+          "call_rate": 100.0,
+          "branch_matches": 17,
+          "branch_match_rate": 28.81,
+          "family_matches": 34,
+          "family_match_rate": 57.63,
+          "avg_prior_count": 19.47,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "COLLISION",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 21,
+          "topology_name": "Suzuka",
+          "features": [
+            "collision_seat",
+            "collision_type"
+          ],
+          "test_count": 59,
+          "call_count": 59,
+          "call_rate": 100.0,
+          "branch_matches": 16,
+          "branch_match_rate": 27.12,
+          "family_matches": 33,
+          "family_match_rate": 55.93,
+          "avg_prior_count": 19.63,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        },
+        {
+          "selector_source": "BORROWED_ANALOG_FEATURE_RECIPE",
+          "signal": "WORLD_PREVIOUS_BRANCH",
+          "horizon_type": "BORROWED_ANALOG_OCCURRENCE",
+          "horizon": 3,
+          "topology_name": "Suzuka",
+          "features": [
+            "world_previous_branch"
+          ],
+          "test_count": 59,
+          "call_count": 59,
+          "call_rate": 100.0,
+          "branch_matches": 16,
+          "branch_match_rate": 27.12,
+          "family_matches": 33,
+          "family_match_rate": 55.93,
+          "avg_prior_count": 3.0,
+          "promotion": "DIRECTIONAL_SELECTOR",
+          "sample_warning": "STABLE_SAMPLE"
+        }
+      ],
+      "range_profiles": [
+        {
+          "count": 19,
+          "signed_motion_min": -65,
+          "signed_motion_max": 19,
+          "signed_motion_median": -43,
+          "abs_motion_min": 19,
+          "abs_motion_max": 65,
+          "abs_motion_median": 43,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 18,
+              "rate": 94.74
+            },
+            {
+              "value": "+",
+              "count": 1,
+              "rate": 5.26
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D1",
+              "count": 6,
+              "rate": 31.58
+            },
+            {
+              "value": "D2",
+              "count": 5,
+              "rate": 26.32
+            },
+            {
+              "value": "D5",
+              "count": 4,
+              "rate": 21.05
+            },
+            {
+              "value": "D3",
+              "count": 3,
+              "rate": 15.79
+            },
+            {
+              "value": "D4",
+              "count": 1,
+              "rate": 5.26
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-53",
+              "count": 2,
+              "rate": 10.53
+            },
+            {
+              "value": "-43",
+              "count": 2,
+              "rate": 10.53
+            },
+            {
+              "value": "-33",
+              "count": 2,
+              "rate": 10.53
+            },
+            {
+              "value": "-38",
+              "count": 2,
+              "rate": 10.53
+            },
+            {
+              "value": "-44",
+              "count": 2,
+              "rate": 10.53
+            },
+            {
+              "value": "-30",
+              "count": 1,
+              "rate": 5.26
+            },
+            {
+              "value": "19",
+              "count": 1,
+              "rate": 5.26
+            },
+            {
+              "value": "-55",
+              "count": 1,
+              "rate": 5.26
+            },
+            {
+              "value": "-42",
+              "count": 1,
+              "rate": 5.26
+            },
+            {
+              "value": "-65",
+              "count": 1,
+              "rate": 5.26
+            }
+          ],
+          "branch": "S5"
+        },
+        {
+          "count": 13,
+          "signed_motion_min": 37,
+          "signed_motion_max": 66,
+          "signed_motion_median": 53,
+          "abs_motion_min": 37,
+          "abs_motion_max": 66,
+          "abs_motion_median": 53,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 13,
+              "rate": 100.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D5",
+              "count": 4,
+              "rate": 30.77
+            },
+            {
+              "value": "D3",
+              "count": 4,
+              "rate": 30.77
+            },
+            {
+              "value": "D1",
+              "count": 2,
+              "rate": 15.38
+            },
+            {
+              "value": "D4",
+              "count": 2,
+              "rate": 15.38
+            },
+            {
+              "value": "D2",
+              "count": 1,
+              "rate": 7.69
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "58",
+              "count": 2,
+              "rate": 15.38
+            },
+            {
+              "value": "47",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "61",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "44",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "66",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "53",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "50",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "63",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "37",
+              "count": 1,
+              "rate": 7.69
+            },
+            {
+              "value": "57",
+              "count": 1,
+              "rate": 7.69
+            }
+          ],
+          "branch": "S1"
+        },
+        {
+          "count": 12,
+          "signed_motion_min": -29,
+          "signed_motion_max": 55,
+          "signed_motion_median": 30.5,
+          "abs_motion_min": 14,
+          "abs_motion_max": 55,
+          "abs_motion_median": 30.5,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 11,
+              "rate": 91.67
+            },
+            {
+              "value": "-",
+              "count": 1,
+              "rate": 8.33
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D3",
+              "count": 4,
+              "rate": 33.33
+            },
+            {
+              "value": "D1",
+              "count": 3,
+              "rate": 25.0
+            },
+            {
+              "value": "D4",
+              "count": 2,
+              "rate": 16.67
+            },
+            {
+              "value": "D2",
+              "count": 2,
+              "rate": 16.67
+            },
+            {
+              "value": "D5",
+              "count": 1,
+              "rate": 8.33
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "48",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "55",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "22",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "54",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "19",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "30",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "31",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "14",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "42",
+              "count": 1,
+              "rate": 8.33
+            },
+            {
+              "value": "35",
+              "count": 1,
+              "rate": 8.33
+            }
+          ],
+          "branch": "S2"
+        },
+        {
+          "count": 10,
+          "signed_motion_min": -57,
+          "signed_motion_max": 42,
+          "signed_motion_median": -37.5,
+          "abs_motion_min": 18,
+          "abs_motion_max": 57,
+          "abs_motion_median": 41.5,
+          "sign_rank": [
+            {
+              "value": "-",
+              "count": 8,
+              "rate": 80.0
+            },
+            {
+              "value": "+",
+              "count": 2,
+              "rate": 20.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D1",
+              "count": 4,
+              "rate": 40.0
+            },
+            {
+              "value": "D2",
+              "count": 2,
+              "rate": 20.0
+            },
+            {
+              "value": "D5",
+              "count": 2,
+              "rate": 20.0
+            },
+            {
+              "value": "D4",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "D3",
+              "count": 1,
+              "rate": 10.0
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-52",
+              "count": 2,
+              "rate": 20.0
+            },
+            {
+              "value": "-41",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "25",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-57",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-34",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "42",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-28",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-44",
+              "count": 1,
+              "rate": 10.0
+            },
+            {
+              "value": "-18",
+              "count": 1,
+              "rate": 10.0
+            }
+          ],
+          "branch": "S4"
+        },
+        {
+          "count": 5,
+          "signed_motion_min": -46,
+          "signed_motion_max": 45,
+          "signed_motion_median": 31,
+          "abs_motion_min": 26,
+          "abs_motion_max": 46,
+          "abs_motion_median": 35,
+          "sign_rank": [
+            {
+              "value": "+",
+              "count": 4,
+              "rate": 80.0
+            },
+            {
+              "value": "-",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "lane_rank": [
+            {
+              "value": "D2",
+              "count": 2,
+              "rate": 40.0
+            },
+            {
+              "value": "D4",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "D3",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "D1",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "top_motion_values": [
+            {
+              "value": "-46",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "26",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "35",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "45",
+              "count": 1,
+              "rate": 20.0
+            },
+            {
+              "value": "31",
+              "count": 1,
+              "rate": 20.0
+            }
+          ],
+          "branch": "S3"
+        }
+      ]
+    }
+  ],
+  "feature_recipe_catalog": {
+    "AUTHORITY": [
+      "authority_seat"
+    ],
+    "AUTHORITY_ORIGIN": [
+      "authority_seat",
+      "authority_origin"
+    ],
+    "AUTHORITY_INCOMING": [
+      "authority_seat",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "AUTHORITY_INCOMING_FAMILY": [
+      "authority_seat",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane",
+      "incoming_draw_family",
+      "incoming_energy_class"
+    ],
+    "PRESSURE_TOPOLOGY": [
+      "map_pressure_type",
+      "pressure_center",
+      "pressure_balance",
+      "pressure_distribution"
+    ],
+    "PRESSURE_BODY": [
+      "pressure_shape",
+      "set_relation",
+      "middle_pressure",
+      "edge_pressure"
+    ],
+    "PRESSURE_FUSION_BODY": [
+      "pressure_fusion",
+      "pressure_shape",
+      "middle_pressure",
+      "edge_pressure"
+    ],
+    "BURDEN": [
+      "highest_burden_seat",
+      "highest_burden_level",
+      "highest_burden_state"
+    ],
+    "BURDEN_ORIGIN": [
+      "highest_burden_seat",
+      "highest_burden_state",
+      "dominant_origin_seat",
+      "authority_origin"
+    ],
+    "COLLISION": [
+      "collision_seat",
+      "collision_type"
+    ],
+    "COLLISION_AUTHORITY": [
+      "collision_seat",
+      "collision_type",
+      "authority_seat",
+      "authority_origin"
+    ],
+    "COLLISION_INCOMING": [
+      "collision_seat",
+      "collision_type",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "COLLISION_FACE": [
+      "collision_seat",
+      "collision_type",
+      "face_family",
+      "turn_lanes"
+    ],
+    "COLLISION_BURDEN": [
+      "collision_seat",
+      "collision_type",
+      "highest_burden_seat",
+      "highest_burden_state"
+    ],
+    "COLLISION_BURDEN_ORIGIN": [
+      "collision_seat",
+      "collision_type",
+      "highest_burden_seat",
+      "highest_burden_state",
+      "dominant_origin_seat",
+      "authority_origin"
+    ],
+    "COLLISION_PRESSURE_TOPOLOGY": [
+      "collision_seat",
+      "collision_type",
+      "map_pressure_type",
+      "pressure_center",
+      "pressure_balance",
+      "pressure_distribution"
+    ],
+    "COLLISION_PRESSURE_BODY": [
+      "collision_seat",
+      "collision_type",
+      "pressure_shape",
+      "set_relation",
+      "middle_pressure",
+      "edge_pressure"
+    ],
+    "FACE_TURNS": [
+      "face_family",
+      "turn_lanes"
+    ],
+    "FACE_INCOMING": [
+      "face_family",
+      "turn_lanes",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "BURDEN_FACE": [
+      "highest_burden_seat",
+      "highest_burden_state",
+      "face_family",
+      "turn_lanes"
+    ],
+    "BURDEN_PRESSURE_TOPOLOGY": [
+      "highest_burden_seat",
+      "highest_burden_state",
+      "map_pressure_type",
+      "pressure_center",
+      "pressure_balance",
+      "pressure_distribution"
+    ],
+    "ORIGIN_PRESSURE_TOPOLOGY": [
+      "dominant_origin_seat",
+      "authority_origin",
+      "map_pressure_type",
+      "pressure_center",
+      "pressure_balance",
+      "pressure_distribution"
+    ],
+    "AUTH_FACE": [
+      "authority_seat",
+      "authority_origin",
+      "face_family",
+      "turn_lanes"
+    ],
+    "AUTH_PRESSURE_BODY": [
+      "authority_seat",
+      "authority_origin",
+      "pressure_shape",
+      "set_relation",
+      "middle_pressure",
+      "edge_pressure"
+    ],
+    "PRESSURE_INCOMING": [
+      "pressure_balance",
+      "pressure_distribution",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "BODY_INCOMING": [
+      "set_relation",
+      "middle_pressure",
+      "edge_pressure",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "AUTH_PRESSURE_INCOMING": [
+      "authority_seat",
+      "authority_origin",
+      "pressure_balance",
+      "pressure_distribution",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "AUTH_COLLISION_PRESSURE": [
+      "authority_seat",
+      "authority_origin",
+      "collision_seat",
+      "pressure_balance",
+      "pressure_distribution"
+    ],
+    "AUTH_BURDEN_INCOMING": [
+      "authority_seat",
+      "authority_origin",
+      "highest_burden_seat",
+      "highest_burden_state",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "BURDEN_FACE_INCOMING": [
+      "highest_burden_seat",
+      "highest_burden_state",
+      "face_family",
+      "turn_lanes",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "PRESSURE_FUSION": [
+      "pressure_fusion",
+      "pressure_fusion_profile"
+    ],
+    "PRESSURE_FUSION_INCOMING": [
+      "pressure_fusion",
+      "pressure_fusion_profile",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "TECHNICAL_SIGNATURE": [
+      "technical_signature"
+    ],
+    "WORLD_PREVIOUS_BRANCH": [
+      "world_previous_branch"
+    ],
+    "WORLD_PREVIOUS_FAMILY": [
+      "world_previous_family"
+    ],
+    "WORLD_PREVIOUS_BRANCH_INCOMING": [
+      "world_previous_branch",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "WORLD_PREVIOUS_FAMILY_INCOMING": [
+      "world_previous_family",
+      "incoming_draw_sign",
+      "dominant_incoming_draw_lane"
+    ],
+    "WORLD_PREVIOUS_BRANCH_BURDEN": [
+      "world_previous_branch",
+      "highest_burden_seat",
+      "highest_burden_state"
+    ],
+    "WORLD_PREVIOUS_FAMILY_BURDEN": [
+      "world_previous_family",
+      "highest_burden_seat",
+      "highest_burden_state"
+    ],
+    "WORLD_FRESHEST_BRANCH_BURDEN": [
+      "world_freshest_branch",
+      "highest_burden_seat",
+      "highest_burden_state"
+    ],
+    "WORLD_STALEST_BRANCH_BURDEN": [
+      "world_stalest_branch",
+      "highest_burden_seat",
+      "highest_burden_state"
+    ],
+    "WORLD_BRANCH_STATE_COLLISION": [
+      "world_previous_branch",
+      "world_freshest_branch",
+      "world_stalest_branch",
+      "collision_seat",
+      "collision_type"
+    ],
+    "WORLD_BRANCH_STATE_PRESSURE": [
+      "world_previous_branch",
+      "world_freshest_branch",
+      "world_stalest_branch",
+      "map_pressure_type",
+      "pressure_balance",
+      "pressure_distribution"
+    ]
+  },
+  "notes": [
+    "Only live-safe selector fields are tested.",
+    "Future-only outgoing fields are excluded from selector recipes.",
+    "WORLD_FEATURE_OCCURRENCE means last N prior appearances of the same feature key inside that world.",
+    "Promotion means the candidate is useful enough to guide the branch selector, not that the world is solved permanently."
+  ]
+}

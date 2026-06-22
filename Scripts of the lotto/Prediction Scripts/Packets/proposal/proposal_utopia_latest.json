@@ -1,0 +1,65 @@
+{
+  "schema": "last_writes.proposal.v1",
+  "status": "PROPOSAL_READY",
+  "canonical_name": "The Proposal",
+  "proposal_type": "OUTGOING_MOTION_CONTRACT",
+  "proposal_branch": {
+    "field": "branch",
+    "value": "S5",
+    "count": 16,
+    "rate": 40.0
+  },
+  "proposal_family": {
+    "field": "family",
+    "value": "EDGE_FAMILY",
+    "count": 23,
+    "rate": 57.5
+  },
+  "proposal_record": {
+    "branch": {
+      "field": "branch",
+      "value": "S5",
+      "count": 16,
+      "rate": 40.0
+    },
+    "family": {
+      "field": "family",
+      "value": "EDGE_FAMILY",
+      "count": 23,
+      "rate": 57.5
+    },
+    "all_fields": [
+      {
+        "field": "family",
+        "value": "EDGE_FAMILY",
+        "count": 23,
+        "rate": 57.5
+      },
+      {
+        "field": "branch",
+        "value": "S5",
+        "count": 16,
+        "rate": 40.0
+      },
+      {
+        "field": "lane",
+        "value": "D1",
+        "count": 10,
+        "rate": 25.0
+      },
+      {
+        "field": "flow",
+        "value": "RETENTION",
+        "count": 30,
+        "rate": 75.0
+      },
+      {
+        "field": "transfer",
+        "value": "HYBRID_COUNTER",
+        "count": 26,
+        "rate": 65.0
+      }
+    ]
+  },
+  "law": "Proposal publishes the rank-1 outgoing motion contract from Gatherer. It does not convert that contract into final numbers yet."
+}

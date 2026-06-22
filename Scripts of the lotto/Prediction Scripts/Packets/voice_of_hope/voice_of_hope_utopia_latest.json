@@ -1,0 +1,129 @@
+{
+  "schema": "last_writes.voice_of_hope.v1",
+  "status": "VOICE_OF_HOPE_READY",
+  "canonical_name": "Voice Of Hope",
+  "source": "CONDITIONAL_MEMORY_RESOLVER",
+  "draw": {
+    "date": "2026-06-17",
+    "index": 1960,
+    "white_balls": [
+      49,
+      53,
+      3,
+      26,
+      61
+    ],
+    "sorted_white_balls": [
+      3,
+      26,
+      49,
+      53,
+      61
+    ]
+  },
+  "memory_read_status": "REPEATED_FIELD_MEMORY_AVAILABLE",
+  "deepest_matched_level": 3,
+  "recommended_use": "FAMILY_FIELD_EVIDENCE",
+  "selected_outgoing_contract": {
+    "branch": {
+      "value": "S5",
+      "count": 16,
+      "rate": 40.0
+    },
+    "family": {
+      "value": "EDGE_FAMILY",
+      "count": 23,
+      "rate": 57.5
+    },
+    "lane": {
+      "value": "D1",
+      "count": 10,
+      "rate": 25.0
+    },
+    "flow": {
+      "value": "RETENTION",
+      "count": 30,
+      "rate": 75.0
+    },
+    "transfer": {
+      "value": "HYBRID_COUNTER",
+      "count": 26,
+      "rate": 65.0
+    }
+  },
+  "truth_control": {
+    "rule": "truth control separates observed facts, live-safe inference, historical explanation, discovery memory, and exact-answer authority",
+    "truth_levels": {
+      "OBSERVED_FACT": "directly read from the current or previous/current draw",
+      "LIVE_SAFE_INFERENCE": "computed from current/prior information only",
+      "HISTORICAL_FACT": "known only because the next historical draw exists",
+      "HISTORICAL_EXPLANATION": "explains how the known next draw resolved",
+      "DISCOVERY_ONLY": "learned from historical fields and not trusted live by itself",
+      "UNPROVEN": "pattern exists but exact answer authority is not proven",
+      "NO_CALL": "not enough live-safe evidence to make the claim"
+    },
+    "claim_authority": {
+      "current_draw": "OBSERVED_FACT",
+      "sorted_body": "OBSERVED_FACT",
+      "incoming_motion": "OBSERVED_FACT",
+      "current_pressure": "OBSERVED_FACT",
+      "live_safe_pressure_context": "LIVE_SAFE_INFERENCE",
+      "pressure_origin_live_safe_sources": [
+        "EDGE_IMBALANCE",
+        "GAP_STRUCTURE",
+        "HINGE_TRAP",
+        "INCOMING_MOTION",
+        "MIDDLE_COMPRESSION"
+      ],
+      "outgoing_contract": "NO_OBSERVED_NEXT_DRAW",
+      "motion_state": "UNPROVEN_OPEN_BOUNDARY",
+      "motion_archetype": "UNPROVEN_OPEN_BOUNDARY",
+      "resolution_bias": "UNPROVEN_OPEN_BOUNDARY",
+      "collision_point": "NO_CALL_OPEN_BOUNDARY",
+      "branch_selector": "NO_CALL",
+      "technical_draw_address": "OPEN_BOUNDARY_ROOM_ID"
+    },
+    "live_safe_claims": {
+      "world": {
+        "world_slot": "WORLD_038",
+        "topology_slot": "TOPOLOGY_WORLD_11",
+        "topology_name": "Suzuka",
+        "base_world": "DYNAMIC_DOMINANT",
+        "pressure_center": "CORE",
+        "pressure_balance": "LEFT_HEAVY",
+        "pressure_distribution": "SPLIT",
+        "world_key": "DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT",
+        "topology_key": "DYNAMIC_DOMINANT::CORE::SPLIT",
+        "naming_status": "TOPOLOGY_NAMED_EXACT_WORLD_UNNAMED",
+        "rule": "pressure world groups the draw by structural/dynamic authority, dominant pressure center, balance, and distribution"
+      },
+      "authority_seat": "S1",
+      "authority_origin": "INCOMING_MOTION",
+      "dominant_pressure_seat": "S1",
+      "pressure_shape": "HIGH-HIGH-MEDIUM-LOW-MEDIUM",
+      "pressure_type": "DYNAMIC_DOMINANT",
+      "pressure_center": "CORE",
+      "pressure_balance": "LEFT_HEAVY",
+      "pressure_distribution": "SPLIT"
+    },
+    "exact_branch_claim": {
+      "authority": "NO_CALL_OPEN_BOUNDARY",
+      "read": "next draw is missing, so no exact outgoing branch can be truth-scored",
+      "collision_seat": "S1",
+      "observed_outgoing_seat": null,
+      "observed_outgoing_lane": null,
+      "validation_result": "BOUNDARY_UNKNOWN",
+      "selector_result": "NO_FIELD",
+      "doctrine": "Seat Taxonomy may describe exact branch history, but exact branch live authority must come from prior-only conditional memory proof."
+    },
+    "blocked_from_live_prediction": [
+      "outgoing_contract",
+      "outgoing motion state",
+      "outgoing motion archetype",
+      "branch_selector observed result",
+      "collision validation result",
+      "transfer reversal built from current-to-next motion"
+    ]
+  },
+  "law": "Last Writes Voice Of Hope manifests the outgoing-motion field selected by conditional memory. It does not invent a branch outside the memory read."
+}

@@ -1,0 +1,492 @@
+{
+  "schema": "last_writes.conditional_memory_stage.v1",
+  "status": "CONDITIONAL_MEMORY_READY",
+  "official_memory_path": "C:\\Users\\kahli\\OneDrive\\Desktop\\Last Rites\\Books of The Lotto\\Books Of Complextity\\hierarchical_conditional_motion_memory_levels_2_5_2015-10-07.json",
+  "synthetic_memory_dir": "C:\\Users\\kahli\\OneDrive\\Desktop\\Last Rites\\Books of The Lotto\\Books Of Complextity\\Synthetic Memory",
+  "uses_synthetic_memory": true,
+  "official_resolution": {
+    "schema": "iiw.conditional_memory_resolver.v1",
+    "rule": "resolve current motion by matching live-safe Seat Taxonomy fields against historical/synthetic conditional memory rooms",
+    "draw": {
+      "date": "2026-06-17",
+      "index": 1960,
+      "white_balls": [
+        49,
+        53,
+        3,
+        26,
+        61
+      ],
+      "sorted_white_balls": [
+        3,
+        26,
+        49,
+        53,
+        61
+      ]
+    },
+    "live_case": {
+      "date": "2026-06-17",
+      "index": 1960,
+      "white_balls": [
+        49,
+        53,
+        3,
+        26,
+        61
+      ],
+      "sorted_white_balls": [
+        3,
+        26,
+        49,
+        53,
+        61
+      ],
+      "topology_name": "Suzuka",
+      "world_key": "DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT",
+      "world_slot": "WORLD_038",
+      "authority_seat": "S1",
+      "authority_origin": "INCOMING_MOTION",
+      "pressure_center": "CORE",
+      "pressure_balance": "LEFT_HEAVY",
+      "pressure_distribution": "SPLIT",
+      "map_pressure_type": "DYNAMIC_DOMINANT",
+      "dominant_pressure_seat": "S1",
+      "pressure_shape": "HIGH-HIGH-MEDIUM-LOW-MEDIUM",
+      "incoming_draw_sign": "----+",
+      "dominant_incoming_draw_lane": "D3",
+      "incoming_draw_family": "DROP_DOMINANT_DIRECTED_MOTION_D3",
+      "incoming_energy_class": "Directed Motion",
+      "face_family": "Crest Valley",
+      "turn_lanes": "D2-D3",
+      "set_relation": "ENTRY_EXIT_TILTED_AROUND_MIDDLE",
+      "middle_pressure": "MIDDLE_STABLE_PRESSURE",
+      "edge_pressure": "ENTRY_BALANCED_EXIT_CONTAINED",
+      "pressure_fusion": "REDISTRIBUTED_FUSION",
+      "pressure_fusion_profile": "UPLIFT_TO_TENSION",
+      "technical_signature": "S1_CORE_SKY | ENTRY_FIGHTER_HIGH_EXIT_GRUNT | S2_S4_FIGHTER_HIGH_THEN_KID | MIDDLE_STABLE_PRESSURE | ENTRY_EXIT_TILTED_AROUND_MIDDLE | S5_ENDPOINT_HIGH_KING",
+      "highest_burden_seat": "S1",
+      "highest_burden_level": "HIGH",
+      "highest_burden_state": "HOLD",
+      "highest_burden_gauge": "Tyr",
+      "dominant_origin_seat": "S1",
+      "dominant_origin_score": 88,
+      "authority_score": 146.9,
+      "authority_draw_lane": "D3"
+    },
+    "level_queries": [
+      {
+        "level": 2,
+        "key": "TOPOLOGY_SUZUKA::WORLD_DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION",
+        "matched": true,
+        "scenario": {
+          "memory_level": 2,
+          "scenario_key": "TOPOLOGY_SUZUKA::WORLD_DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION",
+          "appearances": 39,
+          "truth_authority": "HISTORICAL_FAMILY_FIELD",
+          "live_use": "FAMILY_FIELD_EVIDENCE",
+          "topology_name": "Suzuka",
+          "authority_seat": "S1",
+          "authority_origin": "INCOMING_MOTION",
+          "primary_family": "EDGE_FAMILY",
+          "primary_family_rate": 56.41,
+          "primary_branch": "S5",
+          "primary_branch_rate": 41.03,
+          "secondary_branch": "S2",
+          "secondary_branch_rate": 23.08,
+          "branch_counts": {
+            "S5": 16,
+            "S4": 5,
+            "S1": 6,
+            "S3": 3,
+            "S2": 9
+          },
+          "family_counts": {
+            "EDGE_FAMILY": 22,
+            "HINGE_FAMILY": 14,
+            "CENTER_FAMILY": 3
+          }
+        }
+      },
+      {
+        "level": 3,
+        "key": "TOPOLOGY_SUZUKA::WORLD_DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::INSIGN_MMMMP::INLANE_D3::INFAMILY_DROP_DOMINANT_DIRECTED_MOTION_D3::FACE_CREST_VALLEY",
+        "matched": true,
+        "scenario": {
+          "memory_level": 3,
+          "scenario_key": "TOPOLOGY_SUZUKA::WORLD_DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::INSIGN_MMMMP::INLANE_D3::INFAMILY_DROP_DOMINANT_DIRECTED_MOTION_D3::FACE_CREST_VALLEY",
+          "appearances": 1,
+          "truth_authority": "HISTORICAL_EXACT_MOMENT",
+          "live_use": "HISTORICAL_EXACT_MOMENT",
+          "topology_name": "Suzuka",
+          "authority_seat": "S1",
+          "authority_origin": "INCOMING_MOTION",
+          "primary_family": "EDGE_FAMILY",
+          "primary_family_rate": 100.0,
+          "primary_branch": "S1",
+          "primary_branch_rate": 100.0,
+          "secondary_branch": null,
+          "secondary_branch_rate": 0.0,
+          "branch_counts": {
+            "S1": 1
+          },
+          "family_counts": {
+            "EDGE_FAMILY": 1
+          }
+        }
+      },
+      {
+        "level": 4,
+        "key": "TOPOLOGY_SUZUKA::WORLD_DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::INSIGN_MMMMP::INLANE_D3::INFAMILY_DROP_DOMINANT_DIRECTED_MOTION_D3::FACE_CREST_VALLEY::SHAPE_HIGH_HIGH_MEDIUM_LOW_MEDIUM::BODY_ENTRY_EXIT_TILTED_AROUND_MIDDLE::MIDDLE_MIDDLE_STABLE_PRESSURE::EDGE_ENTRY_BALANCED_EXIT_CONTAINED",
+        "matched": false,
+        "scenario": null
+      },
+      {
+        "level": 5,
+        "key": "TOPOLOGY_SUZUKA::WORLD_DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::INSIGN_MMMMP::INLANE_D3::INFAMILY_DROP_DOMINANT_DIRECTED_MOTION_D3::FACE_CREST_VALLEY::SHAPE_HIGH_HIGH_MEDIUM_LOW_MEDIUM::BODY_ENTRY_EXIT_TILTED_AROUND_MIDDLE::MIDDLE_MIDDLE_STABLE_PRESSURE::EDGE_ENTRY_BALANCED_EXIT_CONTAINED::FUSION_REDISTRIBUTED_FUSION::BURDEN_S1::BURDENSTATE_HOLD::TURNS_D2_D3",
+        "matched": false,
+        "scenario": null
+      }
+    ],
+    "memory_read": {
+      "read_status": "REPEATED_FIELD_MEMORY_AVAILABLE",
+      "deepest_matched_level": 3,
+      "recommended_use": "FAMILY_FIELD_EVIDENCE",
+      "strongest_repeated_room": {
+        "memory_level": 2,
+        "scenario_key": "TOPOLOGY_SUZUKA::WORLD_DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION",
+        "appearances": 39,
+        "truth_authority": "HISTORICAL_FAMILY_FIELD",
+        "live_use": "FAMILY_FIELD_EVIDENCE",
+        "topology_name": "Suzuka",
+        "authority_seat": "S1",
+        "authority_origin": "INCOMING_MOTION",
+        "primary_family": "EDGE_FAMILY",
+        "primary_family_rate": 56.41,
+        "primary_branch": "S5",
+        "primary_branch_rate": 41.03,
+        "secondary_branch": "S2",
+        "secondary_branch_rate": 23.08,
+        "branch_counts": {
+          "S5": 16,
+          "S4": 5,
+          "S1": 6,
+          "S3": 3,
+          "S2": 9
+        },
+        "family_counts": {
+          "EDGE_FAMILY": 22,
+          "HINGE_FAMILY": 14,
+          "CENTER_FAMILY": 3
+        }
+      },
+      "deepest_rooms": [
+        {
+          "memory_level": 3,
+          "scenario_key": "TOPOLOGY_SUZUKA::WORLD_DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::INSIGN_MMMMP::INLANE_D3::INFAMILY_DROP_DOMINANT_DIRECTED_MOTION_D3::FACE_CREST_VALLEY",
+          "appearances": 1,
+          "truth_authority": "HISTORICAL_EXACT_MOMENT",
+          "live_use": "HISTORICAL_EXACT_MOMENT",
+          "topology_name": "Suzuka",
+          "authority_seat": "S1",
+          "authority_origin": "INCOMING_MOTION",
+          "primary_family": "EDGE_FAMILY",
+          "primary_family_rate": 100.0,
+          "primary_branch": "S1",
+          "primary_branch_rate": 100.0,
+          "secondary_branch": null,
+          "secondary_branch_rate": 0.0,
+          "branch_counts": {
+            "S1": 1
+          },
+          "family_counts": {
+            "EDGE_FAMILY": 1
+          }
+        }
+      ],
+      "outcome_field": {
+        "all_matched_records": 40,
+        "deepest_records": 1,
+        "repeated_records": 39,
+        "branch_rank": [
+          {
+            "value": "S5",
+            "count": 16,
+            "rate": 40.0
+          },
+          {
+            "value": "S2",
+            "count": 9,
+            "rate": 22.5
+          },
+          {
+            "value": "S1",
+            "count": 7,
+            "rate": 17.5
+          },
+          {
+            "value": "S4",
+            "count": 5,
+            "rate": 12.5
+          },
+          {
+            "value": "S3",
+            "count": 3,
+            "rate": 7.5
+          }
+        ],
+        "family_rank": [
+          {
+            "value": "EDGE_FAMILY",
+            "count": 23,
+            "rate": 57.5
+          },
+          {
+            "value": "HINGE_FAMILY",
+            "count": 14,
+            "rate": 35.0
+          },
+          {
+            "value": "CENTER_FAMILY",
+            "count": 3,
+            "rate": 7.5
+          }
+        ],
+        "lane_rank": [
+          {
+            "value": "D1",
+            "count": 10,
+            "rate": 25.0
+          },
+          {
+            "value": "D3",
+            "count": 10,
+            "rate": 25.0
+          },
+          {
+            "value": "D2",
+            "count": 9,
+            "rate": 22.5
+          },
+          {
+            "value": "D5",
+            "count": 6,
+            "rate": 15.0
+          },
+          {
+            "value": "D4",
+            "count": 5,
+            "rate": 12.5
+          }
+        ],
+        "flow_rank": [
+          {
+            "value": "RETENTION",
+            "count": 30,
+            "rate": 75.0
+          },
+          {
+            "value": "RELEASE",
+            "count": 10,
+            "rate": 25.0
+          }
+        ],
+        "transfer_rank": [
+          {
+            "value": "HYBRID_COUNTER",
+            "count": 26,
+            "rate": 65.0
+          },
+          {
+            "value": "CARRY_PRESSURE",
+            "count": 7,
+            "rate": 17.5
+          },
+          {
+            "value": "MIXED_TRANSFER",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "FULL_REVERSAL",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "CARRY_FORWARD",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "REVERSAL_PUSH",
+            "count": 1,
+            "rate": 2.5
+          }
+        ],
+        "sign_rank": [
+          {
+            "value": "---++",
+            "count": 4,
+            "rate": 10.0
+          },
+          {
+            "value": "-++++",
+            "count": 3,
+            "rate": 7.5
+          },
+          {
+            "value": "-++-+",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "+++-+",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "-+---",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "+-+++",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "+--++",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "-++--",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "--+++",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "+-++-",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "+++++",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "--++-",
+            "count": 2,
+            "rate": 5.0
+          },
+          {
+            "value": "++--+",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "+---+",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "+-+--",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "++++-",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "-+++-",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "+++--",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "---+-",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "--+-+",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "+----",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "+-+-+",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "+--+-",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "--+--",
+            "count": 1,
+            "rate": 2.5
+          },
+          {
+            "value": "-+-+-",
+            "count": 1,
+            "rate": 2.5
+          }
+        ]
+      }
+    },
+    "truth_doctrine": {
+      "official_history": "proof of what happened",
+      "synthetic_memory": "coverage evidence for possible motion rooms",
+      "current_draw": "current truth used to select which memory room applies",
+      "live_rule": "use deepest matching memory as evidence; do not let synthetic coverage override official history when both exist"
+    }
+  },
+  "synthetic_manifest": {
+    "memory_source": "SYNTHETIC_FAKE_IIW",
+    "schema": "iiw.synthetic_memory.v1",
+    "seed": 2026062201,
+    "started_utc": "2026-06-22T12:12:45Z",
+    "stop_file": "C:\\Users\\kahli\\OneDrive\\Desktop\\Last Rites\\Books of The Lotto\\Books Of Complextity\\Synthetic Memory\\STOP",
+    "checkpoint_every": 25000,
+    "processed_fake_draws": 400000,
+    "draws_per_second": 357.12,
+    "levels": {
+      "2": {
+        "scenario_count": 279,
+        "appearance_count": 400000
+      },
+      "3": {
+        "scenario_count": 141087,
+        "appearance_count": 400000
+      },
+      "4": {
+        "scenario_count": 384718,
+        "appearance_count": 400000
+      },
+      "5": {
+        "scenario_count": 392525,
+        "appearance_count": 400000
+      }
+    },
+    "last_checkpoint_utc": "2026-06-22T12:33:39Z"
+  },
+  "law": "Official memory is proof of happened history. Synthetic memory is coverage. The live draw selects the address; memory supplies the outcome field."
+}

@@ -1,0 +1,546 @@
+{
+  "rule": "Resolution bias adjustment targets: level-4 rooms with appearances >= 10 where predicted collision seat disagrees with the historical primary branch.",
+  "source_audit": "C:\\Users\\kahli\\OneDrive\\Desktop\\Last Rites\\Books of The Lotto\\Books Of Complextity\\collision_law_audit_level_4_2015-10-07.json",
+  "from_date": "2015-10-07",
+  "target_count": 17,
+  "grouped_by_topology": {
+    "Alcides": 1,
+    "Altera": 1,
+    "Artoria": 1,
+    "Citrine": 1,
+    "Karna": 1,
+    "Lumina": 4,
+    "Medusa": 7,
+    "Suzuka": 1
+  },
+  "targets": [
+    {
+      "law_key": "SUZUKA::DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+      "topology_name": "Suzuka",
+      "world_key": "DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT",
+      "authority_seat": "S1",
+      "authority_origin": "INCOMING_MOTION",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "EDGE_COLLISION",
+      "appearances": 40,
+      "both_match_rate": 20,
+      "current_predicted_seat": "S1",
+      "historical_primary_seat": "S5",
+      "historical_primary_rate": 40,
+      "historical_secondary_seat": "S2",
+      "historical_secondary_rate": 27.5,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S5": 16,
+        "S3": 3,
+        "S1": 8,
+        "S2": 11,
+        "S4": 2
+      },
+      "observed_lane_counts": {
+        "D1": 13,
+        "D2": 5,
+        "D5": 8,
+        "D4": 8,
+        "D3": 6
+      },
+      "suggested_adjustment": "bias primary should test S5 before S1"
+    },
+    {
+      "law_key": "LUMINA::STRUCTURAL_DOMINANT::MIDDLE::RIGHT_HEAVY::SPLIT::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+      "topology_name": "Lumina",
+      "world_key": "STRUCTURAL_DOMINANT::MIDDLE::RIGHT_HEAVY::SPLIT",
+      "authority_seat": "S4",
+      "authority_origin": "GAP_STRUCTURE",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "TRANSFER_RELEASE",
+      "appearances": 34,
+      "both_match_rate": 29.41,
+      "current_predicted_seat": "S5",
+      "historical_primary_seat": "S1",
+      "historical_primary_rate": 52.94,
+      "historical_secondary_seat": "S5",
+      "historical_secondary_rate": 41.18,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S5": 14,
+        "S1": 18,
+        "S2": 2
+      },
+      "observed_lane_counts": {
+        "D2": 5,
+        "D3": 10,
+        "D1": 6,
+        "D4": 8,
+        "D5": 5
+      },
+      "suggested_adjustment": "bias primary should test S1 before S5"
+    },
+    {
+      "law_key": "ARTORIA::STRUCTURAL_DOMINANT::ENDPOINT::RIGHT_HEAVY::SPLIT::AUTHSEAT_S5::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+      "topology_name": "Artoria",
+      "world_key": "STRUCTURAL_DOMINANT::ENDPOINT::RIGHT_HEAVY::SPLIT",
+      "authority_seat": "S5",
+      "authority_origin": "GAP_STRUCTURE",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "EDGE_COLLISION",
+      "appearances": 24,
+      "both_match_rate": 33.33,
+      "current_predicted_seat": "S5",
+      "historical_primary_seat": "S1",
+      "historical_primary_rate": 50,
+      "historical_secondary_seat": "S5",
+      "historical_secondary_rate": 33.33,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S5": 8,
+        "S1": 12,
+        "S2": 2,
+        "S3": 2
+      },
+      "observed_lane_counts": {
+        "D1": 6,
+        "D5": 5,
+        "D2": 5,
+        "D4": 3,
+        "D3": 5
+      },
+      "suggested_adjustment": "bias primary should test S1 before S5"
+    },
+    {
+      "law_key": "LUMINA::STRUCTURAL_DOMINANT::MIDDLE::LEFT_HEAVY::SPLIT::AUTHSEAT_S2::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+      "topology_name": "Lumina",
+      "world_key": "STRUCTURAL_DOMINANT::MIDDLE::LEFT_HEAVY::SPLIT",
+      "authority_seat": "S2",
+      "authority_origin": "GAP_STRUCTURE",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "DIRECT_RELEASE",
+      "appearances": 19,
+      "both_match_rate": 15.79,
+      "current_predicted_seat": "S2",
+      "historical_primary_seat": "S4",
+      "historical_primary_rate": 52.63,
+      "historical_secondary_seat": "S3",
+      "historical_secondary_rate": 31.58,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S4": 10,
+        "S3": 6,
+        "S2": 3
+      },
+      "observed_lane_counts": {
+        "D3": 3,
+        "D2": 7,
+        "D1": 4,
+        "D5": 3,
+        "D4": 2
+      },
+      "suggested_adjustment": "bias primary should test S4 before S2"
+    },
+    {
+      "law_key": "KARNA::DYNAMIC_DOMINANT::MIDDLE::LEFT_HEAVY::FOCUSED::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+      "topology_name": "Karna",
+      "world_key": "DYNAMIC_DOMINANT::MIDDLE::LEFT_HEAVY::FOCUSED",
+      "authority_seat": "S2",
+      "authority_origin": "INCOMING_MOTION",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "DIRECT_RELEASE",
+      "appearances": 18,
+      "both_match_rate": 16.67,
+      "current_predicted_seat": "S2",
+      "historical_primary_seat": "S1",
+      "historical_primary_rate": 44.44,
+      "historical_secondary_seat": "S5",
+      "historical_secondary_rate": 27.78,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S2": 3,
+        "S5": 5,
+        "S1": 8,
+        "S4": 2
+      },
+      "observed_lane_counts": {
+        "D3": 3,
+        "D2": 5,
+        "D1": 4,
+        "D4": 6
+      },
+      "suggested_adjustment": "bias primary should test S1 before S2"
+    },
+    {
+      "law_key": "LUMINA::STRUCTURAL_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT::AUTHSEAT_S3::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+      "topology_name": "Lumina",
+      "world_key": "STRUCTURAL_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT",
+      "authority_seat": "S3",
+      "authority_origin": "GAP_STRUCTURE",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "TRANSFER_RELEASE",
+      "appearances": 16,
+      "both_match_rate": 6.25,
+      "current_predicted_seat": "S4",
+      "historical_primary_seat": "S5",
+      "historical_primary_rate": 37.5,
+      "historical_secondary_seat": "S1",
+      "historical_secondary_rate": 37.5,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S3": 1,
+        "S5": 6,
+        "S1": 6,
+        "S2": 1,
+        "S4": 2
+      },
+      "observed_lane_counts": {
+        "D5": 5,
+        "D1": 6,
+        "D3": 2,
+        "D2": 3
+      },
+      "suggested_adjustment": "bias primary should test S5 before S4"
+    },
+    {
+      "law_key": "CITRINE::STRUCTURAL_DOMINANT::MIDDLE::RIGHT_HEAVY::FOCUSED::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+      "topology_name": "Citrine",
+      "world_key": "STRUCTURAL_DOMINANT::MIDDLE::RIGHT_HEAVY::FOCUSED",
+      "authority_seat": "S4",
+      "authority_origin": "GAP_STRUCTURE",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "DIRECT_RELEASE",
+      "appearances": 14,
+      "both_match_rate": 14.29,
+      "current_predicted_seat": "S4",
+      "historical_primary_seat": "S1",
+      "historical_primary_rate": 35.71,
+      "historical_secondary_seat": "S2",
+      "historical_secondary_rate": 21.43,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S2": 3,
+        "S5": 2,
+        "S1": 5,
+        "S3": 2,
+        "S4": 2
+      },
+      "observed_lane_counts": {
+        "D2": 1,
+        "D5": 3,
+        "D1": 4,
+        "D4": 4,
+        "D3": 2
+      },
+      "suggested_adjustment": "bias primary should test S1 before S4"
+    },
+    {
+      "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+      "topology_name": "Medusa",
+      "world_key": "DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT",
+      "authority_seat": "S2",
+      "authority_origin": "INCOMING_MOTION",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "TRANSFER_RELEASE",
+      "appearances": 13,
+      "both_match_rate": 0,
+      "current_predicted_seat": "S3",
+      "historical_primary_seat": "S1",
+      "historical_primary_rate": 53.85,
+      "historical_secondary_seat": "S5",
+      "historical_secondary_rate": 46.15,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S1": 7,
+        "S5": 6
+      },
+      "observed_lane_counts": {
+        "D3": 4,
+        "D4": 2,
+        "D2": 4,
+        "D5": 3
+      },
+      "suggested_adjustment": "bias primary should test S1 before S3"
+    },
+    {
+      "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT::AUTHSEAT_S3::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+      "topology_name": "Medusa",
+      "world_key": "DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT",
+      "authority_seat": "S3",
+      "authority_origin": "INCOMING_MOTION",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "DIRECT_RELEASE",
+      "appearances": 13,
+      "both_match_rate": 15.38,
+      "current_predicted_seat": "S3",
+      "historical_primary_seat": "S4",
+      "historical_primary_rate": 46.15,
+      "historical_secondary_seat": "S2",
+      "historical_secondary_rate": 38.46,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S3": 2,
+        "S4": 6,
+        "S2": 5
+      },
+      "observed_lane_counts": {
+        "D4": 5,
+        "D5": 1,
+        "D3": 3,
+        "D2": 4
+      },
+      "suggested_adjustment": "bias primary should test S4 before S3"
+    },
+    {
+      "law_key": "LUMINA::STRUCTURAL_DOMINANT::MIDDLE::RIGHT_HEAVY::SPLIT::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+      "topology_name": "Lumina",
+      "world_key": "STRUCTURAL_DOMINANT::MIDDLE::RIGHT_HEAVY::SPLIT",
+      "authority_seat": "S4",
+      "authority_origin": "GAP_STRUCTURE",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "DIRECT_RELEASE",
+      "appearances": 13,
+      "both_match_rate": 23.08,
+      "current_predicted_seat": "S4",
+      "historical_primary_seat": "S2",
+      "historical_primary_rate": 46.15,
+      "historical_secondary_seat": "S3",
+      "historical_secondary_rate": 30.77,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S3": 4,
+        "S2": 6,
+        "S4": 3
+      },
+      "observed_lane_counts": {
+        "D3": 4,
+        "D5": 2,
+        "D2": 2,
+        "D4": 5
+      },
+      "suggested_adjustment": "bias primary should test S2 before S4"
+    },
+    {
+      "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+      "topology_name": "Medusa",
+      "world_key": "DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT",
+      "authority_seat": "S2",
+      "authority_origin": "INCOMING_MOTION",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "DIRECT_RELEASE",
+      "appearances": 13,
+      "both_match_rate": 38.46,
+      "current_predicted_seat": "S2",
+      "historical_primary_seat": "S4",
+      "historical_primary_rate": 38.46,
+      "historical_secondary_seat": "S2",
+      "historical_secondary_rate": 38.46,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S4": 5,
+        "S3": 3,
+        "S2": 5
+      },
+      "observed_lane_counts": {
+        "D2": 2,
+        "D4": 5,
+        "D5": 1,
+        "D1": 3,
+        "D3": 2
+      },
+      "suggested_adjustment": "bias primary should test S4 before S2"
+    },
+    {
+      "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::RIGHT_HEAVY::SPLIT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL::CTYPE_COUNTER_TERMINATION",
+      "topology_name": "Medusa",
+      "world_key": "DYNAMIC_DOMINANT::MIDDLE::RIGHT_HEAVY::SPLIT",
+      "authority_seat": "S4",
+      "authority_origin": "INCOMING_MOTION",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "FULL_REVERSAL",
+      "collision_type": "COUNTER_TERMINATION",
+      "appearances": 12,
+      "both_match_rate": 16.67,
+      "current_predicted_seat": "S2",
+      "historical_primary_seat": "S5",
+      "historical_primary_rate": 33.33,
+      "historical_secondary_seat": "S4",
+      "historical_secondary_rate": 25,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S5": 4,
+        "S4": 3,
+        "S1": 2,
+        "S2": 2,
+        "S3": 1
+      },
+      "observed_lane_counts": {
+        "D2": 2,
+        "D3": 3,
+        "D5": 3,
+        "D1": 2,
+        "D4": 2
+      },
+      "suggested_adjustment": "bias primary should test S5 before S2"
+    },
+    {
+      "law_key": "ALTERA::STRUCTURAL_DOMINANT::CORE::LEFT_HEAVY::FOCUSED::AUTHSEAT_S1::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+      "topology_name": "Altera",
+      "world_key": "STRUCTURAL_DOMINANT::CORE::LEFT_HEAVY::FOCUSED",
+      "authority_seat": "S1",
+      "authority_origin": "GAP_STRUCTURE",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "EDGE_COLLISION",
+      "appearances": 12,
+      "both_match_rate": 25,
+      "current_predicted_seat": "S1",
+      "historical_primary_seat": "S5",
+      "historical_primary_rate": 50,
+      "historical_secondary_seat": "S1",
+      "historical_secondary_rate": 25,
+      "conflict_type": "LEANING_CONVERGENT",
+      "observed_collision_seat_counts": {
+        "S1": 3,
+        "S5": 6,
+        "S3": 2,
+        "S4": 1
+      },
+      "observed_lane_counts": {
+        "D5": 3,
+        "D3": 5,
+        "D4": 3,
+        "D1": 1
+      },
+      "suggested_adjustment": "bias primary should test S5 before S1"
+    },
+    {
+      "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::LEFT_HEAVY::SPLIT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+      "topology_name": "Medusa",
+      "world_key": "DYNAMIC_DOMINANT::MIDDLE::LEFT_HEAVY::SPLIT",
+      "authority_seat": "S2",
+      "authority_origin": "INCOMING_MOTION",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "DIRECT_RELEASE",
+      "appearances": 12,
+      "both_match_rate": 33.33,
+      "current_predicted_seat": "S2",
+      "historical_primary_seat": "S4",
+      "historical_primary_rate": 41.67,
+      "historical_secondary_seat": "S2",
+      "historical_secondary_rate": 33.33,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S4": 5,
+        "S3": 3,
+        "S2": 4
+      },
+      "observed_lane_counts": {
+        "D5": 4,
+        "D3": 4,
+        "D2": 3,
+        "D4": 1
+      },
+      "suggested_adjustment": "bias primary should test S4 before S2"
+    },
+    {
+      "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT::AUTHSEAT_S3::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+      "topology_name": "Medusa",
+      "world_key": "DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT",
+      "authority_seat": "S3",
+      "authority_origin": "INCOMING_MOTION",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "TRANSFER_RELEASE",
+      "appearances": 11,
+      "both_match_rate": 0,
+      "current_predicted_seat": "S4",
+      "historical_primary_seat": "S1",
+      "historical_primary_rate": 72.73,
+      "historical_secondary_seat": "S5",
+      "historical_secondary_rate": 27.27,
+      "conflict_type": "CONVERGENT",
+      "observed_collision_seat_counts": {
+        "S1": 8,
+        "S5": 3
+      },
+      "observed_lane_counts": {
+        "D5": 2,
+        "D3": 5,
+        "D1": 2,
+        "D4": 2
+      },
+      "suggested_adjustment": "bias primary should test S1 before S4"
+    },
+    {
+      "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+      "topology_name": "Medusa",
+      "world_key": "DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT",
+      "authority_seat": "S4",
+      "authority_origin": "INCOMING_MOTION",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "TRANSFER_RELEASE",
+      "appearances": 10,
+      "both_match_rate": 0,
+      "current_predicted_seat": "S3",
+      "historical_primary_seat": "S1",
+      "historical_primary_rate": 60,
+      "historical_secondary_seat": "S5",
+      "historical_secondary_rate": 30,
+      "conflict_type": "CONVERGENT",
+      "observed_collision_seat_counts": {
+        "S5": 3,
+        "S1": 6,
+        "S3": 1
+      },
+      "observed_lane_counts": {
+        "D1": 4,
+        "D4": 3,
+        "D2": 2,
+        "D3": 1
+      },
+      "suggested_adjustment": "bias primary should test S1 before S3"
+    },
+    {
+      "law_key": "ALCIDES::STRUCTURAL_DOMINANT::ENDPOINT::RIGHT_HEAVY::FOCUSED::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+      "topology_name": "Alcides",
+      "world_key": "STRUCTURAL_DOMINANT::ENDPOINT::RIGHT_HEAVY::FOCUSED",
+      "authority_seat": "S5",
+      "authority_origin": "INCOMING_MOTION",
+      "motion_state": "COUNTER_ROTATION",
+      "transfer": "HYBRID_COUNTER",
+      "collision_type": "EDGE_COLLISION",
+      "appearances": 10,
+      "both_match_rate": 30,
+      "current_predicted_seat": "S5",
+      "historical_primary_seat": "S1",
+      "historical_primary_rate": 30,
+      "historical_secondary_seat": "S5",
+      "historical_secondary_rate": 30,
+      "conflict_type": "DIVERGENT",
+      "observed_collision_seat_counts": {
+        "S1": 3,
+        "S2": 2,
+        "S4": 1,
+        "S5": 3,
+        "S3": 1
+      },
+      "observed_lane_counts": {
+        "D2": 3,
+        "D4": 4,
+        "D1": 2,
+        "D3": 1
+      },
+      "suggested_adjustment": "bias primary should test S1 before S5"
+    }
+  ]
+}

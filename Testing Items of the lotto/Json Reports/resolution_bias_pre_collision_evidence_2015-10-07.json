@@ -1,0 +1,1398 @@
+{
+  "rule": "Pre-collision preference evidence across collision-law audit levels 1-4. This measures the hidden preference universe before collision selection.",
+  "from_date": "2015-10-07",
+  "source_files": [
+    "collision_law_audit_level_1_2015-10-07.json",
+    "collision_law_audit_level_2_2015-10-07.json",
+    "collision_law_audit_level_3_2015-10-07.json",
+    "collision_law_audit_level_4_2015-10-07.json"
+  ],
+  "read": "Repeated S1/S5 and S2/S4 pairings mean the misses are often preference-field selection problems, not raw collision failures.",
+  "levels": {
+    "level_1": {
+      "law_count": 77,
+      "status_counts": {
+        "FAILED": 43,
+        "UNSTABLE": 22,
+        "PROMISING": 2,
+        "LOW_SAMPLE": 10
+      },
+      "rows_with_conflict_signature": 77,
+      "high_sample_rows": 31,
+      "universe_counts": {
+        "EDGE_BINARY": 25,
+        "MIXED_FAMILY_FIELD": 43,
+        "HINGE_BINARY": 1,
+        "CENTER_MIXED": 8
+      },
+      "high_sample_universe_counts": {
+        "EDGE_BINARY": 19,
+        "MIXED_FAMILY_FIELD": 11,
+        "HINGE_BINARY": 1
+      },
+      "primary_family_counts": {
+        "EDGE_FAMILY": 59,
+        "HINGE_FAMILY": 12,
+        "CENTER_FAMILY": 6
+      },
+      "high_sample_primary_family_counts": {
+        "EDGE_FAMILY": 30,
+        "HINGE_FAMILY": 1
+      },
+      "selection_problem_counts": {
+        "OUTSIDE_PREFERENCE_FIELD": 28,
+        "SECONDARY_SELECTED": 3,
+        "CORRECT_FAMILY_WRONG_SEAT": 18,
+        "PRIMARY_SELECTED": 21,
+        "SECONDARY_FAMILY_SELECTED": 7
+      },
+      "high_sample_selection_problem_counts": {
+        "OUTSIDE_PREFERENCE_FIELD": 10,
+        "SECONDARY_SELECTED": 2,
+        "CORRECT_FAMILY_WRONG_SEAT": 5,
+        "PRIMARY_SELECTED": 12,
+        "SECONDARY_FAMILY_SELECTED": 2
+      },
+      "top_edge_binary_examples": [
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION",
+          "appearances": 139,
+          "both_match_rate": 32.37,
+          "predicted_seat": "S4",
+          "primary_seat": "S1",
+          "primary_rate": 33.81,
+          "secondary_seat": "S5",
+          "secondary_rate": 25.9,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "SUZUKA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION",
+          "appearances": 102,
+          "both_match_rate": 27.45,
+          "predicted_seat": "S1",
+          "primary_seat": "S5",
+          "primary_rate": 28.43,
+          "secondary_seat": "S1",
+          "secondary_rate": 26.47,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S2::AUTHORITY_GAP_STRUCTURE",
+          "appearances": 90,
+          "both_match_rate": 24.44,
+          "predicted_seat": "S2",
+          "primary_seat": "S1",
+          "primary_rate": 32.22,
+          "secondary_seat": "S5",
+          "secondary_rate": 25.56,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE",
+          "appearances": 81,
+          "both_match_rate": 32.1,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 34.57,
+          "secondary_seat": "S1",
+          "secondary_rate": 34.57,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S3::AUTHORITY_INCOMING_MOTION",
+          "appearances": 80,
+          "both_match_rate": 8.75,
+          "predicted_seat": "S3",
+          "primary_seat": "S1",
+          "primary_rate": 28.75,
+          "secondary_seat": "S5",
+          "secondary_rate": 25,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "CIRCE::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION",
+          "appearances": 78,
+          "both_match_rate": 26.92,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 28.21,
+          "secondary_seat": "S1",
+          "secondary_rate": 23.08,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "NOVA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S1::AUTHORITY_GAP_STRUCTURE",
+          "appearances": 47,
+          "both_match_rate": 34.04,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 36.17,
+          "secondary_seat": "S5",
+          "secondary_rate": 36.17,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "ARTORIA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S5::AUTHORITY_GAP_STRUCTURE",
+          "appearances": 38,
+          "both_match_rate": 26.32,
+          "predicted_seat": "S5",
+          "primary_seat": "S1",
+          "primary_rate": 39.47,
+          "secondary_seat": "S5",
+          "secondary_rate": 28.95,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "RAMA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION",
+          "appearances": 37,
+          "both_match_rate": 40.54,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 43.24,
+          "secondary_seat": "S5",
+          "secondary_rate": 18.92,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "KARNA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION",
+          "appearances": 27,
+          "both_match_rate": 22.22,
+          "predicted_seat": "S2",
+          "primary_seat": "S1",
+          "primary_rate": 37.04,
+          "secondary_seat": "S5",
+          "secondary_rate": 22.22,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "CITRINE::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE",
+          "appearances": 24,
+          "both_match_rate": 12.5,
+          "predicted_seat": "S4",
+          "primary_seat": "S1",
+          "primary_rate": 29.17,
+          "secondary_seat": "S5",
+          "secondary_rate": 25,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "ALCIDES::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S5::AUTHORITY_GAP_STRUCTURE",
+          "appearances": 24,
+          "both_match_rate": 37.5,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 33.33,
+          "secondary_seat": "S1",
+          "secondary_rate": 33.33,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        }
+      ],
+      "top_hinge_binary_examples": [
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION",
+          "appearances": 23,
+          "both_match_rate": 30.43,
+          "predicted_seat": "S1",
+          "primary_seat": "S4",
+          "primary_rate": 26.09,
+          "secondary_seat": "S2",
+          "secondary_rate": 26.09,
+          "universe": "HINGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        }
+      ],
+      "top_mixed_examples": [
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION",
+          "appearances": 139,
+          "both_match_rate": 35.25,
+          "predicted_seat": "S4",
+          "primary_seat": "S5",
+          "primary_rate": 28.06,
+          "secondary_seat": "S4",
+          "secondary_rate": 25.18,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_SELECTED"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S3::AUTHORITY_GAP_STRUCTURE",
+          "appearances": 62,
+          "both_match_rate": 8.06,
+          "predicted_seat": "S4",
+          "primary_seat": "S1",
+          "primary_rate": 35.48,
+          "secondary_seat": "S2",
+          "secondary_rate": 20.97,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_FAMILY_SELECTED"
+        },
+        {
+          "law_key": "KARNA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION",
+          "appearances": 26,
+          "both_match_rate": 38.46,
+          "predicted_seat": "S4",
+          "primary_seat": "S5",
+          "primary_rate": 34.62,
+          "secondary_seat": "S4",
+          "secondary_rate": 34.62,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_SELECTED"
+        },
+        {
+          "law_key": "IRISVIEL::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION",
+          "appearances": 24,
+          "both_match_rate": 50,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 54.17,
+          "secondary_seat": "S4",
+          "secondary_rate": 12.5,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION",
+          "appearances": 17,
+          "both_match_rate": 17.65,
+          "predicted_seat": "S5",
+          "primary_seat": "S1",
+          "primary_rate": 29.41,
+          "secondary_seat": "S2",
+          "secondary_rate": 29.41,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "KARNA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S3::AUTHORITY_INCOMING_MOTION",
+          "appearances": 16,
+          "both_match_rate": 18.75,
+          "predicted_seat": "S3",
+          "primary_seat": "S5",
+          "primary_rate": 50,
+          "secondary_seat": "S4",
+          "secondary_rate": 25,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "NOVA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION",
+          "appearances": 15,
+          "both_match_rate": 13.33,
+          "predicted_seat": "S1",
+          "primary_seat": "S5",
+          "primary_rate": 40,
+          "secondary_seat": "S2",
+          "secondary_rate": 20,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S2::AUTHORITY_MIDDLE_COMPRESSION",
+          "appearances": 13,
+          "both_match_rate": 46.15,
+          "predicted_seat": "S2",
+          "primary_seat": "S1",
+          "primary_rate": 38.46,
+          "secondary_seat": "S4",
+          "secondary_rate": 23.08,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_FAMILY_SELECTED"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S4::AUTHORITY_MIDDLE_COMPRESSION",
+          "appearances": 13,
+          "both_match_rate": 69.23,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 53.85,
+          "secondary_seat": "S4",
+          "secondary_rate": 23.08,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "CITRINE::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S3::AUTHORITY_GAP_STRUCTURE",
+          "appearances": 12,
+          "both_match_rate": 8.33,
+          "predicted_seat": "S3",
+          "primary_seat": "S5",
+          "primary_rate": 25,
+          "secondary_seat": "S4",
+          "secondary_rate": 25,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "ARTORIA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION",
+          "appearances": 11,
+          "both_match_rate": 36.36,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 36.36,
+          "secondary_seat": "S2",
+          "secondary_rate": 18.18,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        }
+      ]
+    },
+    "level_2": {
+      "law_count": 258,
+      "status_counts": {
+        "FAILED": 88,
+        "UNSTABLE": 109,
+        "PROMISING": 7,
+        "PROVEN": 1,
+        "LOW_SAMPLE": 53
+      },
+      "rows_with_conflict_signature": 258,
+      "high_sample_rows": 29,
+      "universe_counts": {
+        "MIXED_FAMILY_FIELD": 182,
+        "EDGE_BINARY": 35,
+        "CENTER_MIXED": 31,
+        "HINGE_BINARY": 10
+      },
+      "high_sample_universe_counts": {
+        "MIXED_FAMILY_FIELD": 14,
+        "EDGE_BINARY": 13,
+        "CENTER_MIXED": 1,
+        "HINGE_BINARY": 1
+      },
+      "primary_family_counts": {
+        "EDGE_FAMILY": 167,
+        "HINGE_FAMILY": 74,
+        "CENTER_FAMILY": 17
+      },
+      "high_sample_primary_family_counts": {
+        "EDGE_FAMILY": 25,
+        "HINGE_FAMILY": 4
+      },
+      "selection_problem_counts": {
+        "SECONDARY_SELECTED": 12,
+        "PRIMARY_SELECTED": 70,
+        "CORRECT_FAMILY_WRONG_SEAT": 56,
+        "OUTSIDE_PREFERENCE_FIELD": 104,
+        "SECONDARY_FAMILY_SELECTED": 16
+      },
+      "high_sample_selection_problem_counts": {
+        "SECONDARY_SELECTED": 5,
+        "PRIMARY_SELECTED": 10,
+        "CORRECT_FAMILY_WRONG_SEAT": 5,
+        "OUTSIDE_PREFERENCE_FIELD": 6,
+        "SECONDARY_FAMILY_SELECTED": 3
+      },
+      "top_edge_binary_examples": [
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 81,
+          "both_match_rate": 40.74,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 41.98,
+          "secondary_seat": "S5",
+          "secondary_rate": 20.99,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "SUZUKA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 59,
+          "both_match_rate": 27.12,
+          "predicted_seat": "S1",
+          "primary_seat": "S5",
+          "primary_rate": 37.29,
+          "secondary_seat": "S1",
+          "secondary_rate": 27.12,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S2::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 58,
+          "both_match_rate": 29.31,
+          "predicted_seat": "S2",
+          "primary_seat": "S1",
+          "primary_rate": 31.03,
+          "secondary_seat": "S5",
+          "secondary_rate": 24.14,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 55,
+          "both_match_rate": 23.64,
+          "predicted_seat": "S5",
+          "primary_seat": "S1",
+          "primary_rate": 41.82,
+          "secondary_seat": "S5",
+          "secondary_rate": 29.09,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "CIRCE::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 48,
+          "both_match_rate": 33.33,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 33.33,
+          "secondary_seat": "S1",
+          "secondary_rate": 25,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S3::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 39,
+          "both_match_rate": 7.69,
+          "predicted_seat": "S4",
+          "primary_seat": "S1",
+          "primary_rate": 25.64,
+          "secondary_seat": "S5",
+          "secondary_rate": 25.64,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL",
+          "appearances": 32,
+          "both_match_rate": 18.75,
+          "predicted_seat": "S4",
+          "primary_seat": "S5",
+          "primary_rate": 31.25,
+          "secondary_seat": "S1",
+          "secondary_rate": 21.88,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "ARTORIA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S5::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 28,
+          "both_match_rate": 28.57,
+          "predicted_seat": "S5",
+          "primary_seat": "S1",
+          "primary_rate": 46.43,
+          "secondary_seat": "S5",
+          "secondary_rate": 28.57,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "NOVA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S1::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 28,
+          "both_match_rate": 35.71,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 35.71,
+          "secondary_seat": "S5",
+          "secondary_rate": 35.71,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "ALTERA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S1::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 17,
+          "both_match_rate": 23.53,
+          "predicted_seat": "S1",
+          "primary_seat": "S5",
+          "primary_rate": 52.94,
+          "secondary_seat": "S1",
+          "secondary_rate": 23.53,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "ALCIDES::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S5::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 17,
+          "both_match_rate": 41.18,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 41.18,
+          "secondary_seat": "S1",
+          "secondary_rate": 35.29,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "ALCIDES::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 12,
+          "both_match_rate": 33.33,
+          "predicted_seat": "S5",
+          "primary_seat": "S1",
+          "primary_rate": 33.33,
+          "secondary_seat": "S5",
+          "secondary_rate": 33.33,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        }
+      ],
+      "top_hinge_binary_examples": [
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 11,
+          "both_match_rate": 9.09,
+          "predicted_seat": "S5",
+          "primary_seat": "S2",
+          "primary_rate": 36.36,
+          "secondary_seat": "S4",
+          "secondary_rate": 27.27,
+          "universe": "HINGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        }
+      ],
+      "top_mixed_examples": [
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 96,
+          "both_match_rate": 43.75,
+          "predicted_seat": "S4",
+          "primary_seat": "S5",
+          "primary_rate": 30.21,
+          "secondary_seat": "S4",
+          "secondary_rate": 28.12,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S3::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 47,
+          "both_match_rate": 10.64,
+          "predicted_seat": "S3",
+          "primary_seat": "S5",
+          "primary_rate": 25.53,
+          "secondary_seat": "S4",
+          "secondary_rate": 23.4,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "RAMA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 26,
+          "both_match_rate": 42.31,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 42.31,
+          "secondary_seat": "S2",
+          "secondary_rate": 19.23,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL",
+          "appearances": 21,
+          "both_match_rate": 23.81,
+          "predicted_seat": "S2",
+          "primary_seat": "S5",
+          "primary_rate": 28.57,
+          "secondary_seat": "S2",
+          "secondary_rate": 23.81,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_SELECTED"
+        },
+        {
+          "law_key": "KARNA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 21,
+          "both_match_rate": 23.81,
+          "predicted_seat": "S2",
+          "primary_seat": "S1",
+          "primary_rate": 38.1,
+          "secondary_seat": "S2",
+          "secondary_rate": 23.81,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_SELECTED"
+        },
+        {
+          "law_key": "KARNA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 18,
+          "both_match_rate": 44.44,
+          "predicted_seat": "S4",
+          "primary_seat": "S4",
+          "primary_rate": 44.44,
+          "secondary_seat": "S5",
+          "secondary_rate": 27.78,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "IRISVIEL::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 17,
+          "both_match_rate": 58.82,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 58.82,
+          "secondary_seat": "S2",
+          "secondary_rate": 11.76,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "CITRINE::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 14,
+          "both_match_rate": 14.29,
+          "predicted_seat": "S4",
+          "primary_seat": "S1",
+          "primary_rate": 35.71,
+          "secondary_seat": "S2",
+          "secondary_rate": 21.43,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_FAMILY_SELECTED"
+        },
+        {
+          "law_key": "SUZUKA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL",
+          "appearances": 13,
+          "both_match_rate": 23.08,
+          "predicted_seat": "S5",
+          "primary_seat": "S4",
+          "primary_rate": 30.77,
+          "secondary_seat": "S1",
+          "secondary_rate": 23.08,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_FAMILY_SELECTED"
+        },
+        {
+          "law_key": "SUZUKA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_RELEASING::TRANSFER_CARRY_PRESSURE",
+          "appearances": 11,
+          "both_match_rate": 36.36,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 36.36,
+          "secondary_seat": "S4",
+          "secondary_rate": 27.27,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S2::AUTHORITY_MIDDLE_COMPRESSION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER",
+          "appearances": 11,
+          "both_match_rate": 45.45,
+          "predicted_seat": "S2",
+          "primary_seat": "S1",
+          "primary_rate": 36.36,
+          "secondary_seat": "S4",
+          "secondary_rate": 27.27,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_FAMILY_SELECTED"
+        },
+        {
+          "law_key": "CIRCE::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL",
+          "appearances": 10,
+          "both_match_rate": 20,
+          "predicted_seat": "S1",
+          "primary_seat": "S2",
+          "primary_rate": 40,
+          "secondary_seat": "S1",
+          "secondary_rate": 20,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_SELECTED"
+        }
+      ]
+    },
+    "level_3": {
+      "law_count": 295,
+      "status_counts": {
+        "FAILED": 88,
+        "UNSTABLE": 131,
+        "PROVEN": 1,
+        "PROMISING": 6,
+        "LOW_SAMPLE": 69
+      },
+      "rows_with_conflict_signature": 295,
+      "high_sample_rows": 33,
+      "universe_counts": {
+        "EDGE_BINARY": 43,
+        "HINGE_BINARY": 17,
+        "MIXED_FAMILY_FIELD": 195,
+        "CENTER_MIXED": 40
+      },
+      "high_sample_universe_counts": {
+        "EDGE_BINARY": 15,
+        "HINGE_BINARY": 4,
+        "MIXED_FAMILY_FIELD": 10,
+        "CENTER_MIXED": 4
+      },
+      "primary_family_counts": {
+        "EDGE_FAMILY": 180,
+        "HINGE_FAMILY": 94,
+        "CENTER_FAMILY": 21
+      },
+      "high_sample_primary_family_counts": {
+        "EDGE_FAMILY": 23,
+        "HINGE_FAMILY": 10
+      },
+      "selection_problem_counts": {
+        "CORRECT_FAMILY_WRONG_SEAT": 67,
+        "PRIMARY_SELECTED": 88,
+        "OUTSIDE_PREFERENCE_FIELD": 119,
+        "SECONDARY_SELECTED": 8,
+        "SECONDARY_FAMILY_SELECTED": 13
+      },
+      "high_sample_selection_problem_counts": {
+        "CORRECT_FAMILY_WRONG_SEAT": 7,
+        "PRIMARY_SELECTED": 14,
+        "OUTSIDE_PREFERENCE_FIELD": 7,
+        "SECONDARY_SELECTED": 3,
+        "SECONDARY_FAMILY_SELECTED": 2
+      },
+      "top_edge_binary_examples": [
+        {
+          "law_key": "SUZUKA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 59,
+          "both_match_rate": 27.12,
+          "predicted_seat": "S1",
+          "primary_seat": "S5",
+          "primary_rate": 37.29,
+          "secondary_seat": "S1",
+          "secondary_rate": 27.12,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 54,
+          "both_match_rate": 40.74,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 62.96,
+          "secondary_seat": "S5",
+          "secondary_rate": 31.48,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "CIRCE::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 48,
+          "both_match_rate": 33.33,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 33.33,
+          "secondary_seat": "S1",
+          "secondary_rate": 25,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 47,
+          "both_match_rate": 36.17,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 61.7,
+          "secondary_seat": "S1",
+          "secondary_rate": 29.79,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 41,
+          "both_match_rate": 24.39,
+          "predicted_seat": "S5",
+          "primary_seat": "S1",
+          "primary_rate": 56.1,
+          "secondary_seat": "S5",
+          "secondary_rate": 39.02,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S2::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 34,
+          "both_match_rate": 35.29,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 52.94,
+          "secondary_seat": "S5",
+          "secondary_rate": 41.18,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL::CTYPE_COUNTER_TERMINATION",
+          "appearances": 32,
+          "both_match_rate": 18.75,
+          "predicted_seat": "S4",
+          "primary_seat": "S5",
+          "primary_rate": 31.25,
+          "secondary_seat": "S1",
+          "secondary_rate": 21.88,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "ARTORIA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S5::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 28,
+          "both_match_rate": 28.57,
+          "predicted_seat": "S5",
+          "primary_seat": "S1",
+          "primary_rate": 46.43,
+          "secondary_seat": "S5",
+          "secondary_rate": 28.57,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "NOVA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S1::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 28,
+          "both_match_rate": 35.71,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 35.71,
+          "secondary_seat": "S5",
+          "secondary_rate": 35.71,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S3::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 24,
+          "both_match_rate": 4.17,
+          "predicted_seat": "S4",
+          "primary_seat": "S1",
+          "primary_rate": 41.67,
+          "secondary_seat": "S5",
+          "secondary_rate": 41.67,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S3::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 23,
+          "both_match_rate": 0,
+          "predicted_seat": "S4",
+          "primary_seat": "S5",
+          "primary_rate": 52.17,
+          "secondary_seat": "S1",
+          "secondary_rate": 47.83,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "ALTERA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S1::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 17,
+          "both_match_rate": 23.53,
+          "predicted_seat": "S1",
+          "primary_seat": "S5",
+          "primary_rate": 52.94,
+          "secondary_seat": "S1",
+          "secondary_rate": 23.53,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        }
+      ],
+      "top_hinge_binary_examples": [
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 27,
+          "both_match_rate": 40.74,
+          "predicted_seat": "S2",
+          "primary_seat": "S2",
+          "primary_rate": 40.74,
+          "secondary_seat": "S4",
+          "secondary_rate": 37.04,
+          "universe": "HINGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S3::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 24,
+          "both_match_rate": 20.83,
+          "predicted_seat": "S3",
+          "primary_seat": "S4",
+          "primary_rate": 45.83,
+          "secondary_seat": "S2",
+          "secondary_rate": 33.33,
+          "universe": "HINGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "LUMINA::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S3::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 15,
+          "both_match_rate": 13.33,
+          "predicted_seat": "S3",
+          "primary_seat": "S2",
+          "primary_rate": 46.67,
+          "secondary_seat": "S4",
+          "secondary_rate": 40,
+          "universe": "HINGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 11,
+          "both_match_rate": 9.09,
+          "predicted_seat": "S5",
+          "primary_seat": "S2",
+          "primary_rate": 36.36,
+          "secondary_seat": "S4",
+          "secondary_rate": 27.27,
+          "universe": "HINGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        }
+      ],
+      "top_mixed_examples": [
+        {
+          "law_key": "RAMA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 26,
+          "both_match_rate": 42.31,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 42.31,
+          "secondary_seat": "S2",
+          "secondary_rate": 19.23,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL::CTYPE_COUNTER_TERMINATION",
+          "appearances": 21,
+          "both_match_rate": 23.81,
+          "predicted_seat": "S2",
+          "primary_seat": "S5",
+          "primary_rate": 28.57,
+          "secondary_seat": "S2",
+          "secondary_rate": 23.81,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_SELECTED"
+        },
+        {
+          "law_key": "KARNA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 21,
+          "both_match_rate": 23.81,
+          "predicted_seat": "S2",
+          "primary_seat": "S1",
+          "primary_rate": 38.1,
+          "secondary_seat": "S2",
+          "secondary_rate": 23.81,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_SELECTED"
+        },
+        {
+          "law_key": "KARNA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 18,
+          "both_match_rate": 44.44,
+          "predicted_seat": "S4",
+          "primary_seat": "S4",
+          "primary_rate": 44.44,
+          "secondary_seat": "S5",
+          "secondary_rate": 27.78,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "IRISVIEL::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 17,
+          "both_match_rate": 58.82,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 58.82,
+          "secondary_seat": "S2",
+          "secondary_rate": 11.76,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "CITRINE::BASE_STRUCTURAL_DOMINANT::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 14,
+          "both_match_rate": 14.29,
+          "predicted_seat": "S4",
+          "primary_seat": "S1",
+          "primary_rate": 35.71,
+          "secondary_seat": "S2",
+          "secondary_rate": 21.43,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_FAMILY_SELECTED"
+        },
+        {
+          "law_key": "SUZUKA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL::CTYPE_COUNTER_TERMINATION",
+          "appearances": 13,
+          "both_match_rate": 23.08,
+          "predicted_seat": "S5",
+          "primary_seat": "S4",
+          "primary_rate": 30.77,
+          "secondary_seat": "S1",
+          "secondary_rate": 23.08,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_FAMILY_SELECTED"
+        },
+        {
+          "law_key": "SUZUKA::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_RELEASING::TRANSFER_CARRY_PRESSURE::CTYPE_EDGE_COLLISION",
+          "appearances": 11,
+          "both_match_rate": 36.36,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 36.36,
+          "secondary_seat": "S4",
+          "secondary_rate": 27.27,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "CIRCE::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL::CTYPE_COUNTER_TERMINATION",
+          "appearances": 10,
+          "both_match_rate": 20,
+          "predicted_seat": "S1",
+          "primary_seat": "S2",
+          "primary_rate": 40,
+          "secondary_seat": "S1",
+          "secondary_rate": 20,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_SELECTED"
+        },
+        {
+          "law_key": "SCATHACH::BASE_DYNAMIC_DOMINANT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 10,
+          "both_match_rate": 50,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 50,
+          "secondary_seat": "S4",
+          "secondary_rate": 20,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        }
+      ]
+    },
+    "level_4": {
+      "law_count": 432,
+      "status_counts": {
+        "FAILED": 96,
+        "PROMISING": 8,
+        "UNSTABLE": 230,
+        "PROVEN": 3,
+        "LOW_SAMPLE": 95
+      },
+      "rows_with_conflict_signature": 432,
+      "high_sample_rows": 30,
+      "universe_counts": {
+        "MIXED_FAMILY_FIELD": 296,
+        "EDGE_BINARY": 51,
+        "CENTER_MIXED": 64,
+        "HINGE_BINARY": 21
+      },
+      "high_sample_universe_counts": {
+        "MIXED_FAMILY_FIELD": 7,
+        "EDGE_BINARY": 16,
+        "CENTER_MIXED": 3,
+        "HINGE_BINARY": 4
+      },
+      "primary_family_counts": {
+        "EDGE_FAMILY": 264,
+        "HINGE_FAMILY": 134,
+        "CENTER_FAMILY": 34
+      },
+      "high_sample_primary_family_counts": {
+        "EDGE_FAMILY": 21,
+        "HINGE_FAMILY": 9
+      },
+      "selection_problem_counts": {
+        "CORRECT_FAMILY_WRONG_SEAT": 95,
+        "PRIMARY_SELECTED": 112,
+        "OUTSIDE_PREFERENCE_FIELD": 199,
+        "SECONDARY_FAMILY_SELECTED": 12,
+        "SECONDARY_SELECTED": 14
+      },
+      "high_sample_selection_problem_counts": {
+        "CORRECT_FAMILY_WRONG_SEAT": 9,
+        "PRIMARY_SELECTED": 13,
+        "OUTSIDE_PREFERENCE_FIELD": 6,
+        "SECONDARY_FAMILY_SELECTED": 2
+      },
+      "top_edge_binary_examples": [
+        {
+          "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::LEFT_HEAVY::SPLIT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 36,
+          "both_match_rate": 61.11,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 63.89,
+          "secondary_seat": "S5",
+          "secondary_rate": 27.78,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "LUMINA::STRUCTURAL_DOMINANT::MIDDLE::RIGHT_HEAVY::SPLIT::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 34,
+          "both_match_rate": 29.41,
+          "predicted_seat": "S5",
+          "primary_seat": "S1",
+          "primary_rate": 52.94,
+          "secondary_seat": "S5",
+          "secondary_rate": 41.18,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "CIRCE::DYNAMIC_DOMINANT::ENDPOINT::RIGHT_HEAVY::SPLIT::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 32,
+          "both_match_rate": 37.5,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 37.5,
+          "secondary_seat": "S1",
+          "secondary_rate": 21.88,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::RIGHT_HEAVY::SPLIT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 31,
+          "both_match_rate": 54.84,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 67.74,
+          "secondary_seat": "S1",
+          "secondary_rate": 25.81,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "LUMINA::STRUCTURAL_DOMINANT::MIDDLE::LEFT_HEAVY::SPLIT::AUTHSEAT_S2::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 27,
+          "both_match_rate": 44.44,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 51.85,
+          "secondary_seat": "S5",
+          "secondary_rate": 40.74,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "ARTORIA::STRUCTURAL_DOMINANT::ENDPOINT::RIGHT_HEAVY::SPLIT::AUTHSEAT_S5::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 24,
+          "both_match_rate": 33.33,
+          "predicted_seat": "S5",
+          "primary_seat": "S1",
+          "primary_rate": 50,
+          "secondary_seat": "S5",
+          "secondary_rate": 33.33,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "NOVA::STRUCTURAL_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 23,
+          "both_match_rate": 34.78,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 34.78,
+          "secondary_seat": "S5",
+          "secondary_rate": 34.78,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "KARNA::DYNAMIC_DOMINANT::MIDDLE::LEFT_HEAVY::FOCUSED::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 18,
+          "both_match_rate": 16.67,
+          "predicted_seat": "S2",
+          "primary_seat": "S1",
+          "primary_rate": 44.44,
+          "secondary_seat": "S5",
+          "secondary_rate": 27.78,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "ALCIDES::STRUCTURAL_DOMINANT::ENDPOINT::RIGHT_HEAVY::FOCUSED::AUTHSEAT_S5::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 17,
+          "both_match_rate": 41.18,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 41.18,
+          "secondary_seat": "S1",
+          "secondary_rate": 35.29,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "LUMINA::STRUCTURAL_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT::AUTHSEAT_S3::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 16,
+          "both_match_rate": 6.25,
+          "predicted_seat": "S4",
+          "primary_seat": "S5",
+          "primary_rate": 37.5,
+          "secondary_seat": "S1",
+          "secondary_rate": 37.5,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_TRANSFER_RELEASE",
+          "appearances": 13,
+          "both_match_rate": 0,
+          "predicted_seat": "S3",
+          "primary_seat": "S1",
+          "primary_rate": 53.85,
+          "secondary_seat": "S5",
+          "secondary_rate": 46.15,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "ALTERA::STRUCTURAL_DOMINANT::CORE::LEFT_HEAVY::FOCUSED::AUTHSEAT_S1::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 12,
+          "both_match_rate": 25,
+          "predicted_seat": "S1",
+          "primary_seat": "S5",
+          "primary_rate": 50,
+          "secondary_seat": "S1",
+          "secondary_rate": 25,
+          "universe": "EDGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        }
+      ],
+      "top_hinge_binary_examples": [
+        {
+          "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::RIGHT_HEAVY::SPLIT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 28,
+          "both_match_rate": 57.14,
+          "predicted_seat": "S4",
+          "primary_seat": "S4",
+          "primary_rate": 57.14,
+          "secondary_seat": "S2",
+          "secondary_rate": 21.43,
+          "universe": "HINGE_BINARY",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT::AUTHSEAT_S3::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 13,
+          "both_match_rate": 15.38,
+          "predicted_seat": "S3",
+          "primary_seat": "S4",
+          "primary_rate": 46.15,
+          "secondary_seat": "S2",
+          "secondary_rate": 38.46,
+          "universe": "HINGE_BINARY",
+          "selection_problem": "OUTSIDE_PREFERENCE_FIELD"
+        },
+        {
+          "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::CENTER_HEAVY::SPLIT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 13,
+          "both_match_rate": 38.46,
+          "predicted_seat": "S2",
+          "primary_seat": "S4",
+          "primary_rate": 38.46,
+          "secondary_seat": "S2",
+          "secondary_rate": 38.46,
+          "universe": "HINGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::LEFT_HEAVY::SPLIT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 12,
+          "both_match_rate": 33.33,
+          "predicted_seat": "S2",
+          "primary_seat": "S4",
+          "primary_rate": 41.67,
+          "secondary_seat": "S2",
+          "secondary_rate": 33.33,
+          "universe": "HINGE_BINARY",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        }
+      ],
+      "top_mixed_examples": [
+        {
+          "law_key": "SUZUKA::DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 40,
+          "both_match_rate": 20,
+          "predicted_seat": "S1",
+          "primary_seat": "S5",
+          "primary_rate": 40,
+          "secondary_seat": "S2",
+          "secondary_rate": 27.5,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "CORRECT_FAMILY_WRONG_SEAT"
+        },
+        {
+          "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::LEFT_HEAVY::SPLIT::AUTHSEAT_S2::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL::CTYPE_COUNTER_TERMINATION",
+          "appearances": 20,
+          "both_match_rate": 30,
+          "predicted_seat": "S4",
+          "primary_seat": "S4",
+          "primary_rate": 30,
+          "secondary_seat": "S5",
+          "secondary_rate": 30,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "RAMA::DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::FOCUSED::AUTHSEAT_S1::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 18,
+          "both_match_rate": 44.44,
+          "predicted_seat": "S1",
+          "primary_seat": "S1",
+          "primary_rate": 44.44,
+          "secondary_seat": "S2",
+          "secondary_rate": 16.67,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "KARNA::DYNAMIC_DOMINANT::MIDDLE::RIGHT_HEAVY::FOCUSED::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 16,
+          "both_match_rate": 43.75,
+          "predicted_seat": "S4",
+          "primary_seat": "S4",
+          "primary_rate": 43.75,
+          "secondary_seat": "S1",
+          "secondary_rate": 25,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "IRISVIEL::DYNAMIC_DOMINANT::ENDPOINT::RIGHT_HEAVY::FOCUSED::AUTHSEAT_S5::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_EDGE_COLLISION",
+          "appearances": 15,
+          "both_match_rate": 60,
+          "predicted_seat": "S5",
+          "primary_seat": "S5",
+          "primary_rate": 60,
+          "secondary_seat": "S2",
+          "secondary_rate": 13.33,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "PRIMARY_SELECTED"
+        },
+        {
+          "law_key": "CITRINE::STRUCTURAL_DOMINANT::MIDDLE::RIGHT_HEAVY::FOCUSED::AUTHSEAT_S4::AUTHORITY_GAP_STRUCTURE::STATE_COUNTER_ROTATION::TRANSFER_HYBRID_COUNTER::CTYPE_DIRECT_RELEASE",
+          "appearances": 14,
+          "both_match_rate": 14.29,
+          "predicted_seat": "S4",
+          "primary_seat": "S1",
+          "primary_rate": 35.71,
+          "secondary_seat": "S2",
+          "secondary_rate": 21.43,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_FAMILY_SELECTED"
+        },
+        {
+          "law_key": "MEDUSA::DYNAMIC_DOMINANT::MIDDLE::RIGHT_HEAVY::SPLIT::AUTHSEAT_S4::AUTHORITY_INCOMING_MOTION::STATE_COUNTER_ROTATION::TRANSFER_FULL_REVERSAL::CTYPE_COUNTER_TERMINATION",
+          "appearances": 12,
+          "both_match_rate": 16.67,
+          "predicted_seat": "S2",
+          "primary_seat": "S5",
+          "primary_rate": 33.33,
+          "secondary_seat": "S4",
+          "secondary_rate": 25,
+          "universe": "MIXED_FAMILY_FIELD",
+          "selection_problem": "SECONDARY_FAMILY_SELECTED"
+        }
+      ]
+    }
+  }
+}

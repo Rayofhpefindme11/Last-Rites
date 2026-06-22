@@ -1,0 +1,30 @@
+{
+  "memory_source": "SYNTHETIC_FAKE_IIW",
+  "schema": "iiw.synthetic_memory.v1",
+  "seed": 20260622,
+  "started_utc": "2026-06-22T12:11:26Z",
+  "stop_file": "Books of The Lotto\\Books Of Complextity\\Synthetic Memory Test\\STOP",
+  "checkpoint_every": 500,
+  "processed_fake_draws": 1000,
+  "draws_per_second": 1187.4,
+  "levels": {
+    "2": {
+      "scenario_count": 109,
+      "appearance_count": 1000
+    },
+    "3": {
+      "scenario_count": 985,
+      "appearance_count": 1000
+    },
+    "4": {
+      "scenario_count": 1000,
+      "appearance_count": 1000
+    },
+    "5": {
+      "scenario_count": 1000,
+      "appearance_count": 1000
+    }
+  },
+  "last_checkpoint_utc": "2026-06-22T12:11:26Z",
+  "stop_reason": "MAX_DRAWS"
+}

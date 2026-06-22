@@ -1,0 +1,44 @@
+{
+  "schema": "last_writes.gatherer.v1",
+  "status": "GATHERER_READY",
+  "canonical_name": "The Gatherer",
+  "answer_identity": {
+    "memory_read_status": "REPEATED_FIELD_MEMORY_AVAILABLE",
+    "deepest_matched_level": 3,
+    "recommended_use": "FAMILY_FIELD_EVIDENCE"
+  },
+  "gathered_motion_fields": [
+    {
+      "field": "family",
+      "value": "EDGE_FAMILY",
+      "count": 23,
+      "rate": 57.5
+    },
+    {
+      "field": "branch",
+      "value": "S5",
+      "count": 16,
+      "rate": 40.0
+    },
+    {
+      "field": "lane",
+      "value": "D1",
+      "count": 10,
+      "rate": 25.0
+    },
+    {
+      "field": "flow",
+      "value": "RETENTION",
+      "count": 30,
+      "rate": 75.0
+    },
+    {
+      "field": "transfer",
+      "value": "HYBRID_COUNTER",
+      "count": 26,
+      "rate": 65.0
+    }
+  ],
+  "gathered_body_count": 5,
+  "law": "The Gatherer collects the memory-selected motion fields without expanding them."
+}

@@ -1,0 +1,1716 @@
+{
+  "schema": "iiw.seat_taxonomy.transition_physics.v1",
+  "doctrine": {
+    "law": "Draw order is cause/motion. Sorted order is result/body.",
+    "read_order": [
+      "previous_draw_order",
+      "current_draw_order",
+      "outgoing_motion_contract",
+      "next_draw_order",
+      "sorted_body_result"
+    ],
+    "rule": "do not read sorted body as a guess for draw order; read draw order as transition physics first"
+  },
+  "draw": {
+    "date": "2026-06-17",
+    "index": 1960,
+    "white_balls": [
+      49,
+      53,
+      3,
+      26,
+      61
+    ],
+    "sorted_white_balls": [
+      3,
+      26,
+      49,
+      53,
+      61
+    ]
+  },
+  "continuity": {
+    "previous_date": "2026-06-15",
+    "current_date": "2026-06-17",
+    "next_date": null
+  },
+  "draw_order_transition": {
+    "rule": "previous draw order -> current draw order -> outgoing contract -> next draw order -> sorted body result",
+    "previous_draw_order": [
+      62,
+      55,
+      60,
+      57,
+      25
+    ],
+    "current_draw_order": [
+      49,
+      53,
+      3,
+      26,
+      61
+    ],
+    "next_draw_order": null,
+    "incoming_draw_delta": [
+      -13,
+      -2,
+      -57,
+      -31,
+      36
+    ],
+    "outgoing_draw_delta": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "incoming_draw_sign": "----+",
+    "outgoing_draw_sign": "NNNNN",
+    "incoming_draw_family": "DROP_DOMINANT_DIRECTED_MOTION_D3",
+    "outgoing_draw_family": "BOUNDARY_UNKNOWN_UNKNOWN_NO_DOMINANT",
+    "incoming_energy": 139,
+    "incoming_energy_class": "Directed Motion",
+    "outgoing_energy": null,
+    "outgoing_energy_class": null,
+    "dominant_incoming_draw_lane": "D3",
+    "dominant_incoming_draw_motion": -57,
+    "dominant_outgoing_draw_lane": null,
+    "dominant_outgoing_draw_motion": null
+  },
+  "draw_order_face_identity": {
+    "order_pattern": "49-53-3-26-61",
+    "draw_order_band_pattern": "jester-knight-sky-yang-high king",
+    "sorted_position_path": [
+      3,
+      4,
+      1,
+      2,
+      5
+    ],
+    "transfer_pattern": "S3-S4-S1-S2-S5",
+    "direction_pattern": "+-++",
+    "turn_count": 2,
+    "turn_lanes": [
+      "D2",
+      "D3"
+    ],
+    "max_abs_lane": {
+      "from_lane": "D2",
+      "from_role": "hold",
+      "lane": "D3",
+      "role": "stability",
+      "from_number": 53,
+      "to_number": 3,
+      "distance": -50,
+      "abs_distance": 50
+    },
+    "face_family": "Crest Valley",
+    "draw_style": "DRAW_ROUTE_S3_S4_S1_S2_S5"
+  },
+  "draw_order_taxonomy": {
+    "rule": "D1-D5 are read as cause/motion lanes before sorted body result",
+    "lanes": [
+      {
+        "draw_lane": "D1",
+        "draw_role": "starter",
+        "number": 49,
+        "draw_order_band": "jester",
+        "mapped_sorted_seat": "S3",
+        "mapped_sorted_zone": "MIDDLE",
+        "incoming_motion": -13,
+        "incoming_sign": "-",
+        "incoming_family": "Calm Motion",
+        "incoming_gauge": "fighter",
+        "incoming_gauge_range": "13-14",
+        "outgoing_motion": null,
+        "outgoing_sign": "N",
+        "outgoing_family": null,
+        "outgoing_gauge": null,
+        "outgoing_gauge_range": null,
+        "incoming_to_outgoing_transfer": "BOUNDARY_UNKNOWN"
+      },
+      {
+        "draw_lane": "D2",
+        "draw_role": "hold",
+        "number": 53,
+        "draw_order_band": "knight",
+        "mapped_sorted_seat": "S4",
+        "mapped_sorted_zone": "MIDDLE",
+        "incoming_motion": -2,
+        "incoming_sign": "-",
+        "incoming_family": "Light Motion",
+        "incoming_gauge": "grunt",
+        "incoming_gauge_range": "1-2",
+        "outgoing_motion": null,
+        "outgoing_sign": "N",
+        "outgoing_family": null,
+        "outgoing_gauge": null,
+        "outgoing_gauge_range": null,
+        "incoming_to_outgoing_transfer": "BOUNDARY_UNKNOWN"
+      },
+      {
+        "draw_lane": "D3",
+        "draw_role": "stability",
+        "number": 3,
+        "draw_order_band": "sky",
+        "mapped_sorted_seat": "S1",
+        "mapped_sorted_zone": "CORE",
+        "incoming_motion": -57,
+        "incoming_sign": "-",
+        "incoming_family": "Fatigued Motion",
+        "incoming_gauge": "dark priestess",
+        "incoming_gauge_range": "57-58",
+        "outgoing_motion": null,
+        "outgoing_sign": "N",
+        "outgoing_family": null,
+        "outgoing_gauge": null,
+        "outgoing_gauge_range": null,
+        "incoming_to_outgoing_transfer": "BOUNDARY_UNKNOWN"
+      },
+      {
+        "draw_lane": "D4",
+        "draw_role": "control",
+        "number": 26,
+        "draw_order_band": "yang",
+        "mapped_sorted_seat": "S2",
+        "mapped_sorted_zone": "MIDDLE",
+        "incoming_motion": -31,
+        "incoming_sign": "-",
+        "incoming_family": "Transitional Motion",
+        "incoming_gauge": "False queen",
+        "incoming_gauge_range": "31-32",
+        "outgoing_motion": null,
+        "outgoing_sign": "N",
+        "outgoing_family": null,
+        "outgoing_gauge": null,
+        "outgoing_gauge_range": null,
+        "incoming_to_outgoing_transfer": "BOUNDARY_UNKNOWN"
+      },
+      {
+        "draw_lane": "D5",
+        "draw_role": "ender",
+        "number": 61,
+        "draw_order_band": "high king",
+        "mapped_sorted_seat": "S5",
+        "mapped_sorted_zone": "ENDPOINT",
+        "incoming_motion": 36,
+        "incoming_sign": "+",
+        "incoming_family": "Transitional Motion",
+        "incoming_gauge": "King",
+        "incoming_gauge_range": "35-36",
+        "outgoing_motion": null,
+        "outgoing_sign": "N",
+        "outgoing_family": null,
+        "outgoing_gauge": null,
+        "outgoing_gauge_range": null,
+        "incoming_to_outgoing_transfer": "BOUNDARY_UNKNOWN"
+      }
+    ]
+  },
+  "incoming_motion": {
+    "rule": "previous draw -> current draw by D1-D5 lane",
+    "sign_pattern": "----+",
+    "total_abs_energy": 139,
+    "dominant_lane": "D3",
+    "dominant_sorted_seat": "S1",
+    "dominant_motion": -57,
+    "lanes": [
+      {
+        "lane": "D1",
+        "role": "starter",
+        "sorted_seat": "S3",
+        "seat_zone": "MIDDLE",
+        "motion": -13,
+        "sign": "-",
+        "broad_class": "Calm Motion",
+        "gauge": "fighter",
+        "gauge_range": "13-14"
+      },
+      {
+        "lane": "D2",
+        "role": "hold",
+        "sorted_seat": "S4",
+        "seat_zone": "MIDDLE",
+        "motion": -2,
+        "sign": "-",
+        "broad_class": "Light Motion",
+        "gauge": "grunt",
+        "gauge_range": "1-2"
+      },
+      {
+        "lane": "D3",
+        "role": "stability",
+        "sorted_seat": "S1",
+        "seat_zone": "CORE",
+        "motion": -57,
+        "sign": "-",
+        "broad_class": "Fatigued Motion",
+        "gauge": "dark priestess",
+        "gauge_range": "57-58"
+      },
+      {
+        "lane": "D4",
+        "role": "control",
+        "sorted_seat": "S2",
+        "seat_zone": "MIDDLE",
+        "motion": -31,
+        "sign": "-",
+        "broad_class": "Transitional Motion",
+        "gauge": "False queen",
+        "gauge_range": "31-32"
+      },
+      {
+        "lane": "D5",
+        "role": "ender",
+        "sorted_seat": "S5",
+        "seat_zone": "ENDPOINT",
+        "motion": 36,
+        "sign": "+",
+        "broad_class": "Transitional Motion",
+        "gauge": "King",
+        "gauge_range": "35-36"
+      }
+    ]
+  },
+  "current_pressure": {
+    "set_health": "Tensioned Sky Fighter High Kid High King",
+    "set_relation": "ENTRY_EXIT_TILTED_AROUND_MIDDLE",
+    "middle_pressure": "MIDDLE_STABLE_PRESSURE",
+    "edge_pressure": "ENTRY_BALANCED_EXIT_CONTAINED",
+    "technical_signature": "S1_CORE_SKY | ENTRY_FIGHTER_HIGH_EXIT_GRUNT | S2_S4_FIGHTER_HIGH_THEN_KID | MIDDLE_STABLE_PRESSURE | ENTRY_EXIT_TILTED_AROUND_MIDDLE | S5_ENDPOINT_HIGH_KING",
+    "sorted_pressure": "UPLIFT",
+    "draw_pressure": "TENSION",
+    "pressure_flow": "UNKNOWN_BOUNDARY",
+    "pressure_fusion_profile": "UPLIFT_TO_TENSION",
+    "pressure_fusion": "REDISTRIBUTED_FUSION"
+  },
+  "pressure_origin": {
+    "rule": "pressure origin explains why each sorted seat became pressured before pressure map and burden are read",
+    "dominant_origin_seat": "S1",
+    "dominant_origin_score": 88,
+    "smallest_origin_seat": "S4",
+    "smallest_origin_score": 24,
+    "lanes": [
+      {
+        "seat": "S1",
+        "role": "Core",
+        "number": 3,
+        "taxonomy": "sky",
+        "source_draw_lane": "D3",
+        "incoming_motion": -57,
+        "incoming_direction": "DROP",
+        "adjacent_gap_pressure": 23,
+        "gap_pressure": 23,
+        "left_gap": null,
+        "right_gap": 23,
+        "middle_edge_modifier": "ENTRY_BALANCED_EXIT_CONTAINED",
+        "pressure_origins": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 57,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 23,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          },
+          {
+            "origin": "EDGE_IMBALANCE",
+            "contribution": 8,
+            "meaning": "entry edge is heavier than exit edge"
+          }
+        ],
+        "structural_pressure": 31,
+        "dynamic_pressure": 57,
+        "dominant_pressure_type": "DYNAMIC",
+        "structural_ratio": 0.352,
+        "dynamic_ratio": 0.648,
+        "structural_sources": [
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 23,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          },
+          {
+            "origin": "EDGE_IMBALANCE",
+            "contribution": 8,
+            "meaning": "entry edge is heavier than exit edge"
+          }
+        ],
+        "dynamic_sources": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 57,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          }
+        ],
+        "burden_score": 88,
+        "burden_level": "HIGH",
+        "burden_gauge": "Tyr",
+        "burden_gauge_range": "87-88",
+        "burden_state": "HOLD",
+        "pressure_level": "HIGH",
+        "pressure_gauge": "Houyi",
+        "pressure_gauge_range": "23-24",
+        "pressure_role": "HOLD"
+      },
+      {
+        "seat": "S2",
+        "role": "Entry",
+        "number": 26,
+        "taxonomy": "yang",
+        "source_draw_lane": "D4",
+        "incoming_motion": -31,
+        "incoming_direction": "DROP",
+        "adjacent_gap_pressure": 46,
+        "gap_pressure": 46,
+        "left_gap": 23,
+        "right_gap": 23,
+        "middle_edge_modifier": "MIDDLE_STABLE_PRESSURE",
+        "pressure_origins": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 31,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 46,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "structural_pressure": 46,
+        "dynamic_pressure": 31,
+        "dominant_pressure_type": "STRUCTURAL",
+        "structural_ratio": 0.597,
+        "dynamic_ratio": 0.403,
+        "structural_sources": [
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 46,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "dynamic_sources": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 31,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          }
+        ],
+        "burden_score": 77,
+        "burden_level": "HIGH",
+        "burden_gauge": "Sif",
+        "burden_gauge_range": "77-78",
+        "burden_state": "HOLD",
+        "pressure_level": "HIGH",
+        "pressure_gauge": "Caishen",
+        "pressure_gauge_range": "45-46",
+        "pressure_role": "HOLD"
+      },
+      {
+        "seat": "S3",
+        "role": "Bridge",
+        "number": 49,
+        "taxonomy": "jester",
+        "source_draw_lane": "D1",
+        "incoming_motion": -13,
+        "incoming_direction": "DROP",
+        "adjacent_gap_pressure": 27,
+        "gap_pressure": 27,
+        "left_gap": 23,
+        "right_gap": 4,
+        "middle_edge_modifier": "MIDDLE_STABLE_PRESSURE",
+        "pressure_origins": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 13,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 27,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "structural_pressure": 27,
+        "dynamic_pressure": 13,
+        "dominant_pressure_type": "STRUCTURAL",
+        "structural_ratio": 0.675,
+        "dynamic_ratio": 0.325,
+        "structural_sources": [
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 27,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "dynamic_sources": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 13,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          }
+        ],
+        "burden_score": 40,
+        "burden_level": "MEDIUM",
+        "burden_gauge": "Njord",
+        "burden_gauge_range": "39-40",
+        "burden_state": "HOLD",
+        "pressure_level": "MEDIUM",
+        "pressure_gauge": "Nezha",
+        "pressure_gauge_range": "27-28",
+        "pressure_role": "HOLD"
+      },
+      {
+        "seat": "S4",
+        "role": "Exit",
+        "number": 53,
+        "taxonomy": "knight",
+        "source_draw_lane": "D2",
+        "incoming_motion": -2,
+        "incoming_direction": "DROP",
+        "adjacent_gap_pressure": 12,
+        "gap_pressure": 12,
+        "left_gap": 4,
+        "right_gap": 8,
+        "middle_edge_modifier": "MIDDLE_STABLE_PRESSURE",
+        "pressure_origins": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 2,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 12,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          },
+          {
+            "origin": "HINGE_TRAP",
+            "contribution": 10,
+            "meaning": "middle seat is trapped between two tight adjacent gaps"
+          }
+        ],
+        "structural_pressure": 22,
+        "dynamic_pressure": 2,
+        "dominant_pressure_type": "STRUCTURAL",
+        "structural_ratio": 0.917,
+        "dynamic_ratio": 0.083,
+        "structural_sources": [
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 12,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          },
+          {
+            "origin": "HINGE_TRAP",
+            "contribution": 10,
+            "meaning": "middle seat is trapped between two tight adjacent gaps"
+          }
+        ],
+        "dynamic_sources": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 2,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          }
+        ],
+        "burden_score": 24,
+        "burden_level": "LOW",
+        "burden_gauge": "Heimdall",
+        "burden_gauge_range": "23-24",
+        "burden_state": "TRAPPED",
+        "pressure_level": "LOW",
+        "pressure_gauge": "Xiwangmu",
+        "pressure_gauge_range": "11-12",
+        "pressure_role": "TRAPPED"
+      },
+      {
+        "seat": "S5",
+        "role": "Endpoint",
+        "number": 61,
+        "taxonomy": "high king",
+        "source_draw_lane": "D5",
+        "incoming_motion": 36,
+        "incoming_direction": "LIFT",
+        "adjacent_gap_pressure": 8,
+        "gap_pressure": 8,
+        "left_gap": 8,
+        "right_gap": null,
+        "middle_edge_modifier": "ENTRY_BALANCED_EXIT_CONTAINED",
+        "pressure_origins": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 36,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 8,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "structural_pressure": 8,
+        "dynamic_pressure": 36,
+        "dominant_pressure_type": "DYNAMIC",
+        "structural_ratio": 0.182,
+        "dynamic_ratio": 0.818,
+        "structural_sources": [
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 8,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "dynamic_sources": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 36,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          }
+        ],
+        "burden_score": 44,
+        "burden_level": "MEDIUM",
+        "burden_gauge": "Ullr",
+        "burden_gauge_range": "43-44",
+        "burden_state": "ENDPOINT_SATURATED",
+        "pressure_level": "MEDIUM",
+        "pressure_gauge": "Shennong",
+        "pressure_gauge_range": "7-8",
+        "pressure_role": "ENDPOINT_SATURATED"
+      }
+    ]
+  },
+  "lane_burden": {
+    "rule": "burden is stored pressure on a sorted seat before it moves; incoming motion hits draw lanes, maps into sorted seats, and stores pressure there",
+    "highest_burden_seat": "S1",
+    "highest_burden_state": "HOLD",
+    "highest_burden_level": "HIGH",
+    "highest_burden_score": 88,
+    "highest_burden_gauge": "Tyr",
+    "highest_burden_gauge_range": "87-88",
+    "smallest_burden_seat": "S4",
+    "smallest_burden_state": "TRAPPED",
+    "smallest_burden_level": "LOW",
+    "smallest_burden_score": 24,
+    "smallest_burden_gauge": "Heimdall",
+    "smallest_burden_gauge_range": "23-24",
+    "lanes": [
+      {
+        "seat": "S1",
+        "role": "Core",
+        "number": 3,
+        "taxonomy": "sky",
+        "source_draw_lane": "D3",
+        "incoming_motion": -57,
+        "incoming_direction": "DROP",
+        "adjacent_gap_pressure": 23,
+        "gap_pressure": 23,
+        "left_gap": null,
+        "right_gap": 23,
+        "middle_edge_modifier": "ENTRY_BALANCED_EXIT_CONTAINED",
+        "pressure_origins": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 57,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 23,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          },
+          {
+            "origin": "EDGE_IMBALANCE",
+            "contribution": 8,
+            "meaning": "entry edge is heavier than exit edge"
+          }
+        ],
+        "structural_pressure": 31,
+        "dynamic_pressure": 57,
+        "dominant_pressure_type": "DYNAMIC",
+        "structural_ratio": 0.352,
+        "dynamic_ratio": 0.648,
+        "structural_sources": [
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 23,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          },
+          {
+            "origin": "EDGE_IMBALANCE",
+            "contribution": 8,
+            "meaning": "entry edge is heavier than exit edge"
+          }
+        ],
+        "dynamic_sources": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 57,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          }
+        ],
+        "burden_score": 88,
+        "burden_level": "HIGH",
+        "burden_gauge": "Tyr",
+        "burden_gauge_range": "87-88",
+        "burden_state": "HOLD",
+        "pressure_level": "HIGH",
+        "pressure_gauge": "Houyi",
+        "pressure_gauge_range": "23-24",
+        "pressure_role": "HOLD"
+      },
+      {
+        "seat": "S2",
+        "role": "Entry",
+        "number": 26,
+        "taxonomy": "yang",
+        "source_draw_lane": "D4",
+        "incoming_motion": -31,
+        "incoming_direction": "DROP",
+        "adjacent_gap_pressure": 46,
+        "gap_pressure": 46,
+        "left_gap": 23,
+        "right_gap": 23,
+        "middle_edge_modifier": "MIDDLE_STABLE_PRESSURE",
+        "pressure_origins": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 31,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 46,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "structural_pressure": 46,
+        "dynamic_pressure": 31,
+        "dominant_pressure_type": "STRUCTURAL",
+        "structural_ratio": 0.597,
+        "dynamic_ratio": 0.403,
+        "structural_sources": [
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 46,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "dynamic_sources": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 31,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          }
+        ],
+        "burden_score": 77,
+        "burden_level": "HIGH",
+        "burden_gauge": "Sif",
+        "burden_gauge_range": "77-78",
+        "burden_state": "HOLD",
+        "pressure_level": "HIGH",
+        "pressure_gauge": "Caishen",
+        "pressure_gauge_range": "45-46",
+        "pressure_role": "HOLD"
+      },
+      {
+        "seat": "S3",
+        "role": "Bridge",
+        "number": 49,
+        "taxonomy": "jester",
+        "source_draw_lane": "D1",
+        "incoming_motion": -13,
+        "incoming_direction": "DROP",
+        "adjacent_gap_pressure": 27,
+        "gap_pressure": 27,
+        "left_gap": 23,
+        "right_gap": 4,
+        "middle_edge_modifier": "MIDDLE_STABLE_PRESSURE",
+        "pressure_origins": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 13,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 27,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "structural_pressure": 27,
+        "dynamic_pressure": 13,
+        "dominant_pressure_type": "STRUCTURAL",
+        "structural_ratio": 0.675,
+        "dynamic_ratio": 0.325,
+        "structural_sources": [
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 27,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "dynamic_sources": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 13,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          }
+        ],
+        "burden_score": 40,
+        "burden_level": "MEDIUM",
+        "burden_gauge": "Njord",
+        "burden_gauge_range": "39-40",
+        "burden_state": "HOLD",
+        "pressure_level": "MEDIUM",
+        "pressure_gauge": "Nezha",
+        "pressure_gauge_range": "27-28",
+        "pressure_role": "HOLD"
+      },
+      {
+        "seat": "S4",
+        "role": "Exit",
+        "number": 53,
+        "taxonomy": "knight",
+        "source_draw_lane": "D2",
+        "incoming_motion": -2,
+        "incoming_direction": "DROP",
+        "adjacent_gap_pressure": 12,
+        "gap_pressure": 12,
+        "left_gap": 4,
+        "right_gap": 8,
+        "middle_edge_modifier": "MIDDLE_STABLE_PRESSURE",
+        "pressure_origins": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 2,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 12,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          },
+          {
+            "origin": "HINGE_TRAP",
+            "contribution": 10,
+            "meaning": "middle seat is trapped between two tight adjacent gaps"
+          }
+        ],
+        "structural_pressure": 22,
+        "dynamic_pressure": 2,
+        "dominant_pressure_type": "STRUCTURAL",
+        "structural_ratio": 0.917,
+        "dynamic_ratio": 0.083,
+        "structural_sources": [
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 12,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          },
+          {
+            "origin": "HINGE_TRAP",
+            "contribution": 10,
+            "meaning": "middle seat is trapped between two tight adjacent gaps"
+          }
+        ],
+        "dynamic_sources": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 2,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          }
+        ],
+        "burden_score": 24,
+        "burden_level": "LOW",
+        "burden_gauge": "Heimdall",
+        "burden_gauge_range": "23-24",
+        "burden_state": "TRAPPED",
+        "pressure_level": "LOW",
+        "pressure_gauge": "Xiwangmu",
+        "pressure_gauge_range": "11-12",
+        "pressure_role": "TRAPPED"
+      },
+      {
+        "seat": "S5",
+        "role": "Endpoint",
+        "number": 61,
+        "taxonomy": "high king",
+        "source_draw_lane": "D5",
+        "incoming_motion": 36,
+        "incoming_direction": "LIFT",
+        "adjacent_gap_pressure": 8,
+        "gap_pressure": 8,
+        "left_gap": 8,
+        "right_gap": null,
+        "middle_edge_modifier": "ENTRY_BALANCED_EXIT_CONTAINED",
+        "pressure_origins": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 36,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 8,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "structural_pressure": 8,
+        "dynamic_pressure": 36,
+        "dominant_pressure_type": "DYNAMIC",
+        "structural_ratio": 0.182,
+        "dynamic_ratio": 0.818,
+        "structural_sources": [
+          {
+            "origin": "GAP_STRUCTURE",
+            "contribution": 8,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ],
+        "dynamic_sources": [
+          {
+            "origin": "INCOMING_MOTION",
+            "contribution": 36,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          }
+        ],
+        "burden_score": 44,
+        "burden_level": "MEDIUM",
+        "burden_gauge": "Ullr",
+        "burden_gauge_range": "43-44",
+        "burden_state": "ENDPOINT_SATURATED",
+        "pressure_level": "MEDIUM",
+        "pressure_gauge": "Shennong",
+        "pressure_gauge_range": "7-8",
+        "pressure_role": "ENDPOINT_SATURATED"
+      }
+    ]
+  },
+  "pressure_map": {
+    "rule": "pressure map shows where the full sorted body is storing force",
+    "dominant_pressure_seat": "S1",
+    "dominant_pressure_score": 88,
+    "dominant_burden_gauge": "Tyr",
+    "dominant_burden_gauge_range": "87-88",
+    "smallest_pressure_seat": "S4",
+    "smallest_pressure_score": 24,
+    "smallest_burden_gauge": "Heimdall",
+    "smallest_burden_gauge_range": "23-24",
+    "structural_pressure_total": 134,
+    "dynamic_pressure_total": 139,
+    "map_pressure_type": "DYNAMIC_DOMINANT",
+    "pressure_shape": "HIGH-HIGH-MEDIUM-LOW-MEDIUM",
+    "pressure_gauge_shape": "Houyi-Caishen-Nezha-Xiwangmu-Shennong",
+    "burden_gauge_shape": "Tyr-Sif-Njord-Heimdall-Ullr",
+    "pressure_center": "CORE",
+    "pressure_balance": "LEFT_HEAVY",
+    "pressure_distribution": "SPLIT",
+    "pressure_world": {
+      "world_slot": "WORLD_038",
+      "topology_slot": "TOPOLOGY_WORLD_11",
+      "topology_name": "Suzuka",
+      "base_world": "DYNAMIC_DOMINANT",
+      "pressure_center": "CORE",
+      "pressure_balance": "LEFT_HEAVY",
+      "pressure_distribution": "SPLIT",
+      "world_key": "DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT",
+      "topology_key": "DYNAMIC_DOMINANT::CORE::SPLIT",
+      "naming_status": "TOPOLOGY_NAMED_EXACT_WORLD_UNNAMED",
+      "rule": "pressure world groups the draw by structural/dynamic authority, dominant pressure center, balance, and distribution"
+    },
+    "seats": [
+      {
+        "seat": "S1",
+        "role": "Core",
+        "number": 3,
+        "taxonomy": "sky",
+        "incoming_motion": -57,
+        "gap_pressure": 23,
+        "left_gap": null,
+        "right_gap": 23,
+        "middle_edge_modifier": "ENTRY_BALANCED_EXIT_CONTAINED",
+        "structural_pressure": 31,
+        "dynamic_pressure": 57,
+        "dominant_pressure_type": "DYNAMIC",
+        "burden_score": 88,
+        "burden_gauge": "Tyr",
+        "burden_gauge_range": "87-88",
+        "pressure_level": "HIGH",
+        "pressure_gauge": "Houyi",
+        "pressure_gauge_range": "23-24",
+        "pressure_role": "HOLD"
+      },
+      {
+        "seat": "S2",
+        "role": "Entry",
+        "number": 26,
+        "taxonomy": "yang",
+        "incoming_motion": -31,
+        "gap_pressure": 46,
+        "left_gap": 23,
+        "right_gap": 23,
+        "middle_edge_modifier": "MIDDLE_STABLE_PRESSURE",
+        "structural_pressure": 46,
+        "dynamic_pressure": 31,
+        "dominant_pressure_type": "STRUCTURAL",
+        "burden_score": 77,
+        "burden_gauge": "Sif",
+        "burden_gauge_range": "77-78",
+        "pressure_level": "HIGH",
+        "pressure_gauge": "Caishen",
+        "pressure_gauge_range": "45-46",
+        "pressure_role": "HOLD"
+      },
+      {
+        "seat": "S3",
+        "role": "Bridge",
+        "number": 49,
+        "taxonomy": "jester",
+        "incoming_motion": -13,
+        "gap_pressure": 27,
+        "left_gap": 23,
+        "right_gap": 4,
+        "middle_edge_modifier": "MIDDLE_STABLE_PRESSURE",
+        "structural_pressure": 27,
+        "dynamic_pressure": 13,
+        "dominant_pressure_type": "STRUCTURAL",
+        "burden_score": 40,
+        "burden_gauge": "Njord",
+        "burden_gauge_range": "39-40",
+        "pressure_level": "MEDIUM",
+        "pressure_gauge": "Nezha",
+        "pressure_gauge_range": "27-28",
+        "pressure_role": "HOLD"
+      },
+      {
+        "seat": "S4",
+        "role": "Exit",
+        "number": 53,
+        "taxonomy": "knight",
+        "incoming_motion": -2,
+        "gap_pressure": 12,
+        "left_gap": 4,
+        "right_gap": 8,
+        "middle_edge_modifier": "MIDDLE_STABLE_PRESSURE",
+        "structural_pressure": 22,
+        "dynamic_pressure": 2,
+        "dominant_pressure_type": "STRUCTURAL",
+        "burden_score": 24,
+        "burden_gauge": "Heimdall",
+        "burden_gauge_range": "23-24",
+        "pressure_level": "LOW",
+        "pressure_gauge": "Xiwangmu",
+        "pressure_gauge_range": "11-12",
+        "pressure_role": "TRAPPED"
+      },
+      {
+        "seat": "S5",
+        "role": "Endpoint",
+        "number": 61,
+        "taxonomy": "high king",
+        "incoming_motion": 36,
+        "gap_pressure": 8,
+        "left_gap": 8,
+        "right_gap": null,
+        "middle_edge_modifier": "ENTRY_BALANCED_EXIT_CONTAINED",
+        "structural_pressure": 8,
+        "dynamic_pressure": 36,
+        "dominant_pressure_type": "DYNAMIC",
+        "burden_score": 44,
+        "burden_gauge": "Ullr",
+        "burden_gauge_range": "43-44",
+        "pressure_level": "MEDIUM",
+        "pressure_gauge": "Shennong",
+        "pressure_gauge_range": "7-8",
+        "pressure_role": "ENDPOINT_SATURATED"
+      }
+    ]
+  },
+  "pressure_authority": {
+    "rule": "pressure authority weights existing pressure origins to decide which source has motion control",
+    "authority_world": {
+      "world_slot": "WORLD_038",
+      "topology_slot": "TOPOLOGY_WORLD_11",
+      "topology_name": "Suzuka",
+      "base_world": "DYNAMIC_DOMINANT",
+      "pressure_center": "CORE",
+      "pressure_balance": "LEFT_HEAVY",
+      "pressure_distribution": "SPLIT",
+      "world_key": "DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT",
+      "topology_key": "DYNAMIC_DOMINANT::CORE::SPLIT",
+      "naming_status": "TOPOLOGY_NAMED_EXACT_WORLD_UNNAMED",
+      "rule": "pressure world groups the draw by structural/dynamic authority, dominant pressure center, balance, and distribution"
+    },
+    "authority_winner_seat": "S1",
+    "authority_winner_origin": "INCOMING_MOTION",
+    "authority_winner_score": 146.9,
+    "authority_winner_draw_lane": "D3",
+    "raw_pressure_winner_seat": "S1",
+    "raw_pressure_winner_score": 88,
+    "authority_changed_winner": false,
+    "seats": [
+      {
+        "seat": "S1",
+        "role": "Core",
+        "number": 3,
+        "taxonomy": "sky",
+        "source_draw_lane": "D3",
+        "raw_pressure": 88,
+        "authority_pressure": 146.9,
+        "winning_origin": "INCOMING_MOTION",
+        "winning_origin_pressure": 111.15,
+        "origin_breakdown": [
+          {
+            "origin": "INCOMING_MOTION",
+            "raw_pressure": 57,
+            "authority_weight": 1.95,
+            "authority_pressure": 111.15,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "raw_pressure": 23,
+            "authority_weight": 1.05,
+            "authority_pressure": 24.15,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          },
+          {
+            "origin": "EDGE_IMBALANCE",
+            "raw_pressure": 8,
+            "authority_weight": 1.45,
+            "authority_pressure": 11.6,
+            "meaning": "entry edge is heavier than exit edge"
+          }
+        ]
+      },
+      {
+        "seat": "S2",
+        "role": "Entry",
+        "number": 26,
+        "taxonomy": "yang",
+        "source_draw_lane": "D4",
+        "raw_pressure": 77,
+        "authority_pressure": 97.2,
+        "winning_origin": "INCOMING_MOTION",
+        "winning_origin_pressure": 55.8,
+        "origin_breakdown": [
+          {
+            "origin": "INCOMING_MOTION",
+            "raw_pressure": 31,
+            "authority_weight": 1.8,
+            "authority_pressure": 55.8,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "raw_pressure": 46,
+            "authority_weight": 0.9,
+            "authority_pressure": 41.4,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ]
+      },
+      {
+        "seat": "S3",
+        "role": "Bridge",
+        "number": 49,
+        "taxonomy": "jester",
+        "source_draw_lane": "D1",
+        "raw_pressure": 40,
+        "authority_pressure": 43.7,
+        "winning_origin": "INCOMING_MOTION",
+        "winning_origin_pressure": 22.1,
+        "origin_breakdown": [
+          {
+            "origin": "INCOMING_MOTION",
+            "raw_pressure": 13,
+            "authority_weight": 1.7,
+            "authority_pressure": 22.1,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "raw_pressure": 27,
+            "authority_weight": 0.8,
+            "authority_pressure": 21.6,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ]
+      },
+      {
+        "seat": "S4",
+        "role": "Exit",
+        "number": 53,
+        "taxonomy": "knight",
+        "source_draw_lane": "D2",
+        "raw_pressure": 24,
+        "authority_pressure": 24.0,
+        "winning_origin": "HINGE_TRAP",
+        "winning_origin_pressure": 11.0,
+        "origin_breakdown": [
+          {
+            "origin": "INCOMING_MOTION",
+            "raw_pressure": 2,
+            "authority_weight": 1.7,
+            "authority_pressure": 3.4,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "raw_pressure": 12,
+            "authority_weight": 0.8,
+            "authority_pressure": 9.6,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          },
+          {
+            "origin": "HINGE_TRAP",
+            "raw_pressure": 10,
+            "authority_weight": 1.1,
+            "authority_pressure": 11.0,
+            "meaning": "middle seat is trapped between two tight adjacent gaps"
+          }
+        ]
+      },
+      {
+        "seat": "S5",
+        "role": "Endpoint",
+        "number": 61,
+        "taxonomy": "high king",
+        "source_draw_lane": "D5",
+        "raw_pressure": 44,
+        "authority_pressure": 67.6,
+        "winning_origin": "INCOMING_MOTION",
+        "winning_origin_pressure": 61.2,
+        "origin_breakdown": [
+          {
+            "origin": "INCOMING_MOTION",
+            "raw_pressure": 36,
+            "authority_weight": 1.7,
+            "authority_pressure": 61.2,
+            "meaning": "pressure inherited from previous draw motion mapped into this sorted seat"
+          },
+          {
+            "origin": "GAP_STRUCTURE",
+            "raw_pressure": 8,
+            "authority_weight": 0.8,
+            "authority_pressure": 6.4,
+            "meaning": "pressure created by left/right sorted gap geometry"
+          }
+        ]
+      }
+    ]
+  },
+  "draw_singularity_lens": {
+    "rule": "Draw Singularity Lens names the active motion problem before branch selection; it is an IIW-native family/subfamily/internal-profile layer.",
+    "draw_singularity": "UNMEASURED_BRANCH_SINGULARITY",
+    "subfamily": "SUZUKA::DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTH_S1::INCOMING_MOTION",
+    "internal_profile": "BOUNDARY_UNKNOWN::BOUNDARY_UNKNOWN::BOUNDARY_UNKNOWN::IN_MMMMP::OUT_NNNNN::INLANE_D3::OUTLANE_NONE::BIAS_EDGE_BIAS::PREF_UNMEASURED",
+    "selector_profile": "BOUNDARY_UNKNOWN::BOUNDARY_UNKNOWN::BOUNDARY_UNKNOWN::BIAS_EDGE_BIAS::PREF_UNMEASURED",
+    "profile_key": "UNMEASURED_BRANCH_SINGULARITY||SUZUKA::DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTH_S1::INCOMING_MOTION||BOUNDARY_UNKNOWN::BOUNDARY_UNKNOWN::BOUNDARY_UNKNOWN::IN_MMMMP::OUT_NNNNN::INLANE_D3::OUTLANE_NONE::BIAS_EDGE_BIAS::PREF_UNMEASURED",
+    "branch_universe": "UNMEASURED",
+    "selection_problem": "NO_BRANCH_FINDING_YET",
+    "incoming_draw_family_key": "DROP_DOMINANT_DIRECTED_MOTION_D3",
+    "outgoing_draw_family_key": "BOUNDARY_UNKNOWN_UNKNOWN_NO_DOMINANT",
+    "incoming_sorted_family_key": "FULL_DROP_QUEEN_S2",
+    "outgoing_sorted_family_key": "BOUNDARY_UNKNOWN_NONE_SX",
+    "incoming_draw_caste_pattern": "-FIGHTER|-GRUNT|-DARK_PRIESTESS|-FALSE_QUEEN|+KING",
+    "incoming_draw_caste_side_pattern": "-FIGHTER:LOW|-GRUNT:HIGH|-DARK_PRIESTESS:LOW|-FALSE_QUEEN:LOW|+KING:HIGH",
+    "outgoing_draw_caste_pattern": "NNONE|NNONE|NNONE|NNONE|NNONE",
+    "outgoing_draw_caste_side_pattern": "NNONE:UNKNOWN|NNONE:UNKNOWN|NNONE:UNKNOWN|NNONE:UNKNOWN|NNONE:UNKNOWN",
+    "incoming_sorted_caste_pattern": "-GRAND_BRAWLER|-QUEEN|-NOBLE|-NOBLE|-GRUNT",
+    "incoming_sorted_caste_side_pattern": "-GRAND_BRAWLER:HIGH|-QUEEN:LOW|-NOBLE:HIGH|-NOBLE:LOW|-GRUNT:LOW",
+    "outgoing_sorted_caste_pattern": "NNONE|NNONE|NNONE|NNONE|NNONE",
+    "outgoing_sorted_caste_side_pattern": "NNONE:UNKNOWN|NNONE:UNKNOWN|NNONE:UNKNOWN|NNONE:UNKNOWN|NNONE:UNKNOWN",
+    "source_micro_ranges": {
+      "S1": "sky",
+      "S2": "yang",
+      "S3": "jester",
+      "S4": "knight",
+      "S5": "high king"
+    },
+    "authority_path": {
+      "authority_seat": "S1",
+      "authority_origin": "INCOMING_MOTION",
+      "authority_draw_lane": "D3",
+      "primary_bias_seat": "S1",
+      "secondary_bias_seat": "S5",
+      "collision_seat": "S1",
+      "observed_outgoing_seat": null
+    },
+    "read": "DS compresses the room between broad branch law and over-specific raw fields: family names the branch universe, subfamily names the pressure world and authority, internal profile names the motion condition."
+  },
+  "resolution_bias": {
+    "rule": "resolution bias chooses the destination family before collision point is finalized",
+    "bias_status": "OPEN_BOUNDARY",
+    "authority_seat": "S1",
+    "authority_family": "EDGE_FAMILY",
+    "bias_type": "EDGE_BIAS",
+    "primary_bias_seat": "S1",
+    "primary_bias_family": "EDGE_FAMILY",
+    "secondary_bias_seat": "S5",
+    "secondary_bias_family": "EDGE_FAMILY",
+    "tertiary_bias_seat": "S3",
+    "tertiary_bias_family": "CENTER_FAMILY",
+    "bias_reason": "edge authority prefers edge-family resolution",
+    "inputs": {
+      "topology_name": "Suzuka",
+      "base_world": "DYNAMIC_DOMINANT",
+      "pressure_center": "CORE",
+      "pressure_balance": "LEFT_HEAVY",
+      "pressure_distribution": "SPLIT",
+      "motion_state": "BOUNDARY_UNKNOWN",
+      "transfer": "BOUNDARY_UNKNOWN",
+      "motion_archetype": "BOUNDARY_UNKNOWN"
+    },
+    "candidates": [
+      {
+        "rank": 1,
+        "seat": "S1",
+        "family": "EDGE_FAMILY",
+        "draw_lane": "D3"
+      },
+      {
+        "rank": 2,
+        "seat": "S5",
+        "family": "EDGE_FAMILY",
+        "draw_lane": "D5"
+      },
+      {
+        "rank": 3,
+        "seat": "S3",
+        "family": "CENTER_FAMILY",
+        "draw_lane": "D1"
+      }
+    ]
+  },
+  "motion_state": {
+    "motion_state": "BOUNDARY_UNKNOWN",
+    "body_motion_state": "BOUNDARY_UNKNOWN",
+    "incoming_sign": "----+",
+    "outgoing_sign": "NNNNN",
+    "pressure_flow": "UNKNOWN_BOUNDARY",
+    "transfer": "BOUNDARY_UNKNOWN",
+    "dominant_burden_seat": "S1",
+    "dominant_burden_level": "HIGH",
+    "dominant_burden_state": "HOLD",
+    "law_phrase": "BOUNDARY_UNKNOWN + BOUNDARY_UNKNOWN + S1_HOLD",
+    "rule": "current motion state plus current technical body becomes the allowed outgoing state layer"
+  },
+  "motion_archetype": {
+    "motion_archetype": "BOUNDARY_UNKNOWN",
+    "rule": "motion archetype names the action/event created by state, flow, transfer, burden, and outgoing lane",
+    "inputs": {
+      "motion_state": "BOUNDARY_UNKNOWN",
+      "pressure_flow": "UNKNOWN_BOUNDARY",
+      "transfer": "BOUNDARY_UNKNOWN",
+      "incoming_sign": "----+",
+      "outgoing_sign": "NNNNN",
+      "dominant_burden_seat": "S1",
+      "dominant_outgoing_lane": null
+    }
+  },
+  "collision_point": {
+    "rule": "collision point is where the winning authority terminates before number placement",
+    "collision_status": "OPEN_BOUNDARY_NO_NEXT_DRAW",
+    "authority_seat": "S1",
+    "authority_origin": "INCOMING_MOTION",
+    "authority_score": 146.9,
+    "collision_seat": "S1",
+    "collision_zone": "CORE",
+    "collision_type": "EDGE_COLLISION",
+    "collision_reason": "authority pressure terminated at an edge or endpoint",
+    "baseline_collision_seat": "S1",
+    "baseline_collision_type": "EDGE_COLLISION",
+    "baseline_collision_reason": "authority pressure terminated at an edge or endpoint",
+    "resolution_bias_type": "EDGE_BIAS",
+    "resolution_primary_family": "EDGE_FAMILY",
+    "resolution_primary_seat": "S1",
+    "resolution_secondary_seat": "S5",
+    "resolution_secondary_family": "EDGE_FAMILY",
+    "used_resolution_bias": false,
+    "finding_source": "NO_FINDING",
+    "used_branch_finding": false,
+    "finding_law_key": null,
+    "finding_conflict_type": null,
+    "finding_appearances": null,
+    "finding_primary_seat": null,
+    "finding_primary_rate": null,
+    "finding_secondary_seat": null,
+    "finding_secondary_rate": null,
+    "finding_tertiary_seat": null,
+    "finding_tertiary_rate": null,
+    "pre_collision_preference_field": {
+      "preference_status": "NO_HISTORICAL_FIELD",
+      "preference_universe": "UNMEASURED",
+      "selection_problem": "NO_BRANCH_FINDING_YET",
+      "primary_seat": "S1",
+      "primary_rate": null,
+      "secondary_seat": "S5",
+      "secondary_rate": null,
+      "primary_family": "EDGE_FAMILY",
+      "secondary_family": "EDGE_FAMILY",
+      "family_field": [],
+      "seat_field": [],
+      "branch_gap": null,
+      "read": "no historical branch field exists for this exact level-4 room yet"
+    },
+    "expected_draw_lane": "D3",
+    "observed_draw_lane": null,
+    "observed_sorted_seat": null,
+    "collision_seat_validation": "BOUNDARY_UNKNOWN",
+    "collision_lane_validation": "BOUNDARY_UNKNOWN",
+    "validation_result": "BOUNDARY_UNKNOWN"
+  },
+  "branch_selector": {
+    "rule": "branch selector learns which side of the pre-collision preference field wins",
+    "selector_status": "OPEN_BOUNDARY",
+    "preference_universe": "UNMEASURED",
+    "selection_problem": "NO_BRANCH_FINDING_YET",
+    "split_strength": null,
+    "primary_seat": "S1",
+    "primary_rate": null,
+    "secondary_seat": "S5",
+    "secondary_rate": null,
+    "observed_branch_seat": null,
+    "observed_branch_lane": null,
+    "selected_branch": null,
+    "selected_branch_confidence": null,
+    "selector_result": "NO_FIELD",
+    "read": "no measured branch field exists for this room yet"
+  },
+  "technical_draw_address": {
+    "technical_draw_address": "TECH_DRAW::IN_DROP_DOMINANT_DIRECTED_MOTION_D3::OUT_BOUNDARY_UNKNOWN_UNKNOWN_NO_DOMINANT::STATE_BOUNDARY_UNKNOWN::ARCHETYPE_BOUNDARY_UNKNOWN::BURDEN_S1_HIGH_HOLD::AUTHORITY_INCOMING_MOTION::AUTHSEAT_S1::DS_UNMEASURED_BRANCH_SINGULARITY::DSSUB_SUZUKA_DYNAMIC_DOMINANT_CORE_LEFT_HEAVY_SPLIT_AUTH_S1_INCOMING_MOTION::DSPROFILE_BOUNDARY_UNKNOWN_BOUNDARY_UNKNOWN_BOUNDARY_UNKNOWN_IN_MMMMP_OUT_NNNNN_INLANE_D3_OUTLANE_NONE_BIAS_EDGE_BIAS_PREF_UNMEASURED::RESBIAS_EDGE_BIAS::BIASFAM_EDGE_FAMILY::BIASSEAT_S1::FINDSRC_NO_FINDING::FINDSEAT_NONE::PREF_UNMEASURED::SEL_NO_BRANCH_FINDING_YET::BRANCH_NO_FIELD::COLLISION_S1::CTYPE_EDGE_COLLISION::FLOW_UNKNOWN_BOUNDARY::TRANSFER_BOUNDARY_UNKNOWN::OUTLANE_NONE::FACE_CREST_VALLEY::BODY_ENTRY_EXIT_TILTED_AROUND_MIDDLE::MIDDLE_MIDDLE_STABLE_PRESSURE::CENTER_CORE::BALANCE_LEFT_HEAVY::DIST_SPLIT::PTYPE_DYNAMIC_DOMINANT::WSLOT_WORLD_038::TOPONAME_SUZUKA",
+    "rule": "compact reusable motion room identity",
+    "inputs": {
+      "incoming_draw_family": "DROP_DOMINANT_DIRECTED_MOTION_D3",
+      "outgoing_draw_family": "BOUNDARY_UNKNOWN_UNKNOWN_NO_DOMINANT",
+      "motion_state": "BOUNDARY_UNKNOWN",
+      "motion_archetype": "BOUNDARY_UNKNOWN",
+      "highest_burden_seat": "S1",
+      "highest_burden_level": "HIGH",
+      "highest_burden_state": "HOLD",
+      "authority_origin": "INCOMING_MOTION",
+      "authority_seat": "S1",
+      "authority_score": 146.9,
+      "draw_singularity": "UNMEASURED_BRANCH_SINGULARITY",
+      "ds_subfamily": "SUZUKA::DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT::AUTH_S1::INCOMING_MOTION",
+      "ds_internal_profile": "BOUNDARY_UNKNOWN::BOUNDARY_UNKNOWN::BOUNDARY_UNKNOWN::IN_MMMMP::OUT_NNNNN::INLANE_D3::OUTLANE_NONE::BIAS_EDGE_BIAS::PREF_UNMEASURED",
+      "resolution_bias_type": "EDGE_BIAS",
+      "primary_bias_family": "EDGE_FAMILY",
+      "primary_bias_seat": "S1",
+      "collision_seat": "S1",
+      "collision_type": "EDGE_COLLISION",
+      "pressure_flow": "UNKNOWN_BOUNDARY",
+      "transfer": "BOUNDARY_UNKNOWN",
+      "dominant_outgoing_lane": null,
+      "face_family": "Crest Valley",
+      "set_relation": "ENTRY_EXIT_TILTED_AROUND_MIDDLE",
+      "middle_pressure": "MIDDLE_STABLE_PRESSURE",
+      "pressure_center": "CORE",
+      "pressure_balance": "LEFT_HEAVY",
+      "pressure_distribution": "SPLIT",
+      "map_pressure_type": "DYNAMIC_DOMINANT",
+      "pressure_world": {
+        "world_slot": "WORLD_038",
+        "topology_slot": "TOPOLOGY_WORLD_11",
+        "topology_name": "Suzuka",
+        "base_world": "DYNAMIC_DOMINANT",
+        "pressure_center": "CORE",
+        "pressure_balance": "LEFT_HEAVY",
+        "pressure_distribution": "SPLIT",
+        "world_key": "DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT",
+        "topology_key": "DYNAMIC_DOMINANT::CORE::SPLIT",
+        "naming_status": "TOPOLOGY_NAMED_EXACT_WORLD_UNNAMED",
+        "rule": "pressure world groups the draw by structural/dynamic authority, dominant pressure center, balance, and distribution"
+      },
+      "technical_signature": "S1_CORE_SKY | ENTRY_FIGHTER_HIGH_EXIT_GRUNT | S2_S4_FIGHTER_HIGH_THEN_KID | MIDDLE_STABLE_PRESSURE | ENTRY_EXIT_TILTED_AROUND_MIDDLE | S5_ENDPOINT_HIGH_KING"
+    }
+  },
+  "origin_weight_validation": {
+    "rule": "validate whether highest pressure origin became dominant outgoing sorted seat",
+    "validation_result": "BOUNDARY_UNKNOWN",
+    "dominant_origin_seat": "S1",
+    "dominant_origin_score": 88,
+    "dominant_origin_type": "DYNAMIC",
+    "dominant_outgoing_lane": null,
+    "dominant_outgoing_sorted_seat": null,
+    "dominant_outgoing_score": null,
+    "dominant_outgoing_type": null,
+    "pressure_type_total": "DYNAMIC_DOMINANT",
+    "structural_pressure_total": 134,
+    "dynamic_pressure_total": 139,
+    "debug_read": "boundary unknown until next draw exists"
+  },
+  "incoming_body_effect": {
+    "effect": "CORE_DROP_SKY",
+    "dominant_lane": "D3",
+    "dominant_role": "stability",
+    "dominant_motion": -57,
+    "dominant_sorted_seat": "S1",
+    "seat_zone": "CORE",
+    "direction": "DROP",
+    "middle_pressure": "MIDDLE_STABLE_PRESSURE",
+    "edge_pressure": "ENTRY_BALANCED_EXIT_CONTAINED",
+    "full_set_relation": "ENTRY_EXIT_TILTED_AROUND_MIDDLE",
+    "rule": "dominant incoming draw-lane motion is mapped onto its current sorted seat"
+  },
+  "outgoing_contract": {
+    "contract_status": "OPEN_BOUNDARY_NO_NEXT_DRAW",
+    "family": "UNKNOWN_OUTGOING_CONTRACT",
+    "sign_pattern": "NNNNN",
+    "dominant_lane": null,
+    "dominant_sorted_seat": null,
+    "dominant_zone": null,
+    "energy": null,
+    "energy_class": null,
+    "flow": "UNKNOWN_BOUNDARY",
+    "transfer": "BOUNDARY_UNKNOWN",
+    "body_search_rule": "next draw is missing, so no lawful outgoing contract can be confirmed yet",
+    "carry_reversal": [
+      {
+        "lane": "D1",
+        "role": "starter",
+        "sorted_seat": "S3",
+        "incoming_sign": "-",
+        "outgoing_sign": "N",
+        "transfer": "BOUNDARY_UNKNOWN"
+      },
+      {
+        "lane": "D2",
+        "role": "hold",
+        "sorted_seat": "S4",
+        "incoming_sign": "-",
+        "outgoing_sign": "N",
+        "transfer": "BOUNDARY_UNKNOWN"
+      },
+      {
+        "lane": "D3",
+        "role": "stability",
+        "sorted_seat": "S1",
+        "incoming_sign": "-",
+        "outgoing_sign": "N",
+        "transfer": "BOUNDARY_UNKNOWN"
+      },
+      {
+        "lane": "D4",
+        "role": "control",
+        "sorted_seat": "S2",
+        "incoming_sign": "-",
+        "outgoing_sign": "N",
+        "transfer": "BOUNDARY_UNKNOWN"
+      },
+      {
+        "lane": "D5",
+        "role": "ender",
+        "sorted_seat": "S5",
+        "incoming_sign": "+",
+        "outgoing_sign": "N",
+        "transfer": "BOUNDARY_UNKNOWN"
+      }
+    ]
+  },
+  "next_technical_body": null,
+  "motion_law_candidate": {
+    "rule": "highest burden lane + pressure relation + incoming transfer = likely outgoing motion lane",
+    "candidate": "S1 HIGH HOLD + ENTRY_EXIT_TILTED_AROUND_MIDDLE + BOUNDARY_UNKNOWN -> None",
+    "motion_state": "BOUNDARY_UNKNOWN",
+    "body_motion_state": "BOUNDARY_UNKNOWN",
+    "expected_outgoing_lane": null,
+    "expected_outgoing_sign": "NNNNN",
+    "status": "OPEN_BOUNDARY_NO_NEXT_DRAW"
+  },
+  "sorted_result_body": {
+    "rule": "sorted S1-S5 body is the result/body after draw order motion is read",
+    "seats": [
+      {
+        "seat": "S1",
+        "role": "Core",
+        "number": 3,
+        "taxonomy": "sky",
+        "zone": "CORE",
+        "left_relation": null,
+        "right_relation": {
+          "relation": "Core_to_Entry",
+          "gap": 23,
+          "class": "FIGHTER_HIGH",
+          "range": "23-24"
+        }
+      },
+      {
+        "seat": "S2",
+        "role": "Entry",
+        "number": 26,
+        "taxonomy": "yang",
+        "zone": "MIDDLE",
+        "left_relation": {
+          "relation": "Core_to_Entry",
+          "gap": 23,
+          "class": "FIGHTER_HIGH",
+          "range": "23-24"
+        },
+        "right_relation": {
+          "relation": "Entry_to_Bridge",
+          "gap": 23,
+          "class": "FIGHTER_HIGH",
+          "range": "23-24"
+        }
+      },
+      {
+        "seat": "S3",
+        "role": "Bridge",
+        "number": 49,
+        "taxonomy": "jester",
+        "zone": "MIDDLE",
+        "left_relation": {
+          "relation": "Entry_to_Bridge",
+          "gap": 23,
+          "class": "FIGHTER_HIGH",
+          "range": "23-24"
+        },
+        "right_relation": {
+          "relation": "Bridge_to_Exit",
+          "gap": 4,
+          "class": "KID",
+          "range": "3-4"
+        }
+      },
+      {
+        "seat": "S4",
+        "role": "Exit",
+        "number": 53,
+        "taxonomy": "knight",
+        "zone": "MIDDLE",
+        "left_relation": {
+          "relation": "Bridge_to_Exit",
+          "gap": 4,
+          "class": "KID",
+          "range": "3-4"
+        },
+        "right_relation": {
+          "relation": "Exit_to_Endpoint",
+          "gap": 8,
+          "class": "GRUNT",
+          "range": "7-8"
+        }
+      },
+      {
+        "seat": "S5",
+        "role": "Endpoint",
+        "number": 61,
+        "taxonomy": "high king",
+        "zone": "ENDPOINT",
+        "left_relation": {
+          "relation": "Exit_to_Endpoint",
+          "gap": 8,
+          "class": "GRUNT",
+          "range": "7-8"
+        },
+        "right_relation": null
+      }
+    ]
+  },
+  "lawful_search_rule": "motion first, body second, proposal last; do not admit bodies unless their sorted body can express the outgoing contract",
+  "raw_outgoing_sign_pattern": "NNNNN",
+  "truth_control": {
+    "rule": "truth control separates observed facts, live-safe inference, historical explanation, discovery memory, and exact-answer authority",
+    "truth_levels": {
+      "OBSERVED_FACT": "directly read from the current or previous/current draw",
+      "LIVE_SAFE_INFERENCE": "computed from current/prior information only",
+      "HISTORICAL_FACT": "known only because the next historical draw exists",
+      "HISTORICAL_EXPLANATION": "explains how the known next draw resolved",
+      "DISCOVERY_ONLY": "learned from historical fields and not trusted live by itself",
+      "UNPROVEN": "pattern exists but exact answer authority is not proven",
+      "NO_CALL": "not enough live-safe evidence to make the claim"
+    },
+    "claim_authority": {
+      "current_draw": "OBSERVED_FACT",
+      "sorted_body": "OBSERVED_FACT",
+      "incoming_motion": "OBSERVED_FACT",
+      "current_pressure": "OBSERVED_FACT",
+      "live_safe_pressure_context": "LIVE_SAFE_INFERENCE",
+      "pressure_origin_live_safe_sources": [
+        "EDGE_IMBALANCE",
+        "GAP_STRUCTURE",
+        "HINGE_TRAP",
+        "INCOMING_MOTION",
+        "MIDDLE_COMPRESSION"
+      ],
+      "outgoing_contract": "NO_OBSERVED_NEXT_DRAW",
+      "motion_state": "UNPROVEN_OPEN_BOUNDARY",
+      "motion_archetype": "UNPROVEN_OPEN_BOUNDARY",
+      "resolution_bias": "UNPROVEN_OPEN_BOUNDARY",
+      "collision_point": "NO_CALL_OPEN_BOUNDARY",
+      "branch_selector": "NO_CALL",
+      "technical_draw_address": "OPEN_BOUNDARY_ROOM_ID"
+    },
+    "live_safe_claims": {
+      "world": {
+        "world_slot": "WORLD_038",
+        "topology_slot": "TOPOLOGY_WORLD_11",
+        "topology_name": "Suzuka",
+        "base_world": "DYNAMIC_DOMINANT",
+        "pressure_center": "CORE",
+        "pressure_balance": "LEFT_HEAVY",
+        "pressure_distribution": "SPLIT",
+        "world_key": "DYNAMIC_DOMINANT::CORE::LEFT_HEAVY::SPLIT",
+        "topology_key": "DYNAMIC_DOMINANT::CORE::SPLIT",
+        "naming_status": "TOPOLOGY_NAMED_EXACT_WORLD_UNNAMED",
+        "rule": "pressure world groups the draw by structural/dynamic authority, dominant pressure center, balance, and distribution"
+      },
+      "authority_seat": "S1",
+      "authority_origin": "INCOMING_MOTION",
+      "dominant_pressure_seat": "S1",
+      "pressure_shape": "HIGH-HIGH-MEDIUM-LOW-MEDIUM",
+      "pressure_type": "DYNAMIC_DOMINANT",
+      "pressure_center": "CORE",
+      "pressure_balance": "LEFT_HEAVY",
+      "pressure_distribution": "SPLIT"
+    },
+    "exact_branch_claim": {
+      "authority": "NO_CALL_OPEN_BOUNDARY",
+      "read": "next draw is missing, so no exact outgoing branch can be truth-scored",
+      "collision_seat": "S1",
+      "observed_outgoing_seat": null,
+      "observed_outgoing_lane": null,
+      "validation_result": "BOUNDARY_UNKNOWN",
+      "selector_result": "NO_FIELD",
+      "doctrine": "Seat Taxonomy may describe exact branch history, but exact branch live authority must come from prior-only conditional memory proof."
+    },
+    "blocked_from_live_prediction": [
+      "outgoing_contract",
+      "outgoing motion state",
+      "outgoing motion archetype",
+      "branch_selector observed result",
+      "collision validation result",
+      "transfer reversal built from current-to-next motion"
+    ]
+  },
+  "last_writes_stage": {
+    "stage": "seat_taxonomy",
+    "mode_policy": {
+      "purpose": "Held-out live-safe overlay. Next draw truth is blocked from the read.",
+      "operating_mode": "utopia",
+      "overlay_modes": [
+        "NIGHTFALL"
+      ],
+      "legacy_alias": "lightless",
+      "uses_official_memory": true,
+      "uses_synthetic_memory": true,
+      "allows_target_context": false,
+      "live_safety": "STRICT_HELD_OUT",
+      "blocked_promotions": [
+        "next_draw_truth",
+        "outgoing_contract_from_future",
+        "exact_target_replay",
+        "future_collision_validation"
+      ]
+    },
+    "next_draw_included": false,
+    "law": "Nightfall/Utopia block next draw truth; short_circuit_historical may include it for diagnostic replay."
+  }
+}

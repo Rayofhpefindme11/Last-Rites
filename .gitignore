@@ -1,0 +1,14 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Large/generated synthetic memory shards
+Books of The Lotto/Books Of Complextity/Synthetic Memory/level_*/synthetic_memory.json
+Books of The Lotto/Books Of Complextity/Synthetic Memory Test/level_*/synthetic_memory.json
+Books of The Lotto/Books Of Complextity/Synthetic Memory Resume Test/level_*/synthetic_memory.json
+Books of The Lotto/Books Of Complextity/Synthetic Memory/*.log
+Books of The Lotto/Books Of Complextity/Synthetic Memory/STOP
+
+# Local OS/editor noise
+Thumbs.db
+Desktop.ini

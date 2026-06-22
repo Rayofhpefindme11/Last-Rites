@@ -1,0 +1,80 @@
+{
+  "memory_source": "SYNTHETIC_FAKE_IIW",
+  "schema": "iiw.synthetic_memory.v2",
+  "seed": 12345,
+  "started_utc": "2026-06-22T12:56:41Z",
+  "stop_file": "C:\\Users\\kahli\\OneDrive\\Desktop\\Last Rites\\Books of The Lotto\\Books Of Complextity\\Synthetic Memory Resume Test\\STOP",
+  "checkpoint_every": 250,
+  "processed_fake_draws": 1500,
+  "processed_this_run": 500,
+  "next_fake_index": 1502,
+  "tail_draws": [
+    {
+      "draw_date": "2104-02-10",
+      "draw_index": 1500,
+      "jackpot_usd": null,
+      "white_balls": [
+        14,
+        33,
+        34,
+        36,
+        48
+      ],
+      "powerball": 39,
+      "powerplay": null,
+      "sorted_white_balls": [
+        14,
+        33,
+        34,
+        36,
+        48
+      ]
+    },
+    {
+      "draw_date": "2104-02-11",
+      "draw_index": 1501,
+      "jackpot_usd": null,
+      "white_balls": [
+        8,
+        64,
+        53,
+        11,
+        5
+      ],
+      "powerball": 13,
+      "powerplay": null,
+      "sorted_white_balls": [
+        5,
+        8,
+        11,
+        53,
+        64
+      ]
+    }
+  ],
+  "rng_state_b64": "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",
+  "draws_per_second": 739.93,
+  "levels": {
+    "2": {
+      "scenario_count": 129,
+      "appearance_count": 1500
+    },
+    "3": {
+      "scenario_count": 1479,
+      "appearance_count": 1500
+    },
+    "4": {
+      "scenario_count": 1500,
+      "appearance_count": 1500
+    },
+    "5": {
+      "scenario_count": 1500,
+      "appearance_count": 1500
+    }
+  },
+  "last_checkpoint_utc": "2026-06-22T12:56:55Z",
+  "resumed_utc": "2026-06-22T12:56:54Z",
+  "resume_from_processed_fake_draws": 1000,
+  "resume_from_next_fake_index": 1002,
+  "stop_reason": "MAX_DRAWS"
+}

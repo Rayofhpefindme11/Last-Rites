@@ -1,0 +1,959 @@
+{
+  "audit_name": "SELECTOR_PRIORITY_BOARD",
+  "priority_order": [
+    "exact branch match rate",
+    "family match rate",
+    "motion sign/range match rate",
+    "call count"
+  ],
+  "min_range_calls": 10,
+  "world_count": 18,
+  "quality_counts": {
+    "SMALL_EXACT": 10,
+    "USABLE_EXACT": 4,
+    "STRONG_EXACT": 3,
+    "FAMILY_USABLE": 1
+  },
+  "layer_counts": {
+    "BRANCH_SELECTOR": 10,
+    "RANGE_CONFIRMATION": 8
+  },
+  "world_reports": [
+    {
+      "topology_name": "Circe",
+      "chosen_layer": "RANGE_CONFIRMATION",
+      "chosen_quality": "STRONG_EXACT",
+      "chosen_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "PRESSURE_TOPOLOGY",
+        "source": "BORROWED",
+        "horizon": 8,
+        "final_mode": "SIGN",
+        "features": [
+          "map_pressure_type",
+          "pressure_center",
+          "pressure_balance",
+          "pressure_distribution"
+        ],
+        "call_count": 11,
+        "branch_match_rate": 81.82,
+        "family_match_rate": 81.82,
+        "sign_match_rate": 90.91,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "COLLISION_INCOMING",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 3,
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 11,
+        "branch_match_rate": 36.36,
+        "family_match_rate": 81.82,
+        "sign_match_rate": null,
+        "promotion": "FAMILY_SELECTOR",
+        "sample_warning": "MODERATE_SAMPLE"
+      },
+      "range_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "PRESSURE_TOPOLOGY",
+        "source": "BORROWED",
+        "horizon": 8,
+        "final_mode": "SIGN",
+        "features": [
+          "map_pressure_type",
+          "pressure_center",
+          "pressure_balance",
+          "pressure_distribution"
+        ],
+        "call_count": 11,
+        "branch_match_rate": 81.82,
+        "family_match_rate": 81.82,
+        "sign_match_rate": 90.91,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "exact_delta_from_base": 45.46,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Alcides",
+      "chosen_layer": "BRANCH_SELECTOR",
+      "chosen_quality": "SMALL_EXACT",
+      "chosen_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_PREVIOUS_BRANCH_INCOMING",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 2,
+        "features": [
+          "world_previous_branch",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 80.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_PREVIOUS_BRANCH_INCOMING",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 2,
+        "features": [
+          "world_previous_branch",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 80.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "range_candidate": null,
+      "exact_delta_from_base": 0.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Tomoe Gozen",
+      "chosen_layer": "BRANCH_SELECTOR",
+      "chosen_quality": "SMALL_EXACT",
+      "chosen_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_BRANCH_STATE_COLLISION",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 3,
+        "features": [
+          "world_previous_branch",
+          "world_freshest_branch",
+          "world_stalest_branch",
+          "collision_seat",
+          "collision_type"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 80.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_BRANCH_STATE_COLLISION",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 3,
+        "features": [
+          "world_previous_branch",
+          "world_freshest_branch",
+          "world_stalest_branch",
+          "collision_seat",
+          "collision_type"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 80.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "range_candidate": null,
+      "exact_delta_from_base": 0.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Rama",
+      "chosen_layer": "BRANCH_SELECTOR",
+      "chosen_quality": "SMALL_EXACT",
+      "chosen_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_PREVIOUS_FAMILY",
+        "source": "WEAK_WORLD_FEATURE_RECIPE",
+        "horizon": 5,
+        "features": [
+          "world_previous_family"
+        ],
+        "call_count": 9,
+        "branch_match_rate": 77.78,
+        "family_match_rate": 77.78,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_PREVIOUS_FAMILY",
+        "source": "WEAK_WORLD_FEATURE_RECIPE",
+        "horizon": 5,
+        "features": [
+          "world_previous_family"
+        ],
+        "call_count": 9,
+        "branch_match_rate": 77.78,
+        "family_match_rate": 77.78,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "range_candidate": null,
+      "exact_delta_from_base": 0.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Nyx",
+      "chosen_layer": "BRANCH_SELECTOR",
+      "chosen_quality": "SMALL_EXACT",
+      "chosen_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_BRANCH_STATE_COLLISION",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 21,
+        "features": [
+          "world_previous_branch",
+          "world_freshest_branch",
+          "world_stalest_branch",
+          "collision_seat",
+          "collision_type"
+        ],
+        "call_count": 8,
+        "branch_match_rate": 75.0,
+        "family_match_rate": 75.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_BRANCH_STATE_COLLISION",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 21,
+        "features": [
+          "world_previous_branch",
+          "world_freshest_branch",
+          "world_stalest_branch",
+          "collision_seat",
+          "collision_type"
+        ],
+        "call_count": 8,
+        "branch_match_rate": 75.0,
+        "family_match_rate": 75.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "range_candidate": null,
+      "exact_delta_from_base": 0.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Nirvana",
+      "chosen_layer": "BRANCH_SELECTOR",
+      "chosen_quality": "SMALL_EXACT",
+      "chosen_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "COLLISION_AUTHORITY",
+        "source": "WEAK_WORLD_FEATURE_RECIPE",
+        "horizon": 3,
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "authority_seat",
+          "authority_origin"
+        ],
+        "call_count": 7,
+        "branch_match_rate": 71.43,
+        "family_match_rate": 100.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "COLLISION_AUTHORITY",
+        "source": "WEAK_WORLD_FEATURE_RECIPE",
+        "horizon": 3,
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "authority_seat",
+          "authority_origin"
+        ],
+        "call_count": 7,
+        "branch_match_rate": 71.43,
+        "family_match_rate": 100.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "range_candidate": null,
+      "exact_delta_from_base": 0.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Kurohime",
+      "chosen_layer": "RANGE_CONFIRMATION",
+      "chosen_quality": "STRONG_EXACT",
+      "chosen_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "PRESSURE_TOPOLOGY",
+        "source": "BORROWED",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "map_pressure_type",
+          "pressure_center",
+          "pressure_balance",
+          "pressure_distribution"
+        ],
+        "call_count": 10,
+        "branch_match_rate": 70.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": 80.0,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "PRESSURE_FUSION",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 2,
+        "features": [
+          "pressure_fusion",
+          "pressure_fusion_profile"
+        ],
+        "call_count": 16,
+        "branch_match_rate": 62.5,
+        "family_match_rate": 75.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "MODERATE_SAMPLE"
+      },
+      "range_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "PRESSURE_TOPOLOGY",
+        "source": "BORROWED",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "map_pressure_type",
+          "pressure_center",
+          "pressure_balance",
+          "pressure_distribution"
+        ],
+        "call_count": 10,
+        "branch_match_rate": 70.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": 80.0,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "exact_delta_from_base": 7.5,
+      "family_delta_from_base": 5.0
+    },
+    {
+      "topology_name": "Irisviel",
+      "chosen_layer": "RANGE_CONFIRMATION",
+      "chosen_quality": "USABLE_EXACT",
+      "chosen_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "WORLD_STALEST_BRANCH_BURDEN",
+        "source": "BORROWED",
+        "horizon": 21,
+        "final_mode": "SIGN",
+        "features": [
+          "world_stalest_branch",
+          "highest_burden_seat",
+          "highest_burden_state"
+        ],
+        "call_count": 10,
+        "branch_match_rate": 70.0,
+        "family_match_rate": 70.0,
+        "sign_match_rate": 90.0,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "PRESSURE_FUSION",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 2,
+        "features": [
+          "pressure_fusion",
+          "pressure_fusion_profile"
+        ],
+        "call_count": 12,
+        "branch_match_rate": 50.0,
+        "family_match_rate": 66.67,
+        "sign_match_rate": null,
+        "promotion": "FAMILY_SELECTOR",
+        "sample_warning": "MODERATE_SAMPLE"
+      },
+      "range_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "WORLD_STALEST_BRANCH_BURDEN",
+        "source": "BORROWED",
+        "horizon": 21,
+        "final_mode": "SIGN",
+        "features": [
+          "world_stalest_branch",
+          "highest_burden_seat",
+          "highest_burden_state"
+        ],
+        "call_count": 10,
+        "branch_match_rate": 70.0,
+        "family_match_rate": 70.0,
+        "sign_match_rate": 90.0,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "exact_delta_from_base": 20.0,
+      "family_delta_from_base": 3.33
+    },
+    {
+      "topology_name": "Nova",
+      "chosen_layer": "RANGE_CONFIRMATION",
+      "chosen_quality": "USABLE_EXACT",
+      "chosen_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "WORLD_PREVIOUS_FAMILY",
+        "source": "BORROWED",
+        "horizon": 3,
+        "final_mode": "SIGN_BAND",
+        "features": [
+          "world_previous_family"
+        ],
+        "call_count": 10,
+        "branch_match_rate": 70.0,
+        "family_match_rate": 70.0,
+        "sign_match_rate": 70.0,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "PRESSURE_FUSION_INCOMING",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 8,
+        "features": [
+          "pressure_fusion",
+          "pressure_fusion_profile",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 10,
+        "branch_match_rate": 40.0,
+        "family_match_rate": 70.0,
+        "sign_match_rate": null,
+        "promotion": "FAMILY_SELECTOR",
+        "sample_warning": "MODERATE_SAMPLE"
+      },
+      "range_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "WORLD_PREVIOUS_FAMILY",
+        "source": "BORROWED",
+        "horizon": 3,
+        "final_mode": "SIGN_BAND",
+        "features": [
+          "world_previous_family"
+        ],
+        "call_count": 10,
+        "branch_match_rate": 70.0,
+        "family_match_rate": 70.0,
+        "sign_match_rate": 70.0,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "exact_delta_from_base": 30.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Altera",
+      "chosen_layer": "BRANCH_SELECTOR",
+      "chosen_quality": "SMALL_EXACT",
+      "chosen_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "FACE_INCOMING",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 2,
+        "features": [
+          "face_family",
+          "turn_lanes",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 6,
+        "branch_match_rate": 66.67,
+        "family_match_rate": 83.33,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "FACE_INCOMING",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 2,
+        "features": [
+          "face_family",
+          "turn_lanes",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 6,
+        "branch_match_rate": 66.67,
+        "family_match_rate": 83.33,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "range_candidate": null,
+      "exact_delta_from_base": 0.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Lumina",
+      "chosen_layer": "RANGE_CONFIRMATION",
+      "chosen_quality": "STRONG_EXACT",
+      "chosen_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "BODY_INCOMING",
+        "source": "WORLD",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "set_relation",
+          "middle_pressure",
+          "edge_pressure",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 15,
+        "branch_match_rate": 60.0,
+        "family_match_rate": 86.67,
+        "sign_match_rate": 73.33,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "COLLISION",
+        "source": "WEAK_WORLD_FEATURE_RECIPE",
+        "horizon": 21,
+        "features": [
+          "collision_seat",
+          "collision_type"
+        ],
+        "call_count": 506,
+        "branch_match_rate": 40.51,
+        "family_match_rate": 72.53,
+        "sign_match_rate": null,
+        "promotion": "FAMILY_SELECTOR",
+        "sample_warning": "STABLE_SAMPLE"
+      },
+      "range_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "BODY_INCOMING",
+        "source": "WORLD",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "set_relation",
+          "middle_pressure",
+          "edge_pressure",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 15,
+        "branch_match_rate": 60.0,
+        "family_match_rate": 86.67,
+        "sign_match_rate": 73.33,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "exact_delta_from_base": 19.49,
+      "family_delta_from_base": 14.14
+    },
+    {
+      "topology_name": "Citrine",
+      "chosen_layer": "BRANCH_SELECTOR",
+      "chosen_quality": "SMALL_EXACT",
+      "chosen_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "PRESSURE_BODY",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 3,
+        "features": [
+          "pressure_shape",
+          "set_relation",
+          "middle_pressure",
+          "edge_pressure"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 60.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "PRESSURE_BODY",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 3,
+        "features": [
+          "pressure_shape",
+          "set_relation",
+          "middle_pressure",
+          "edge_pressure"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 60.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "range_candidate": null,
+      "exact_delta_from_base": 0.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Karna",
+      "chosen_layer": "BRANCH_SELECTOR",
+      "chosen_quality": "SMALL_EXACT",
+      "chosen_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "COLLISION_PRESSURE_TOPOLOGY",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 2,
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "map_pressure_type",
+          "pressure_center",
+          "pressure_balance",
+          "pressure_distribution"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 60.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "COLLISION_PRESSURE_TOPOLOGY",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 2,
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "map_pressure_type",
+          "pressure_center",
+          "pressure_balance",
+          "pressure_distribution"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 60.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "range_candidate": null,
+      "exact_delta_from_base": 0.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Nero",
+      "chosen_layer": "BRANCH_SELECTOR",
+      "chosen_quality": "SMALL_EXACT",
+      "chosen_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_STALEST_BRANCH_BURDEN",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 3,
+        "features": [
+          "world_stalest_branch",
+          "highest_burden_seat",
+          "highest_burden_state"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 60.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_STALEST_BRANCH_BURDEN",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 3,
+        "features": [
+          "world_stalest_branch",
+          "highest_burden_seat",
+          "highest_burden_state"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 60.0,
+        "family_match_rate": 80.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "range_candidate": null,
+      "exact_delta_from_base": 0.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Scathach",
+      "chosen_layer": "BRANCH_SELECTOR",
+      "chosen_quality": "SMALL_EXACT",
+      "chosen_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "COLLISION_AUTHORITY",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 13,
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "authority_seat",
+          "authority_origin"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 60.0,
+        "family_match_rate": 60.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "COLLISION_AUTHORITY",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 13,
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "authority_seat",
+          "authority_origin"
+        ],
+        "call_count": 5,
+        "branch_match_rate": 60.0,
+        "family_match_rate": 60.0,
+        "sign_match_rate": null,
+        "promotion": "EXACT_SELECTOR",
+        "sample_warning": "SMALL_SAMPLE"
+      },
+      "range_candidate": null,
+      "exact_delta_from_base": 0.0,
+      "family_delta_from_base": 0.0
+    },
+    {
+      "topology_name": "Artoria",
+      "chosen_layer": "RANGE_CONFIRMATION",
+      "chosen_quality": "USABLE_EXACT",
+      "chosen_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "FACE_INCOMING",
+        "source": "BORROWED",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "face_family",
+          "turn_lanes",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 12,
+        "branch_match_rate": 58.33,
+        "family_match_rate": 83.33,
+        "sign_match_rate": 66.67,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "COLLISION_BURDEN_ORIGIN",
+        "source": "WEAK_WORLD_FEATURE_RECIPE",
+        "horizon": 13,
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "highest_burden_seat",
+          "highest_burden_state",
+          "dominant_origin_seat",
+          "authority_origin"
+        ],
+        "call_count": 60,
+        "branch_match_rate": 43.33,
+        "family_match_rate": 66.67,
+        "sign_match_rate": null,
+        "promotion": "FAMILY_SELECTOR",
+        "sample_warning": "STABLE_SAMPLE"
+      },
+      "range_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "FACE_INCOMING",
+        "source": "BORROWED",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "face_family",
+          "turn_lanes",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 12,
+        "branch_match_rate": 58.33,
+        "family_match_rate": 83.33,
+        "sign_match_rate": 66.67,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "exact_delta_from_base": 15.0,
+      "family_delta_from_base": 16.66
+    },
+    {
+      "topology_name": "Suzuka",
+      "chosen_layer": "RANGE_CONFIRMATION",
+      "chosen_quality": "USABLE_EXACT",
+      "chosen_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "FACE_INCOMING",
+        "source": "BORROWED",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "face_family",
+          "turn_lanes",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 12,
+        "branch_match_rate": 58.33,
+        "family_match_rate": 75.0,
+        "sign_match_rate": 75.0,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "WORLD_PREVIOUS_FAMILY_BURDEN",
+        "source": "BORROWED_ANALOG_FEATURE_RECIPE",
+        "horizon": 34,
+        "features": [
+          "world_previous_family",
+          "highest_burden_seat",
+          "highest_burden_state"
+        ],
+        "call_count": 55,
+        "branch_match_rate": 36.36,
+        "family_match_rate": 58.18,
+        "sign_match_rate": null,
+        "promotion": "DIRECTIONAL_SELECTOR",
+        "sample_warning": "STABLE_SAMPLE"
+      },
+      "range_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "FACE_INCOMING",
+        "source": "BORROWED",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "face_family",
+          "turn_lanes",
+          "incoming_draw_sign",
+          "dominant_incoming_draw_lane"
+        ],
+        "call_count": 12,
+        "branch_match_rate": 58.33,
+        "family_match_rate": 75.0,
+        "sign_match_rate": 75.0,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "exact_delta_from_base": 21.97,
+      "family_delta_from_base": 16.82
+    },
+    {
+      "topology_name": "Medusa",
+      "chosen_layer": "RANGE_CONFIRMATION",
+      "chosen_quality": "FAMILY_USABLE",
+      "chosen_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "BURDEN_FACE",
+        "source": "WORLD",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "highest_burden_seat",
+          "highest_burden_state",
+          "face_family",
+          "turn_lanes"
+        ],
+        "call_count": 57,
+        "branch_match_rate": 54.39,
+        "family_match_rate": 77.19,
+        "sign_match_rate": 70.18,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "base_candidate": {
+        "layer": "BRANCH_SELECTOR",
+        "signal": "COLLISION_AUTHORITY",
+        "source": "WEAK_WORLD_FEATURE_RECIPE",
+        "horizon": 5,
+        "features": [
+          "collision_seat",
+          "collision_type",
+          "authority_seat",
+          "authority_origin"
+        ],
+        "call_count": 138,
+        "branch_match_rate": 44.2,
+        "family_match_rate": 68.12,
+        "sign_match_rate": null,
+        "promotion": "FAMILY_SELECTOR",
+        "sample_warning": "STABLE_SAMPLE"
+      },
+      "range_candidate": {
+        "layer": "RANGE_CONFIRMATION",
+        "signal": "BURDEN_FACE",
+        "source": "WORLD",
+        "horizon": 3,
+        "final_mode": "SIGN",
+        "features": [
+          "highest_burden_seat",
+          "highest_burden_state",
+          "face_family",
+          "turn_lanes"
+        ],
+        "call_count": 57,
+        "branch_match_rate": 54.39,
+        "family_match_rate": 77.19,
+        "sign_match_rate": 70.18,
+        "promotion": null,
+        "sample_warning": null
+      },
+      "exact_delta_from_base": 10.19,
+      "family_delta_from_base": 9.07
+    }
+  ],
+  "notes": [
+    "Range confirmation is only promoted when it has at least min_range_calls.",
+    "The board chooses exact first, then family, then sign/range.",
+    "Small exact selectors remain marked as small; they are useful but need more evidence."
+  ]
+}
