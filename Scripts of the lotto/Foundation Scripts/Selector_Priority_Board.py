@@ -19,6 +19,12 @@ DEFAULT_RANGE_AUDIT = (
     / "Books Of Complextity"
     / "range_selector_confirmation_audit_all_worlds_min2_2015-10-07.json"
 )
+DEFAULT_EDGE_AUDIT = (
+    PROJECT_ROOT
+    / "Books of The Lotto"
+    / "Books Of Complextity"
+    / "medusa_edge_separation_audit_min2_2015-10-07.json"
+)
 DEFAULT_OUTPUT_PATH = (
     PROJECT_ROOT
     / "Books of The Lotto"
@@ -97,32 +103,62 @@ def range_candidate(row: dict[str, Any] | None) -> dict[str, Any] | None:
     }
 
 
+def edge_candidate(row: dict[str, Any] | None) -> dict[str, Any] | None:
+    if row is None:
+        return None
+    return {
+        "layer": "EDGE_SEPARATION",
+        "signal": row.get("edge_recipe"),
+        "source": row.get("edge_source"),
+        "horizon": row.get("edge_horizon"),
+        "final_mode": "EDGE_OVERRIDE",
+        "features": row.get("edge_features", []),
+        "call_count": row.get("call_count", 0),
+        "branch_match_rate": row.get("branch_match_rate", 0.0),
+        "family_match_rate": row.get("family_match_rate", 0.0),
+        "sign_match_rate": row.get("sign_match_rate", 0.0),
+        "edge_exact_match_rate": row.get("edge_exact_match_rate", 0.0),
+        "override_count": row.get("override_count", 0),
+        "promotion": None,
+        "sample_warning": None,
+    }
+
+
 def choose_candidate(
     base: dict[str, Any],
-    confirmed: dict[str, Any] | None,
-    *,
+    *candidates: dict[str, Any] | None,
     min_range_calls: int,
 ) -> dict[str, Any]:
-    if confirmed is None or count(confirmed) < min_range_calls:
-        return base
-    base_key = (
+    viable = [base]
+    viable.extend(
+        candidate
+        for candidate in candidates
+        if candidate is not None and count(candidate) >= min_range_calls
+    )
+    best = base
+    best_key = (
         rate(base, "branch_match_rate"),
         rate(base, "family_match_rate"),
-        0.0,
+        rate(base, "sign_match_rate"),
+        count(base),
     )
-    confirmed_key = (
-        rate(confirmed, "branch_match_rate"),
-        rate(confirmed, "family_match_rate"),
-        rate(confirmed, "sign_match_rate"),
-    )
-    if confirmed_key > base_key:
-        return confirmed
-    return base
+    for candidate in viable[1:]:
+        candidate_key = (
+            rate(candidate, "branch_match_rate"),
+            rate(candidate, "family_match_rate"),
+            rate(candidate, "sign_match_rate"),
+            count(candidate),
+        )
+        if candidate_key > best_key:
+            best = candidate
+            best_key = candidate_key
+    return best
 
 
 def build_board(
     base_payload: dict[str, Any],
     range_payload: dict[str, Any],
+    edge_payload: dict[str, Any] | None,
     *,
     min_range_calls: int,
 ) -> dict[str, Any]:
@@ -135,15 +171,22 @@ def build_board(
         str(row["topology_name"]): row.get("selected_useful_range_candidate")
         for row in range_payload.get("world_reports", [])
     }
+    edge_by_world = {}
+    if edge_payload:
+        edge_by_world[str(edge_payload["target_world"])] = edge_payload.get(
+            "selected_useful_edge_candidate"
+        )
     rows = []
     quality_counts: dict[str, int] = {}
     layer_counts: dict[str, int] = {}
     for world in sorted(base_by_world):
         base = base_candidate(base_by_world[world])
         confirmed = range_candidate(range_by_world.get(world))
+        edge = edge_candidate(edge_by_world.get(world))
         chosen = choose_candidate(
             base,
             confirmed,
+            edge,
             min_range_calls=min_range_calls,
         )
         quality = branch_quality(chosen)
@@ -157,6 +200,7 @@ def build_board(
                 "chosen_candidate": chosen,
                 "base_candidate": base,
                 "range_candidate": confirmed,
+                "edge_candidate": edge,
                 "exact_delta_from_base": round(
                     rate(chosen, "branch_match_rate")
                     - rate(base, "branch_match_rate"),
@@ -193,6 +237,7 @@ def build_board(
         "world_reports": rows,
         "notes": [
             "Range confirmation is only promoted when it has at least min_range_calls.",
+            "Edge separation is only promoted when it has at least min_range_calls.",
             "The board chooses exact first, then family, then sign/range.",
             "Small exact selectors remain marked as small; they are useful but need more evidence.",
         ],
@@ -206,6 +251,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--base-audit", type=Path, default=DEFAULT_BASE_AUDIT)
     parser.add_argument("--range-audit", type=Path, default=DEFAULT_RANGE_AUDIT)
+    parser.add_argument("--edge-audit", type=Path, default=DEFAULT_EDGE_AUDIT)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH)
     parser.add_argument("--min-range-calls", type=int, default=10)
     parser.add_argument("--print-summary", action="store_true")
@@ -217,6 +263,7 @@ def main() -> None:
     payload = build_board(
         read_json(args.base_audit),
         read_json(args.range_audit),
+        read_json(args.edge_audit) if args.edge_audit.exists() else None,
         min_range_calls=args.min_range_calls,
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)

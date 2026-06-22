@@ -19274,12 +19274,12 @@ Suzuka
   exact delta +21.97
 
 Medusa
-  BURDEN_FACE / WORLD / horizon 3
+  EDGE_BURDEN / WORLD / horizon 13 / EDGE_OVERRIDE
   calls 57
-  exact 54.39%
+  exact 61.40%
   family 77.19%
   sign 70.18%
-  exact delta +10.19
+  exact delta +17.20
 ```
 
 Read:
@@ -19289,12 +19289,11 @@ The range layer is not replacing branch memory.
 It is acting as the exact-seat confirmation layer when the branch selector can see the family but not the final seat cleanly.
 ```
 
-Current weak point:
+Medusa edge separation:
 
 ```text
-Medusa is still the only operational world below usable exact.
-It improved, but it remains family-usable rather than exact-usable.
-Next work should focus on Medusa exact separation, then on converting small-sample exact worlds into larger-sample proof.
+Medusa is no longer below usable exact.
+The new EDGE_SEPARATION layer promotes Medusa from FAMILY_USABLE into USABLE_EXACT.
 ```
 
 Medusa sign probe:
@@ -19321,18 +19320,38 @@ and about 86.96% sign on 23 direct sign-probe calls.
 But:
 
 ```text
-It does not improve Medusa exact-seat selection yet.
-Medusa still prefers BURDEN_FACE / WORLD / horizon 3 / SIGN for the best useful exact result:
+It does not become the final exact selector by itself.
+The stronger exact move is:
+
+EDGE_BURDEN
+WORLD
+horizon 13
+highest_burden_seat
+highest_burden_level
+highest_burden_state
+
 57 calls
-54.39% exact
+61.40% exact
 77.19% family
 70.18% sign
+32 edge overrides
 ```
 
 Interpretation:
 
 ```text
-Medusa's next problem is not only motion sign.
-The remaining miss is the exact edge/hinge split after the sign has been read.
-The largest repeated exact misses are S1/S5 edge flips.
+Medusa's exact split is burden-side edge separation.
+The motion sign matters, but the exact S1/S5 decision improves when the system asks where burden was stored before edge release.
+```
+
+Updated selector priority board:
+
+```text
+STRONG_EXACT: 3
+USABLE_EXACT: 5
+SMALL_EXACT: 10
+
+BRANCH_SELECTOR: 10
+RANGE_CONFIRMATION: 7
+EDGE_SEPARATION: 1
 ```
