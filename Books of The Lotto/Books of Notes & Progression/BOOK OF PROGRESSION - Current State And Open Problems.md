@@ -19848,3 +19848,160 @@ band accuracy
 which worlds should use preference override
 which worlds should stay on the older band selector
 ```
+
+## World Band Coverage Ladder And Blended Resolver
+
+Date:
+
+```text
+2026-06-22
+```
+
+Added:
+
+```text
+World_Band_Coverage_Ladder_Audit.py
+World_Band_Blended_Resolver_Audit.py
+world_band_coverage_ladder_audit_min2_2015-10-07.json
+world_band_blended_resolver_audit_min2_2015-10-07.json
+```
+
+Purpose:
+
+```text
+Separate two different band problems:
+
+coverage
+= can the selector speak?
+
+band percentage
+= was the broad outgoing motion band correct when it spoke?
+```
+
+Coverage ladder result:
+
+```text
+WEAK_BAND                 10
+STRONG_COVERAGE_BAND      2
+COVERAGE_WEAK_BAND        3
+DEVELOPING_COVERAGE_BAND  2
+USABLE_COVERAGE_BAND      1
+```
+
+Read:
+
+```text
+The ladder can force coverage, but forced coverage often falls to broad baseline memory.
+
+That gives many worlds 100% call coverage but only about 28-36% band accuracy.
+
+Therefore:
+
+ladder coverage is useful evidence
+but weak ladder fallback is not production authority
+```
+
+Blended resolver result:
+
+```text
+STRONG_BLEND        5
+DEVELOPING_BLEND    3
+SMALL_BLEND         1
+COVERAGE_WEAK_BLEND 3
+OBSERVE_BLEND       4
+WEAK_BLEND          2
+```
+
+Selected strategy counts:
+
+```text
+SHARP_ONLY              14
+LADDER_ONLY              3
+SHARP_THEN_LADDER_ANY    1
+```
+
+Current strong / usable band worlds:
+
+```text
+Nero          100.00% coverage / 83.33% band
+Nyx            88.89% coverage / 75.00% band
+Tomoe Gozen   100.00% coverage / 66.67% band
+Scathach      100.00% coverage / 60.00% band
+Karna          95.24% coverage / 60.00% band
+Rama           68.75% coverage / 54.55% band
+Irisviel       92.31% coverage / 50.00% band
+Kurohime       62.50% coverage / 50.00% band
+```
+
+Still weak or under-solved:
+
+```text
+Nirvana  100.00% coverage / 46.67% band
+Altera   100.00% coverage / 36.59% band
+Alcides  100.00% coverage / 35.14% band
+Artoria    9.88% coverage / 50.00% band
+Citrine    5.77% coverage / 50.00% band
+Lumina     1.87% coverage / 50.00% band
+Nova      15.45% coverage / 47.06% band
+Suzuka     8.47% coverage / 40.00% band
+Medusa     4.57% coverage / 40.00% band
+Circe      9.26% coverage / 60.00% band
+```
+
+Important finding:
+
+```text
+The weak worlds are not weak because the system refuses to call.
+
+When the ladder is allowed to fall all the way to baseline,
+many of those same worlds reach full coverage.
+
+They are weak because their outgoing broad bands are split across:
+
+CREST_ECHO_MOTION
+TRANSITIONAL_MOTION
+FATIGUED_MOTION
+DIRECTED_MOTION
+
+The next missing layer is not a looser sample gate.
+The next missing layer is a true band discriminator.
+```
+
+Recipe expansion test:
+
+```text
+Motion_Band_Resolver_Audit.py now tests every live-safe recipe in both forms:
+
+world-specific
+borrowed/global
+
+This did not materially change the headline band board.
+The min-calls-2 probe also did not materially change it.
+```
+
+Conclusion:
+
+```text
+Coverage and accuracy must be treated as separate controls.
+
+Use:
+
+sharp selector = authority when it speaks
+ladder selector = coverage/fallback evidence
+weak ladder = observation only
+
+Do not let weak full-coverage fallback overwrite a sharper low-coverage room.
+```
+
+Next build target:
+
+```text
+Build band discriminator audits for the weak/observe worlds.
+
+Target question:
+
+when a world is split between CREST, TRANSITIONAL, FATIGUED, and DIRECTED,
+which current live-safe condition selects the winning band?
+
+Only after broad band improves should the system move down to the 35-class motion gauge.
+```

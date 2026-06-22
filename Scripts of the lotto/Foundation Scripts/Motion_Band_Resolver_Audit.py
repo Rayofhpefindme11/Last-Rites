@@ -93,6 +93,9 @@ BAND_FEATURE_RECIPES: dict[str, tuple[str, ...]] = {
 }
 
 for name, features in LIVE_SAFE_FEATURE_RECIPES.items():
+    world_name = f"WORLD_{name}"
+    if world_name not in BAND_FEATURE_RECIPES:
+        BAND_FEATURE_RECIPES[world_name] = ("topology_name",) + features
     BAND_FEATURE_RECIPES[f"GLOBAL_{name}"] = features
 
 
