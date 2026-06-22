@@ -19520,3 +19520,167 @@ Do not brute-force exact motion amount first.
 That will overfit the historical room.
 The audit says the exact amount becomes stable only after the band is solved.
 ```
+
+## World Motion Selector Board
+
+Date:
+
+```text
+2026-06-22
+```
+
+Added:
+
+```text
+World_Motion_Selector_Board.py
+world_motion_selector_board_min2_2015-10-07.json
+```
+
+Purpose:
+
+```text
+Stop treating every pressure world as if it uses the same motion resolver.
+
+Each world now receives its own:
+
+branch selector
+sign selector
+broad-band selector
+
+The 35-class motion gauge comes after broad band is stable.
+```
+
+Board quality:
+
+```text
+Branch:
+STRONG_EXACT 3
+USABLE_EXACT 5
+SMALL_EXACT 10
+
+Sign:
+USABLE_SIGN 10
+SMALL_SIGN 7
+OBSERVE_SIGN 1
+
+Broad Band:
+USABLE_BAND 7
+SMALL_BAND 11
+```
+
+Read:
+
+```text
+The branch layer is usable but still has small-sample worlds.
+The sign layer is healthier than expected.
+The broad-band layer is the current bottleneck.
+```
+
+Current per-world board:
+
+```text
+Circe
+branch PRESSURE_TOPOLOGY | STRONG_EXACT | 81.82 exact / 81.82 family
+sign GLOBAL_WORLD_BRANCH_STATE_COLLISION | WORLD | h3 | 10 calls | 80.00%
+band GLOBAL_AUTHORITY_INCOMING_FAMILY | BORROWED | h3 | 5 calls | 60.00%
+
+Alcides
+branch WORLD_PREVIOUS_BRANCH_INCOMING | SMALL_EXACT | 80.00 exact / 80.00 family
+sign GLOBAL_WORLD_PREVIOUS_FAMILY_INCOMING | BORROWED | h5 | 14 calls | 92.86%
+band GLOBAL_WORLD_BRANCH_STATE_PRESSURE | WORLD | h2 | 18 calls | 38.89%
+
+Tomoe Gozen
+branch WORLD_BRANCH_STATE_COLLISION | SMALL_EXACT | 80.00 exact / 80.00 family
+sign GLOBAL_PRESSURE_FUSION | BORROWED | h13 | 5 calls | 100.00%
+band GLOBAL_WORLD_PREVIOUS_BRANCH | BORROWED | h5 | 6 calls | 66.67%
+
+Rama
+branch WORLD_PREVIOUS_FAMILY | SMALL_EXACT | 77.78 exact / 77.78 family
+sign GLOBAL_WORLD_BRANCH_STATE_PRESSURE | BORROWED | h8 | 6 calls | 83.33%
+band GLOBAL_AUTH_COLLISION_PRESSURE | WORLD | h3 | 11 calls | 54.55%
+
+Nyx
+branch WORLD_BRANCH_STATE_COLLISION | SMALL_EXACT | 75.00 exact / 75.00 family
+sign GLOBAL_PRESSURE_FUSION | BORROWED | h3 | 8 calls | 87.50%
+band GLOBAL_WORLD_PREVIOUS_FAMILY_BURDEN | BORROWED | h5 | 8 calls | 75.00%
+
+Nirvana
+branch COLLISION_AUTHORITY | SMALL_EXACT | 71.43 exact / 100.00 family
+sign GLOBAL_ORIGIN_PRESSURE_TOPOLOGY | BORROWED | h3 | 11 calls | 81.82%
+band GLOBAL_FACE_TURNS | BORROWED | h5 | 30 calls | 46.67%
+
+Irisviel
+branch WORLD_STALEST_BRANCH_BURDEN | USABLE_EXACT | 70.00 exact / 70.00 family
+sign GLOBAL_WORLD_PREVIOUS_FAMILY_BURDEN | BORROWED | h2 | 12 calls | 91.67%
+band GLOBAL_WORLD_FRESHEST_BRANCH_BURDEN | BORROWED | h5 | 12 calls | 50.00%
+
+Kurohime
+branch PRESSURE_TOPOLOGY | STRONG_EXACT | 70.00 exact / 80.00 family
+sign GLOBAL_PRESSURE_TOPOLOGY | BORROWED | h3 | 10 calls | 80.00%
+band GLOBAL_COLLISION_BURDEN_ORIGIN | BORROWED | h3 | 10 calls | 50.00%
+
+Nova
+branch WORLD_PREVIOUS_FAMILY | USABLE_EXACT | 70.00 exact / 70.00 family
+sign GLOBAL_AUTHORITY_INCOMING | WORLD | h2 | 4 calls | 75.00%
+band GLOBAL_DOMINANT_ORIGIN_INCOMING | BORROWED | h3 | 17 calls | 47.06%
+
+Altera
+branch FACE_INCOMING | SMALL_EXACT | 66.67 exact / 83.33 family
+sign GLOBAL_WORLD_FRESHEST_BRANCH_BURDEN | WORLD | h8 | 22 calls | 77.27%
+band GLOBAL_FACE_INCOMING | BORROWED | h3 | 6 calls | 50.00%
+
+Medusa
+branch EDGE_BURDEN | USABLE_EXACT | 61.40 exact / 77.19 family
+sign GLOBAL_WORLD_PREVIOUS_FAMILY_INCOMING | WORLD | h2 | 11 calls | 90.91%
+band GLOBAL_PRESSURE_FUSION_BODY | BORROWED | h3 | 10 calls | 40.00%
+
+Nero
+branch WORLD_STALEST_BRANCH_BURDEN | SMALL_EXACT | 60.00 exact / 80.00 family
+sign GLOBAL_BURDEN | BORROWED | h5 | 5 calls | 100.00%
+band GLOBAL_AUTHORITY | BORROWED | h21 | 6 calls | 83.33%
+
+Scathach
+branch COLLISION_AUTHORITY | SMALL_EXACT | 60.00 exact / 60.00 family
+sign GLOBAL_AUTH_FACE | BORROWED | h3 | 5 calls | 100.00%
+band GLOBAL_AUTH_FACE | BORROWED | h3 | 5 calls | 60.00%
+
+Lumina
+branch BODY_INCOMING | STRONG_EXACT | 60.00 exact / 86.67 family
+sign GLOBAL_AUTH_BURDEN_INCOMING | BORROWED | h2 | 12 calls | 91.67%
+band GLOBAL_AUTH_PRESSURE_BODY | WORLD | h2 | 10 calls | 50.00%
+
+Karna
+branch COLLISION_PRESSURE_TOPOLOGY | SMALL_EXACT | 60.00 exact / 80.00 family
+sign GLOBAL_BURDEN_ORIGIN | BORROWED | h34 | 21 calls | 85.71%
+band GLOBAL_COLLISION_BURDEN | BORROWED | h8 | 20 calls | 60.00%
+
+Citrine
+branch PRESSURE_BODY | SMALL_EXACT | 60.00 exact / 80.00 family
+sign GLOBAL_PRESSURE_INCOMING | BORROWED | h2 | 6 calls | 83.33%
+band GLOBAL_AUTHORITY_INCOMING_FAMILY | BORROWED | h2 | 6 calls | 50.00%
+
+Suzuka
+branch FACE_INCOMING | USABLE_EXACT | 58.33 exact / 75.00 family
+sign GLOBAL_WORLD_BRANCH_STATE_PRESSURE | WORLD | h3 | 12 calls | 75.00%
+band GLOBAL_AUTH_PRESSURE_INCOMING | BORROWED | h2 | 5 calls | 40.00%
+
+Artoria
+branch FACE_INCOMING | USABLE_EXACT | 58.33 exact / 83.33 family
+sign GLOBAL_PRESSURE_FUSION_INCOMING | BORROWED | h3 | 10 calls | 70.00%
+band GLOBAL_PRESSURE_BODY | BORROWED | h2 | 8 calls | 50.00%
+```
+
+Current lesson:
+
+```text
+World-specific selector stacks are required.
+
+The same world does not necessarily use the same evidence for:
+
+branch
+sign
+broad band
+35-class gauge
+
+The next refinement is to improve broad-band selection before moving to the 35-class motion gauge.
+```
