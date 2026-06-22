@@ -396,6 +396,13 @@ def evaluate_range_recipe(
             if range_read["predicted_sign"] is not None
             else "NO_CALL"
         )
+        band_result = (
+            "MATCH"
+            if range_read["predicted_band"] == case["actual_motion_band"]
+            else "MISS"
+            if range_read["predicted_band"] is not None
+            else "NO_CALL"
+        )
         records.append(
             {
                 "date": case["date"],
@@ -405,6 +412,7 @@ def evaluate_range_recipe(
                 "branch_result": branch_result,
                 "family_result": family_result,
                 "sign_result": sign_result,
+                "band_result": band_result,
                 "prior_count": combined_prior_count,
                 "actual_branch": case["actual_branch"],
                 "actual_family": case["actual_family"],
@@ -455,8 +463,11 @@ def summarize_range_records(records: list[dict[str, Any]]) -> dict[str, Any]:
     summary = summarize_records(records)
     calls = [row for row in records if row["status"] == "CALL"]
     sign_matches = sum(1 for row in calls if row["sign_result"] == "MATCH")
+    band_matches = sum(1 for row in calls if row["band_result"] == "MATCH")
     summary["sign_matches"] = sign_matches
     summary["sign_match_rate"] = percent(sign_matches, len(calls))
+    summary["band_matches"] = band_matches
+    summary["band_match_rate"] = percent(band_matches, len(calls))
     return summary
 
 
@@ -504,6 +515,7 @@ def build_audit(
                 -float(row["branch_match_rate"]),
                 -float(row["family_match_rate"]),
                 -float(row["sign_match_rate"]),
+                -float(row["band_match_rate"]),
                 -int(row["call_count"]),
                 row["range_recipe"],
                 row["range_source"],
@@ -521,6 +533,7 @@ def build_audit(
                 -float(row["branch_match_rate"]),
                 -float(row["family_match_rate"]),
                 -float(row["sign_match_rate"]),
+                -float(row["band_match_rate"]),
                 -int(row["call_count"]),
                 row["range_recipe"],
                 row["range_source"],

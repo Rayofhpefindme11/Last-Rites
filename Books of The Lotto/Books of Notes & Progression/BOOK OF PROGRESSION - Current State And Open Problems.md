@@ -19355,3 +19355,168 @@ BRANCH_SELECTOR: 10
 RANGE_CONFIRMATION: 7
 EDGE_SEPARATION: 1
 ```
+
+## Motion Range And Band Findings
+
+Date:
+
+```text
+2026-06-22
+```
+
+Added audits:
+
+```text
+Motion_Range_Resolver_Audit.py
+Motion_Band_Resolver_Audit.py
+Motion_Range_Ceiling_Audit.py
+```
+
+Output records:
+
+```text
+motion_range_resolver_audit_medusa_min2_2015-10-07.json
+motion_range_resolver_audit_all_worlds_focused_min2_2015-10-07.json
+motion_band_resolver_audit_focused_min2_2015-10-07.json
+motion_range_ceiling_audit_min2_2015-10-07.json
+```
+
+Core finding:
+
+```text
+Outgoing motion amount cannot be treated as solved by branch and sign alone.
+
+The working chain is:
+
+predicted outgoing seat/lane
+predicted outgoing sign
+predicted outgoing motion band
+then outgoing motion range
+then current draw lane value + signed range = next draw lane value
+```
+
+Why:
+
+```text
+Branch + sign gives direction, but the amount still stays too wide.
+Branch + sign + motion band collapses the amount into a tight practical range.
+```
+
+Ceiling proof:
+
+```text
+These are diagnostic ceilings, not live predictions.
+They use historical truth keys to show what becomes possible once the live selector can correctly identify branch, sign, and band.
+```
+
+Major world range ceiling:
+
+```text
+Medusa:
+branch+sign width 20 = 51.76%
+branch+sign width 30 = 78.89%
+branch+sign+band width 10 = 90.91%
+branch+sign+band width 20 = 100.00%
+
+Lumina:
+branch+sign width 20 = 62.74%
+branch+sign width 30 = 79.54%
+branch+sign+band width 10 = 92.14%
+branch+sign+band width 20 = 100.00%
+
+Citrine:
+branch+sign width 20 = 65.17%
+branch+sign width 30 = 84.27%
+branch+sign+band width 10 = 86.44%
+branch+sign+band width 20 = 100.00%
+
+Nova:
+branch+sign width 20 = 61.46%
+branch+sign width 30 = 78.12%
+branch+sign+band width 10 = 92.06%
+branch+sign+band width 20 = 100.00%
+
+Suzuka:
+branch+sign width 20 = 63.64%
+branch+sign width 30 = 77.27%
+branch+sign+band width 10 = 94.12%
+branch+sign+band width 20 = 100.00%
+
+Circe:
+branch+sign width 20 = 56.41%
+branch+sign width 30 = 66.67%
+branch+sign+band width 10 = 94.12%
+branch+sign+band width 20 = 100.00%
+
+Artoria:
+branch+sign width 20 = 58.82%
+branch+sign width 30 = 72.06%
+branch+sign+band width 10 = 87.18%
+branch+sign+band width 20 = 100.00%
+```
+
+Live-safe weakness found:
+
+```text
+Current practical range selectors are not strong enough yet.
+Focused live-safe amount windows mostly land around 35% to 54% range-hit at width 16 to 20.
+
+That means the exact amount layer is being asked to do too much before the motion band is known.
+```
+
+Examples:
+
+```text
+Medusa practical focused range:
+GLOBAL_COLLISION_INCOMING
+BORROWED
+horizon 5
+SIGN_LOCKED_RADIUS_10
+14 calls
+50.00% range hit
+average width 20
+
+Medusa branch-selected band weakness:
+selected useful branch/range room band rate = 14.04%
+
+Medusa live band audit:
+selected useful band room band rate = about 29.68%
+```
+
+Interpretation:
+
+```text
+The money layer is not raw exact number amount yet.
+The money layer is motion band / magnitude-state selection.
+
+Once the system knows:
+
+branch
+sign
+band
+
+the amount range becomes tight enough to calculate the next lane value with real force.
+```
+
+Next build target:
+
+```text
+Build a motion band / magnitude-state selector by world.
+Use current pressure world, authority, burden, pressure topology, incoming sign, transfer family, and prior room memory to decide the outgoing motion band.
+
+Then feed:
+
+predicted branch
+predicted sign
+predicted band
+
+into the range resolver.
+```
+
+Do not do next:
+
+```text
+Do not brute-force exact motion amount first.
+That will overfit the historical room.
+The audit says the exact amount becomes stable only after the band is solved.
+```

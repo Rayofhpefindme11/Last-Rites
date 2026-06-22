@@ -1,0 +1,754 @@
+{
+  "audit_name": "MOTION_RANGE_CEILING_AUDIT",
+  "horizon": 13,
+  "min_prior": 2,
+  "radii": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "world_reports": [
+    {
+      "topology_name": "Medusa",
+      "branch_sign": {
+        "key_mode": "BRANCH_SIGN",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 199,
+            "range_hits": 58,
+            "range_hit_rate": 29.15,
+            "exact_midpoint_hits": 4,
+            "exact_midpoint_rate": 2.01,
+            "avg_abs_error": 10.71,
+            "median_abs_error": 10
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 199,
+            "range_hits": 103,
+            "range_hit_rate": 51.76,
+            "exact_midpoint_hits": 4,
+            "exact_midpoint_rate": 2.01,
+            "avg_abs_error": 10.71,
+            "median_abs_error": 10
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 199,
+            "range_hits": 157,
+            "range_hit_rate": 78.89,
+            "exact_midpoint_hits": 4,
+            "exact_midpoint_rate": 2.01,
+            "avg_abs_error": 10.71,
+            "median_abs_error": 10
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 199,
+            "range_hits": 178,
+            "range_hit_rate": 89.45,
+            "exact_midpoint_hits": 4,
+            "exact_midpoint_rate": 2.01,
+            "avg_abs_error": 10.71,
+            "median_abs_error": 10
+          }
+        ]
+      },
+      "branch_sign_band": {
+        "key_mode": "BRANCH_SIGN_BAND",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 143,
+            "range_hits": 130,
+            "range_hit_rate": 90.91,
+            "exact_midpoint_hits": 16,
+            "exact_midpoint_rate": 11.19,
+            "avg_abs_error": 2.74,
+            "median_abs_error": 2
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 143,
+            "range_hits": 143,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 16,
+            "exact_midpoint_rate": 11.19,
+            "avg_abs_error": 2.74,
+            "median_abs_error": 2
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 143,
+            "range_hits": 143,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 16,
+            "exact_midpoint_rate": 11.19,
+            "avg_abs_error": 2.74,
+            "median_abs_error": 2
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 143,
+            "range_hits": 143,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 16,
+            "exact_midpoint_rate": 11.19,
+            "avg_abs_error": 2.74,
+            "median_abs_error": 2
+          }
+        ]
+      }
+    },
+    {
+      "topology_name": "Lumina",
+      "branch_sign": {
+        "key_mode": "BRANCH_SIGN",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 518,
+            "range_hits": 170,
+            "range_hit_rate": 32.82,
+            "exact_midpoint_hits": 20,
+            "exact_midpoint_rate": 3.86,
+            "avg_abs_error": 9.59,
+            "median_abs_error": 8.0
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 518,
+            "range_hits": 325,
+            "range_hit_rate": 62.74,
+            "exact_midpoint_hits": 20,
+            "exact_midpoint_rate": 3.86,
+            "avg_abs_error": 9.59,
+            "median_abs_error": 8.0
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 518,
+            "range_hits": 412,
+            "range_hit_rate": 79.54,
+            "exact_midpoint_hits": 20,
+            "exact_midpoint_rate": 3.86,
+            "avg_abs_error": 9.59,
+            "median_abs_error": 8.0
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 518,
+            "range_hits": 477,
+            "range_hit_rate": 92.08,
+            "exact_midpoint_hits": 20,
+            "exact_midpoint_rate": 3.86,
+            "avg_abs_error": 9.59,
+            "median_abs_error": 8.0
+          }
+        ]
+      },
+      "branch_sign_band": {
+        "key_mode": "BRANCH_SIGN_BAND",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 458,
+            "range_hits": 422,
+            "range_hit_rate": 92.14,
+            "exact_midpoint_hits": 55,
+            "exact_midpoint_rate": 12.01,
+            "avg_abs_error": 2.65,
+            "median_abs_error": 3.0
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 458,
+            "range_hits": 458,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 55,
+            "exact_midpoint_rate": 12.01,
+            "avg_abs_error": 2.65,
+            "median_abs_error": 3.0
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 458,
+            "range_hits": 458,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 55,
+            "exact_midpoint_rate": 12.01,
+            "avg_abs_error": 2.65,
+            "median_abs_error": 3.0
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 458,
+            "range_hits": 458,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 55,
+            "exact_midpoint_rate": 12.01,
+            "avg_abs_error": 2.65,
+            "median_abs_error": 3.0
+          }
+        ]
+      }
+    },
+    {
+      "topology_name": "Citrine",
+      "branch_sign": {
+        "key_mode": "BRANCH_SIGN",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 89,
+            "range_hits": 34,
+            "range_hit_rate": 38.2,
+            "exact_midpoint_hits": 3,
+            "exact_midpoint_rate": 3.37,
+            "avg_abs_error": 9.12,
+            "median_abs_error": 8
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 89,
+            "range_hits": 58,
+            "range_hit_rate": 65.17,
+            "exact_midpoint_hits": 3,
+            "exact_midpoint_rate": 3.37,
+            "avg_abs_error": 9.12,
+            "median_abs_error": 8
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 89,
+            "range_hits": 75,
+            "range_hit_rate": 84.27,
+            "exact_midpoint_hits": 3,
+            "exact_midpoint_rate": 3.37,
+            "avg_abs_error": 9.12,
+            "median_abs_error": 8
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 89,
+            "range_hits": 84,
+            "range_hit_rate": 94.38,
+            "exact_midpoint_hits": 3,
+            "exact_midpoint_rate": 3.37,
+            "avg_abs_error": 9.12,
+            "median_abs_error": 8
+          }
+        ]
+      },
+      "branch_sign_band": {
+        "key_mode": "BRANCH_SIGN_BAND",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 59,
+            "range_hits": 51,
+            "range_hit_rate": 86.44,
+            "exact_midpoint_hits": 4,
+            "exact_midpoint_rate": 6.78,
+            "avg_abs_error": 2.88,
+            "median_abs_error": 3
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 59,
+            "range_hits": 59,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 4,
+            "exact_midpoint_rate": 6.78,
+            "avg_abs_error": 2.88,
+            "median_abs_error": 3
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 59,
+            "range_hits": 59,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 4,
+            "exact_midpoint_rate": 6.78,
+            "avg_abs_error": 2.88,
+            "median_abs_error": 3
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 59,
+            "range_hits": 59,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 4,
+            "exact_midpoint_rate": 6.78,
+            "avg_abs_error": 2.88,
+            "median_abs_error": 3
+          }
+        ]
+      }
+    },
+    {
+      "topology_name": "Nova",
+      "branch_sign": {
+        "key_mode": "BRANCH_SIGN",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 96,
+            "range_hits": 29,
+            "range_hit_rate": 30.21,
+            "exact_midpoint_hits": 3,
+            "exact_midpoint_rate": 3.12,
+            "avg_abs_error": 10.24,
+            "median_abs_error": 9.0
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 96,
+            "range_hits": 59,
+            "range_hit_rate": 61.46,
+            "exact_midpoint_hits": 3,
+            "exact_midpoint_rate": 3.12,
+            "avg_abs_error": 10.24,
+            "median_abs_error": 9.0
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 96,
+            "range_hits": 75,
+            "range_hit_rate": 78.12,
+            "exact_midpoint_hits": 3,
+            "exact_midpoint_rate": 3.12,
+            "avg_abs_error": 10.24,
+            "median_abs_error": 9.0
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 96,
+            "range_hits": 84,
+            "range_hit_rate": 87.5,
+            "exact_midpoint_hits": 3,
+            "exact_midpoint_rate": 3.12,
+            "avg_abs_error": 10.24,
+            "median_abs_error": 9.0
+          }
+        ]
+      },
+      "branch_sign_band": {
+        "key_mode": "BRANCH_SIGN_BAND",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 63,
+            "range_hits": 58,
+            "range_hit_rate": 92.06,
+            "exact_midpoint_hits": 7,
+            "exact_midpoint_rate": 11.11,
+            "avg_abs_error": 2.44,
+            "median_abs_error": 2
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 63,
+            "range_hits": 63,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 7,
+            "exact_midpoint_rate": 11.11,
+            "avg_abs_error": 2.44,
+            "median_abs_error": 2
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 63,
+            "range_hits": 63,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 7,
+            "exact_midpoint_rate": 11.11,
+            "avg_abs_error": 2.44,
+            "median_abs_error": 2
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 63,
+            "range_hits": 63,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 7,
+            "exact_midpoint_rate": 11.11,
+            "avg_abs_error": 2.44,
+            "median_abs_error": 2
+          }
+        ]
+      }
+    },
+    {
+      "topology_name": "Suzuka",
+      "branch_sign": {
+        "key_mode": "BRANCH_SIGN",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 44,
+            "range_hits": 15,
+            "range_hit_rate": 34.09,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 2.27,
+            "avg_abs_error": 10.16,
+            "median_abs_error": 7.5
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 44,
+            "range_hits": 28,
+            "range_hit_rate": 63.64,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 2.27,
+            "avg_abs_error": 10.16,
+            "median_abs_error": 7.5
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 44,
+            "range_hits": 34,
+            "range_hit_rate": 77.27,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 2.27,
+            "avg_abs_error": 10.16,
+            "median_abs_error": 7.5
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 44,
+            "range_hits": 38,
+            "range_hit_rate": 86.36,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 2.27,
+            "avg_abs_error": 10.16,
+            "median_abs_error": 7.5
+          }
+        ]
+      },
+      "branch_sign_band": {
+        "key_mode": "BRANCH_SIGN_BAND",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 17,
+            "range_hits": 16,
+            "range_hit_rate": 94.12,
+            "exact_midpoint_hits": 2,
+            "exact_midpoint_rate": 11.76,
+            "avg_abs_error": 2.0,
+            "median_abs_error": 1
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 17,
+            "range_hits": 17,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 2,
+            "exact_midpoint_rate": 11.76,
+            "avg_abs_error": 2.0,
+            "median_abs_error": 1
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 17,
+            "range_hits": 17,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 2,
+            "exact_midpoint_rate": 11.76,
+            "avg_abs_error": 2.0,
+            "median_abs_error": 1
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 17,
+            "range_hits": 17,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 2,
+            "exact_midpoint_rate": 11.76,
+            "avg_abs_error": 2.0,
+            "median_abs_error": 1
+          }
+        ]
+      }
+    },
+    {
+      "topology_name": "Circe",
+      "branch_sign": {
+        "key_mode": "BRANCH_SIGN",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 39,
+            "range_hits": 14,
+            "range_hit_rate": 35.9,
+            "exact_midpoint_hits": 2,
+            "exact_midpoint_rate": 5.13,
+            "avg_abs_error": 10.85,
+            "median_abs_error": 8
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 39,
+            "range_hits": 22,
+            "range_hit_rate": 56.41,
+            "exact_midpoint_hits": 2,
+            "exact_midpoint_rate": 5.13,
+            "avg_abs_error": 10.85,
+            "median_abs_error": 8
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 39,
+            "range_hits": 26,
+            "range_hit_rate": 66.67,
+            "exact_midpoint_hits": 2,
+            "exact_midpoint_rate": 5.13,
+            "avg_abs_error": 10.85,
+            "median_abs_error": 8
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 39,
+            "range_hits": 34,
+            "range_hit_rate": 87.18,
+            "exact_midpoint_hits": 2,
+            "exact_midpoint_rate": 5.13,
+            "avg_abs_error": 10.85,
+            "median_abs_error": 8
+          }
+        ]
+      },
+      "branch_sign_band": {
+        "key_mode": "BRANCH_SIGN_BAND",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 17,
+            "range_hits": 16,
+            "range_hit_rate": 94.12,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 5.88,
+            "avg_abs_error": 2.65,
+            "median_abs_error": 2
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 17,
+            "range_hits": 17,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 5.88,
+            "avg_abs_error": 2.65,
+            "median_abs_error": 2
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 17,
+            "range_hits": 17,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 5.88,
+            "avg_abs_error": 2.65,
+            "median_abs_error": 2
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 17,
+            "range_hits": 17,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 5.88,
+            "avg_abs_error": 2.65,
+            "median_abs_error": 2
+          }
+        ]
+      }
+    },
+    {
+      "topology_name": "Artoria",
+      "branch_sign": {
+        "key_mode": "BRANCH_SIGN",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 68,
+            "range_hits": 24,
+            "range_hit_rate": 35.29,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 1.47,
+            "avg_abs_error": 10.91,
+            "median_abs_error": 8.0
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 68,
+            "range_hits": 40,
+            "range_hit_rate": 58.82,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 1.47,
+            "avg_abs_error": 10.91,
+            "median_abs_error": 8.0
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 68,
+            "range_hits": 49,
+            "range_hit_rate": 72.06,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 1.47,
+            "avg_abs_error": 10.91,
+            "median_abs_error": 8.0
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 68,
+            "range_hits": 57,
+            "range_hit_rate": 83.82,
+            "exact_midpoint_hits": 1,
+            "exact_midpoint_rate": 1.47,
+            "avg_abs_error": 10.91,
+            "median_abs_error": 8.0
+          }
+        ]
+      },
+      "branch_sign_band": {
+        "key_mode": "BRANCH_SIGN_BAND",
+        "horizon": 13,
+        "min_prior": 2,
+        "results": [
+          {
+            "radius": 5,
+            "width": 10,
+            "call_count": 39,
+            "range_hits": 34,
+            "range_hit_rate": 87.18,
+            "exact_midpoint_hits": 0,
+            "exact_midpoint_rate": 0.0,
+            "avg_abs_error": 3.1,
+            "median_abs_error": 3
+          },
+          {
+            "radius": 10,
+            "width": 20,
+            "call_count": 39,
+            "range_hits": 39,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 0,
+            "exact_midpoint_rate": 0.0,
+            "avg_abs_error": 3.1,
+            "median_abs_error": 3
+          },
+          {
+            "radius": 15,
+            "width": 30,
+            "call_count": 39,
+            "range_hits": 39,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 0,
+            "exact_midpoint_rate": 0.0,
+            "avg_abs_error": 3.1,
+            "median_abs_error": 3
+          },
+          {
+            "radius": 20,
+            "width": 40,
+            "call_count": 39,
+            "range_hits": 39,
+            "range_hit_rate": 100.0,
+            "exact_midpoint_hits": 0,
+            "exact_midpoint_rate": 0.0,
+            "avg_abs_error": 3.1,
+            "median_abs_error": 3
+          }
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "This is a diagnostic ceiling audit, not a live predictor.",
+    "BRANCH_SIGN uses the actual historical branch and sign to test amount tightness.",
+    "BRANCH_SIGN_BAND also uses the actual historical motion band.",
+    "If BRANCH_SIGN_BAND is tight while live band prediction is weak, the next required layer is band selection."
+  ]
+}
